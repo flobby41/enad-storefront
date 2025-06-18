@@ -1,0 +1,26 @@
+{
+  "name": "next-js-ulimtate-tutorial",
+  "version": "1.0.0",
+  "description": "Next.js Storyblok Ultimate Tutorial",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "pull-components": "storyblok pull-components --space=343298",
+    "generate-sb-types": "storyblok-generate-ts source=./components.343298.json target=./types/component-types-sb"
+  },
+  "dependencies": {
+    "@storyblok/react": "^2.4.8",
+    "next": "^12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.31",
+    "storyblok": "^3.36.1",
+    "tailwindcss": "^3.2.1"
+  }
+}

@@ -1,0 +1,4282 @@
+{
+  "se": {
+    "items": [
+      { "key": "account.login", "value": "Logga in" },
+      { "key": "search", "value": "Sök" },
+      { "key": "cart", "value": "Varukorg" },
+      { "key": "favorites", "value": "Favoriter" },
+      { "key": "voucher.promoCode", "value": "Rabattkod" },
+      {
+        "key": "voucher.terms",
+        "value": "En rabattkod kan inte kombineras med andra rabatter."
+      },
+      { "key": "giftCard.giftCard", "value": "Presentkort" },
+      { "key": "orderReview.subtotal", "value": "Subtotal" },
+      { "key": "orderReview.shipping", "value": "Fraktkostnad" },
+      { "key": "orderReview.total", "value": "Totalt belopp inkl. moms" },
+      { "key": "orderReview.totalVat", "value": "Varav moms" },
+      { "key": "voucher.apply", "value": "Aktivera" },
+      { "key": "giftCard.code", "value": "Presentkortskod" },
+      { "key": "giftCard.pin", "value": "Pinkod" },
+      { "key": "voucher.placeholder", "value": "Ange kod" },
+      { "key": "voucher.used", "value": "Aktiv rabattkod" },
+      { "key": "orderReview.discount", "value": "Rabatt" },
+      {
+        "key": "giftCard.maxDisplayAmount",
+        "value": "Det är inte möjligt att beställa presentkort på mer än 10 000 SEK. Om du vill beställa för ett högre belopp, vänligen kontakta kundsupport."
+      },
+      { "key": "giftCard.loadAmount", "value": "Presentkortets belopp" },
+      { "key": "giftCard.sendDate", "value": "Tid för utskick" },
+      { "key": "giftCard.receivingEmail", "value": "Mottagarens e-post" },
+      { "key": "giftCard.emailText", "value": "Personligt meddelande" },
+      { "key": "quantity", "value": "Antal" },
+      {
+        "key": "giftCard.receivingMsisdn",
+        "value": "Mottagarens telefonnummer"
+      },
+      { "key": "cart.addToCart", "value": "Lägg i varukorg" },
+      { "key": "giftCard.typeEmail", "value": "Via e-post" },
+      { "key": "giftCard.typeSms", "value": "Via SMS" },
+      { "key": "giftCard.typePhysical", "value": "Fysiskt" },
+      { "key": "giftCard.requiredError", "value": "Vänligen ange ett belopp." },
+      {
+        "key": "giftCard.dateRequiredError",
+        "value": "Vänligen välj ett datum."
+      },
+      {
+        "key": "giftCard.receivingMsisdnError",
+        "value": "Ange ett giltigt telefonnummer (utan mellanslag eller bindestreck och får inte börja med 0)."
+      },
+      {
+        "key": "giftCard.SmsTextMax",
+        "value": "SMS-texten får inte överstiga 200 tecken."
+      },
+      {
+        "key": "giftCard.emailTextMax",
+        "value": "E-posttexten får inte överstiga 1000 tecken."
+      },
+      {
+        "key": "email.validation",
+        "value": "Vänligen ange en giltig e-postadress."
+      },
+      { "key": "requiredfield", "value": "Obligatoriskt fält" },
+      { "key": "confirmation.ThankYou", "value": "Tack för din order!" },
+      {
+        "key": "confirmation.ThankYouText",
+        "value": "Vi börjar genast behandla din beställning, och du kommer snart att få en orderbekräftelse via e-post till"
+      },
+      { "key": "confirmation.ContinueShopping", "value": "Fortsätt handla" },
+      { "key": "confirmation.Ordernumber", "value": "Ordernummer" },
+      { "key": "confirmation.Products", "value": "Produkter" },
+      { "key": "confirmation.OrderTotal", "value": "Totalsumma" },
+      { "key": "confirmation.Discount", "value": "Rabatt" },
+      { "key": "confirmation.Shipping", "value": "Frakt" },
+      { "key": "cart.Empty", "value": "Din varukorg är tom" },
+      { "key": "cart.EmptyHeader", "value": "Behöver du inspiration?" },
+      {
+        "key": "cart.EmptyText",
+        "value": "Upptäck de senaste nyheterna nedan."
+      },
+      { "key": "cart.EmptyBtn", "value": "Shoppa nyheter" },
+      { "key": "cart.goToCheckout", "value": "Gå till kassan" },
+      { "key": "cart.freeShippingText", "value": "Fri frakt!" },
+      { "key": "cart.freeShippingYouHave", "value": "Du har" },
+      { "key": "cart.freeShippingLeft", "value": "kvar till fri frakt" },
+      { "key": "checkout.YourCart", "value": "Din varukorg" },
+      { "key": "checkout", "value": "Kassa" },
+      {
+        "key": "error.discountIsInactive",
+        "value": "Rabattkoden är inaktiv | Vänligen kontrollera koden eller använd en annan."
+      },
+      { "key": "giftCard.physicalFirstName", "value": "Mottagarens förnamn" },
+      { "key": "giftCard.physicalLastName", "value": "Mottagarens efternamn" },
+      {
+        "key": "giftCard.physicalStreetAddress",
+        "value": "Mottagarens adress"
+      },
+      {
+        "key": "giftCard.physicalPostalCode",
+        "value": "Mottagarens postnummer"
+      },
+      { "key": "giftCard.physicalCity", "value": "Mottagarens stad" },
+      { "key": "giftCard.physicalCountry", "value": "Mottagarens land" },
+      { "key": "attributes.color", "value": "Färg" },
+      { "key": "attributes.brand", "value": "Varumärke" },
+      { "key": "facet.Price", "value": "Pris" },
+      { "key": "materials", "value": "Material" },
+      { "key": "availability", "value": "Tillgänglighet" },
+      { "key": "categories", "value": "Kategorier" },
+      { "key": "IN_STOCK", "value": "I lager" },
+      { "key": "brands", "value": "Varumärken" },
+      { "key": "OUT_OF_STOCK", "value": "Ej i lager" },
+      { "key": "attributes.size", "value": "Storlek" },
+      { "key": "readMore", "value": "Läs mer" },
+      { "key": "readLess", "value": "Visa mindre" },
+      { "key": "compare", "value": "Jämför" },
+      { "key": "stopCompare", "value": "Sluta jämför" },
+      { "key": "productComparison", "value": "Produktjämförelse" },
+      { "key": "clickForCompare", "value": "Klicka för jämförelse" },
+      {
+        "key": "youCanCompareMaximum3Products",
+        "value": "Du kan jämföra maximalt 3 produkter åt gången"
+      },
+      { "key": "colorFamilies", "value": "Färg" },
+      {
+        "key": "cart.ProductWasAddedToCart",
+        "value": "Produkten lades i varukorgen"
+      },
+      {
+        "key": "carousel.frequentlyBoughtTogether",
+        "value": "Andra köpte även"
+      },
+      {
+        "key": "carousel.recommendedProducts",
+        "value": "Rekommenderade produkter"
+      },
+      {
+        "key": "carousel.othersYouMayLike",
+        "value": "Du kanske också är intresserad av"
+      },
+      { "key": "price", "value": "Pris" },
+      { "key": "product.moreInfoAbout", "value": "Mer information om" },
+      { "key": "product.specification", "value": "Specifikation" },
+      { "key": "product.description", "value": "Beskrivning" },
+      { "key": "product.reviews", "value": "Recensioner" },
+      { "key": "monitor.isOos", "value": "Bevaka produkt" },
+      {
+        "key": "monitor.dialog.description",
+        "value": "Vi informerar dig när produkten återigen finns i vårt lager lager."
+      },
+      { "key": "monitor.notifyMe", "value": "Bevaka nu" },
+      { "key": "form.email.input", "value": "Din e-postadress" },
+      { "key": "stock.outOfStock", "value": "Slutsåld" },
+      { "key": "stock.watchOOS", "value": "Bevaka" },
+      { "key": "stock.lowInStock", "value": "Få i lager" },
+      {
+        "key": "monitor.saved",
+        "value": "Du är nu registrerad. Vi meddelar dig så snart produkten finns åter i lager."
+      },
+      { "key": "attributes.serie", "value": "Serie" },
+      { "key": "category", "value": "Kategori" },
+      { "key": "attribute.category", "value": "Kategori" },
+      { "key": "attribute.vendor-item-no", "value": "Vendor Item No" },
+      { "key": "attribute.barcode", "value": "Barcode" },
+      { "key": "attribute.color", "value": "Färg" },
+      { "key": "attribute.effect", "value": "Effekt" },
+      { "key": "attribute.energy-class", "value": "Energy Class" },
+      { "key": "attribute.feature-lines", "value": "Feature lines" },
+      {
+        "key": "attribute.automatic-shutdown",
+        "value": "Automatisk avstängning"
+      },
+      {
+        "key": "attribute.adjustable-temperature",
+        "value": "Justerbar temperatur"
+      },
+      { "key": "attribute.water-meter", "value": "Vattenmätare" },
+      { "key": "attribute.capacity-litres", "value": "Kapacitet (liter)" },
+      { "key": "attribute.filter", "value": "Filter" },
+      { "key": "attribute.size", "value": "Storlek" },
+      { "key": "attribute.material-of-jugs", "value": "Material på kannor" },
+      { "key": "attribute.weighs-up", "value": "Väger upptill" },
+      { "key": "attribute.capacity-liters", "value": "Kapacitet (liter)" },
+      { "key": "attribute.number-of-layers", "value": "Antal lager" },
+      { "key": "attribute.novelty", "value": "Nyhet" },
+      { "key": "attribute.cutting-steel", "value": "Skärande stål" },
+      { "key": "attribute.number-of-settings", "value": "Antal inställningar" },
+      { "key": "attribute.with-wi-fi", "value": "Med wifi" },
+      { "key": "attribute.grid", "value": "Galler" },
+      { "key": "attribute.swivelling-filter", "value": "Svängbart filter" },
+      { "key": "attribute.step-of-speed", "value": "Hastighets steg" },
+      { "key": "attribute.pre-ground-beans", "value": "Förmalda bönor" },
+      {
+        "key": "attribute.built-in-coffee-grinder",
+        "value": "Inbyggd kaffekvarn"
+      },
+      { "key": "attribute.milk-container", "value": "Mjölkbehållare" },
+      { "key": "attribute.cup-height", "value": "Kopphöjd" },
+      { "key": "attribute.capacity-kilo", "value": "Kapacitet (kilo)" },
+      { "key": "attribute.hot-water-function", "value": "Varmtvattenfunktion" },
+      { "key": "attribute.number-of-bowls", "value": "Antal skålar" },
+      { "key": "attribute.cup-of-light", "value": "Kopp ljus" },
+      {
+        "key": "attribute.number-of-heating-elements",
+        "value": "Antal värmeelement"
+      },
+      { "key": "attribute.capacity", "value": "Kapacitet" },
+      {
+        "key": "attribute.adjustable-tea-water-outlet",
+        "value": "Justerbar tevattensutlopp"
+      },
+      { "key": "attribute.stove-type", "value": "Spistyp" },
+      { "key": "attribute.dropback", "value": "Droppback" },
+      { "key": "attribute.variant", "value": "Variant" },
+      {
+        "key": "attribute.adjusting-coffee-strength",
+        "value": "Justering av kaffestyrka"
+      },
+      {
+        "key": "attribute.capacity-bread-dough",
+        "value": "Kapacitet (bröddeg)"
+      },
+      { "key": "attribute.2-cups-per-brew", "value": "2 koppar per bryggning" },
+      { "key": "attribute.without-bag", "value": "Utan påse" },
+      { "key": "attribute.cordless", "value": "Ledningsfri" },
+      { "key": "attribute.dust-emission-class", "value": "Dammutsläppsklass" },
+      { "key": "attribute.sound-level", "value": "Ljudnivå" },
+      { "key": "attribute.grain", "value": "Korn" },
+      {
+        "key": "attribute.bridge-combs-capacity",
+        "value": "Bryggkammar kapacitet"
+      },
+      { "key": "attribute.brew-time", "value": "Bryggtid" },
+      { "key": "attribute.effect-grill", "value": "Effekt (grill)" },
+      { "key": "attribute.number-of-hotplates", "value": "Antal kokplattor" },
+      { "key": "attribute.ingredients", "value": "Ingredienser" },
+      { "key": "attribute.stair-sensor", "value": "Trappsensor" },
+      { "key": "attribute.anti-frost-function", "value": "Antifrost-funktion" },
+      { "key": "attribute.burning-time", "value": "Brinntid" },
+      { "key": "attribute.auto-program", "value": "Autoprogram" },
+      { "key": "attribute.knife-length", "value": "Knivlängd" },
+      { "key": "attribute.crumb-tray", "value": "Smulfack" },
+      {
+        "key": "attribute.dry-and-liquid-food-items",
+        "value": "Torra och flytande matvaror"
+      },
+      { "key": "attribute.number-of-discs", "value": "Antal skivor" },
+      { "key": "attribute.diameter", "value": "Diameter" },
+      {
+        "key": "attribute.keep-warm-function",
+        "value": "Varmhållningsfunktion"
+      },
+      { "key": "attribute.defrost-function", "value": "Upptiningsfunktion" },
+      { "key": "attribute.number-of-withdrawals", "value": "Antal uttag" },
+      {
+        "key": "attribute.main-burner-effect",
+        "value": "Huvudbrännare effekt"
+      },
+      {
+        "key": "attribute.rotisserie-included",
+        "value": "Rotisseri inkluderat"
+      },
+      {
+        "key": "attribute.gas-regulator-included",
+        "value": "Gasregulator ingår"
+      },
+      { "key": "attribute.stand", "value": "Stativ" },
+      { "key": "attribute.wheel", "value": "Hjul" },
+      { "key": "attribute.heat-source", "value": "Värmekälla" },
+      { "key": "attribute.pyrolysis", "value": "Pyrolys" },
+      { "key": "attribute.cord-length", "value": "Sladdlängd" },
+      { "key": "attribute.milk-foam-type", "value": "Mjölkskummar typ" },
+      { "key": "attribute.suitable-for", "value": "Passar till" },
+      {
+        "key": "attribute.general-special-news",
+        "value": "Generel - Speciel (nyhed)"
+      },
+      { "key": "attribute.cooling-capacity", "value": "Kylkapacitet" },
+      { "key": "attribute.container", "value": "Behållare" },
+      { "key": "attribute.container-water", "value": "Behållare (vatten)" },
+      { "key": "attribute.number-of-bottles", "value": "Antal flaskor" },
+      { "key": "attribute.grill", "value": "Grill" },
+      { "key": "attribute.base-color", "value": "Grundfärg" },
+      { "key": "attribute.guarantee", "value": "Garanti" },
+      {
+        "key": "attribute.works-on-induction",
+        "value": "Fungerar på induktion"
+      },
+      { "key": "attribute.ecological", "value": "Ekologisk" },
+      { "key": "attribute.switch", "value": "Strömbrytare" },
+      { "key": "attribute.charging-time", "value": "Laddningstid" },
+      { "key": "attribute.cord-winder", "value": "Sladdupprullare" },
+      { "key": "attribute.ventilated-cooling", "value": "Ventilerad kylning" },
+      { "key": "attribute.maximum-range", "value": "Maximal räckvidd" },
+      { "key": "attribute.filter-type", "value": "Filtertyp" },
+      {
+        "key": "attribute.emptying-indicator",
+        "value": "Indikator för tömning"
+      },
+      {
+        "key": "attribute.dust-collection-on-carpet",
+        "value": "Dammuppsamling på matta"
+      },
+      { "key": "attribute.electrical", "value": "Elektrisk" },
+      {
+        "key": "attribute.dust-collection-on-hard-floor",
+        "value": "Dammuppsamling på hårt golv"
+      },
+      {
+        "key": "attribute.adjustable-suction-capacity",
+        "value": "Justerbar uppsugningskapacitet"
+      },
+      { "key": "attribute.bowl-material", "value": "Skålmaterial" },
+      {
+        "key": "attribute.general-special-new",
+        "value": "Generel - Speciel (nyhed)"
+      },
+      { "key": "attribute.reversible-door", "value": "Vändbar dörr" },
+      { "key": "attribute.oven-volume", "value": "Ugnsvolym" },
+      {
+        "key": "attribute.secondary-furnace-volume",
+        "value": "Sekundär ugn (volym)"
+      },
+      { "key": "attribute.microwave-safe", "value": "Tål mikrovågsugn" },
+      { "key": "attribute.grinder-knives", "value": "Kvarnknivar" },
+      { "key": "attribute.milling-knives", "value": "Kvarnknivar" },
+      {
+        "key": "attribute.smarthome-compatible",
+        "value": "SmartHome kompatibel"
+      },
+      {
+        "key": "attribute.electronic-temperature-control",
+        "value": "Elektronisk temperaturstyrning"
+      },
+      {
+        "key": "attribute.independent-compressor",
+        "value": "Självständig kompressor"
+      },
+      { "key": "attribute.number-of-zones", "value": "Antal zoner" },
+      { "key": "attribute.clearance", "value": "Utförsäljning" },
+      { "key": "attribute.program", "value": "Program" },
+      { "key": "attribute.power-consumption", "value": "Energiförbrukning" },
+      { "key": "attribute.outlet-hole-plug", "value": "Propp till utloppshål" },
+      {
+        "key": "attribute.systematic-navigation",
+        "value": "Systematisk navigering"
+      },
+      { "key": "attribute.softclose-function", "value": "SoftClose-funktion" },
+      {
+        "key": "attribute.annual-energy-consumption",
+        "value": "Årlig energiförbrukning"
+      },
+      { "key": "attribute.brewing-temperature", "value": "Bryggtemperatur" },
+      { "key": "attribute.timer-function", "value": "Timerfunktion" },
+      { "key": "attribute.power-grill", "value": "Effekt (grill)" },
+      { "key": "attribute.drip-stop", "value": "Droppstopp" },
+      {
+        "key": "attribute.location-of-the-freezer",
+        "value": "Frysens placering"
+      },
+      { "key": "attribute.freezing-capacity", "value": "Fryskapacitet" },
+      {
+        "key": "attribute.dust-collection-on-hard-floors",
+        "value": "Dammuppsamling på hårt golv"
+      },
+      { "key": "attribute.circulator", "value": "Cirkulator" },
+      { "key": "attribute.disc-holder", "value": "Skivhållare" },
+      { "key": "attribute.roasting", "value": "Rostning" },
+      { "key": "attribute.automatic-defrost", "value": "Automatisk defrost" },
+      { "key": "attribute.removable-handle", "value": "Avtagbart handtag" },
+      { "key": "attribute.power-hot-air", "value": "Effekt (varmluft)" },
+      {
+        "key": "attribute.pizzacrisp-function",
+        "value": "Pizza / Crisp funktion"
+      },
+      {
+        "key": "attribute.illuminated-control-button",
+        "value": "Belyst reglageknapp"
+      },
+      { "key": "attribute.handle-on-the-bowl", "value": "Handtag på skålen" },
+      { "key": "attribute.bread-sizes", "value": "Brödstorlekar" },
+      { "key": "attribute.pump-type", "value": "Pumptyp" },
+      {
+        "key": "attribute.top-steered-propeller",
+        "value": "Toppstyrd propeller"
+      },
+      { "key": "attribute.revolutions-per-minute", "value": "Varv per minut" },
+      { "key": "attribute.smartphone-app", "value": "Smartphone app" },
+      { "key": "attribute.capacity-cups", "value": "Kapacitet (koppar)" },
+      { "key": "attribute.length-thread", "value": "Längd (tråd)" },
+      { "key": "attribute.quantity", "value": "Antal" },
+      {
+        "key": "attribute.adjustment-zero-setting-tare",
+        "value": "Justering / Nollställning (Tare)"
+      },
+      { "key": "attribute.beer-glass-type", "value": "Ölglas typ" },
+      {
+        "key": "attribute.emptying-indication",
+        "value": "Indikering för tömning"
+      },
+      { "key": "attribute.trend", "value": "Trend" },
+      {
+        "key": "attribute.temperature-maintenance",
+        "value": "Temperaturhållning"
+      },
+      { "key": "attribute.google-assistant", "value": "Google Assistant" },
+      { "key": "attribute.main-burner-power", "value": "Huvudbrännare effekt" },
+      { "key": "attribute.materials", "value": "Material" },
+      { "key": "attribute.side-burner-power", "value": "Sidobrännare effekt" },
+      { "key": "attribute.tag-position", "value": "Tag position" },
+      { "key": "attribute.settings", "value": "Inställningar" },
+      { "key": "attribute.threshold", "value": "Tröskel" },
+      { "key": "attribute.plate-size", "value": "Tallriksstorlek" },
+      { "key": "attribute.bean-type", "value": "Böntyp" },
+      { "key": "attribute.area", "value": "Areal" },
+      { "key": "attribute.intensity", "value": "Intensitet" },
+      { "key": "attribute.fan-system", "value": "Fläktsystem" },
+      {
+        "key": "attribute.dough-scraper-included",
+        "value": "Degskrapa medföljer"
+      },
+      {
+        "key": "attribute.top-controlled-propeller",
+        "value": "Toppstyrd propeller"
+      },
+      { "key": "attribute.dishwasher-safe", "value": "Tål maskindisk" },
+      { "key": "attribute.workspace", "value": "Arbetsyta" },
+      { "key": "attribute.voice-control-with", "value": "Röststyrning med" },
+      {
+        "key": "attribute.descaling-indicator",
+        "value": "Avkalkningsindikator"
+      },
+      { "key": "attribute.slow-juicer-type", "value": "Slowjuicer type" },
+      {
+        "key": "attribute.pulp-container-capacity",
+        "value": "Fruktköttsbehållare kapacitet"
+      },
+      {
+        "key": "attribute.virtual-wall-function",
+        "value": "Virtuell väggfunktion"
+      },
+      { "key": "attribute.stove", "value": "Spis" },
+      {
+        "key": "attribute.number-of-side-burners",
+        "value": "Antal sidobrännare"
+      },
+      { "key": "attribute.clean-more-rooms", "value": "Rengör fler rum" },
+      { "key": "attribute.amazon-alexa", "value": "Amazon Alexa" },
+      { "key": "attribute.freezer-location", "value": "Frysens placering" },
+      { "key": "attribute.number-of-outlets", "value": "Antal uttag" },
+      { "key": "attribute.handle", "value": "Handtag" },
+      { "key": "attribute.compressor-size", "value": "Kompressorstorlek" },
+      { "key": "attribute.skimming-function", "value": "Avskummningsfunktion" },
+      { "key": "attribute.reduction-gear", "value": "Reduktionsgear" },
+      { "key": "attribute.dough-hook-included", "value": "Degkrok medföljer" },
+      { "key": "attribute.weight", "value": "Vikt" },
+      {
+        "key": "attribute.capacity-kettle",
+        "value": "Kapacitet (vattenkokare)"
+      },
+      { "key": "attribute.mixer-knife", "value": "Mixerkniv" },
+      {
+        "key": "attribute.variable-roasting-degree",
+        "value": "Variabel rostningsgrad"
+      },
+      { "key": "attribute.storage-function", "value": "Förvaringsfunktion" },
+      {
+        "key": "attribute.apple-homekit-yes-no",
+        "value": "Apple Homekit (Ja / Nej)"
+      },
+      { "key": "attribute.prayer-type", "value": "Böntyp" },
+      {
+        "key": "attribute.schedule-programming",
+        "value": "Schemaprogrammering"
+      },
+      {
+        "key": "attribute.width-adjustable-coffee-outlet",
+        "value": "Bredd-justerbart kaffeutlopp"
+      },
+      { "key": "attribute.recommended-size", "value": "Rekommenderad storlek" },
+      { "key": "attribute.capsule-type", "value": "Kapseltyp" },
+      { "key": "attribute.steam-cooking", "value": "Ångkokning" },
+      {
+        "key": "attribute.variable-degree-of-roasting",
+        "value": "Variabel rostningsgrad"
+      },
+      {
+        "key": "attribute.setting-the-thickness-of-the-foam-milk-frother",
+        "value": "Inställning av skummets tjocklek (mjölkskummare)"
+      },
+      { "key": "attribute.fan-type", "value": "Fläkttyp" },
+      { "key": "attribute.operating-time", "value": "Driftstid" },
+      {
+        "key": "attribute.coffee-grounds-container-capacity",
+        "value": "Kaffesumpsbehållare kapacitet"
+      },
+      {
+        "key": "attribute.adjustment-of-coffee-strength",
+        "value": "Justering av kaffestyrka"
+      },
+      { "key": "attribute.stop-function", "value": "Stoppfunktion" },
+      {
+        "key": "attribute.adjustable-height-level-on-grill-grate",
+        "value": "Justerbar höjdnivå på grillgaller"
+      },
+      { "key": "attribute.pump-pressure-bar", "value": "Pumptryck (bar)" },
+      {
+        "key": "attribute.water-hardness-programming",
+        "value": "Programmering av vattenhårdhet"
+      },
+      { "key": "attribute.steam-function", "value": "Ångfunktion" },
+      { "key": "attribute.infrared-burner", "value": "Infraröd brännare" },
+      { "key": "attribute.fuel", "value": "Bränsle" },
+      {
+        "key": "attribute.automatic-upload",
+        "value": "Automatisk uppladdning"
+      },
+      { "key": "attribute.number-of-servings", "value": "Antal portioner" },
+      { "key": "attribute.manufacturing-time", "value": "Tillverkningstid" },
+      {
+        "key": "attribute.built-in-lighting-in-the-machine-headhousing",
+        "value": "Inbyggd belysning i maskinens huvud/hölje"
+      },
+      {
+        "key": "attribute.integrated-thermometer",
+        "value": "Integrerad termometer"
+      },
+      { "key": "attribute.swivel-filter", "value": "Svängbart filter" },
+      { "key": "attribute.number-of-cups", "value": "Antal koppar" },
+      { "key": "attribute.ifttt-compatible", "value": "IFTTT-kompatibel" },
+      {
+        "key": "attribute.plug-for-outlet-hole",
+        "value": "Propp till utloppshål"
+      },
+      {
+        "key": "attribute.inside-measurement-in-the-bowl",
+        "value": "Invändigt mått i skålen"
+      },
+      { "key": "attribute.milk-frother-type", "value": "Mjölkskummar typ" },
+      {
+        "key": "attribute.upload-and-continue",
+        "value": "Ladda upp och fortsätt"
+      },
+      { "key": "attribute.apple-homekit", "value": "Apple Homekit" },
+      { "key": "attribute.wet-mop", "value": "Våt mopp" },
+      {
+        "key": "attribute.brewing-chamber-capacity",
+        "value": "Bryggkammar kapacitet"
+      },
+      { "key": "attribute.rotating-plate", "value": "Roterande tallrik" },
+      { "key": "attribute.sound-level-db", "value": "Ljudnivå (dB)" },
+      { "key": "attribute.brewing-time", "value": "Bryggtid" },
+      {
+        "key": "attribute.amazon-alexa-yesno",
+        "value": "Amazon Alexa (Ja / Nej)"
+      },
+      {
+        "key": "attribute.smart-home-compatible",
+        "value": "Smarthome kompatibel"
+      },
+      { "key": "attribute.delayed-start", "value": "Försenad start" },
+      { "key": "attribute.investment", "value": "Placering" },
+      { "key": "attribute.keep-cold-function", "value": "Håll kall funktion" },
+      { "key": "attribute.thickness", "value": "Tjocklek" },
+      { "key": "attribute.scratch-resistant", "value": "Reptålig" },
+      {
+        "key": "attribute.internal-dimension-of-the-bowl",
+        "value": "Invändigt mått i skålen"
+      },
+      { "key": "attribute.warranty", "value": "Garanti" },
+      { "key": "attribute.accuracy", "value": "Noggrannhet" },
+      { "key": "attribute.container-beans", "value": "Behållare (bönor)" },
+      {
+        "key": "attribute.automatic-cleaning-program",
+        "value": "Automatiskt rengöringsprogram"
+      },
+      { "key": "attribute.display", "value": "Display" },
+      { "key": "attribute.cup-warmer", "value": "Koppvärmare" },
+      { "key": "attribute.bpa-free", "value": "BPA-fri" },
+      { "key": "attribute.grill-type", "value": "Grilltyp" },
+      { "key": "attribute.coffee-grinder-type", "value": "Kaffekvarn typ" },
+      {
+        "key": "attribute.espresso-machine-type",
+        "value": "Espressomaskin typ"
+      },
+      { "key": "attribute.gas-consumption", "value": "Gasförbrukning" },
+      { "key": "attribute.hinge", "value": "Gångjärn" },
+      { "key": "attribute.grill-surface", "value": "Grillyta" },
+      { "key": "attribute.side-burner", "value": "Sidobrännare" },
+      { "key": "attribute.child-protection", "value": "Barnskydd" },
+      { "key": "attribute.with-wifi", "value": "Med wifi" },
+      { "key": "attribute.model", "value": "Modell" },
+      {
+        "key": "attribute.self-contained-compressor",
+        "value": "Självständig kompressor"
+      },
+      { "key": "attribute.side-burner-effect", "value": "Sidobrännare effekt" },
+      { "key": "attribute.hot-air", "value": "Varmluft" },
+      { "key": "attribute.cable-length", "value": "Kabellängd" },
+      { "key": "attribute.container-capacity", "value": "Behållarkapacitet" },
+      {
+        "key": "attribute.removable-water-tank",
+        "value": "Avtagbar vattentank"
+      },
+      {
+        "key": "attribute.the-lift-button-is-on",
+        "value": "Lyftknappen sitter på"
+      },
+      { "key": "attribute.test-winner", "value": "Testvinnare" },
+      { "key": "attribute.number-of-burners", "value": "Antal brännare" },
+      {
+        "key": "attribute.number-of-gas-cartridges",
+        "value": "Antal gaspatroner"
+      },
+      {
+        "key": "attribute.programming-water-hardness",
+        "value": "Programmering av vattenhårdhet"
+      },
+      { "key": "attribute.material-on-jugs", "value": "Material på kannor" },
+      { "key": "attribute.self-cleaning", "value": "Självrengörande" },
+      {
+        "key": "attribute.google-assistant-yes-no",
+        "value": "Google Assistant (Ja / Nej)"
+      },
+      { "key": "attribute.bowl-size", "value": "Skålstorlek" },
+      { "key": "attribute.turbotorque-button", "value": "Turbo/momentknapp" },
+      { "key": "attribute.lighting", "value": "Belysning" },
+      {
+        "key": "attribute.included-accessories",
+        "value": "Inkluderade tillbehör"
+      },
+      { "key": "attribute.automatic-ignition", "value": "Automatisk tändning" },
+      { "key": "attribute.capacity-copper", "value": "Kapacitet (koppar)" },
+      { "key": "attribute.side-table", "value": "Sidobord" },
+      {
+        "key": "attribute.general-gift-ideas",
+        "value": ".Generel - gaveideer"
+      },
+      {
+        "key": "attribute.type-of-electrical-connector",
+        "value": "Typ av elkontakt"
+      },
+      { "key": "attribute.blade-length", "value": "Bladlängd" },
+      { "key": "attribute.temperature", "value": "Temperatur" },
+      {
+        "key": "attribute.capacity-cookie-dough",
+        "value": "Kapacitet (kakadeg)"
+      },
+      { "key": "attribute.number", "value": "Antal" },
+      { "key": "attribute.cup-light", "value": "Kopp ljus" },
+      {
+        "key": "attribute.built-in-lighting-in-the-machines-headcasing",
+        "value": "Inbyggd belysning i maskinens huvud/hölje"
+      },
+      { "key": "attribute.power-micro", "value": "Effekt (micro)" },
+      {
+        "key": "attribute.setting-the-temperature-milk-frother",
+        "value": "Inställning av temperatur (mjölkskummare)"
+      },
+      { "key": "attribute.battery-type", "value": "Batterityp" },
+      { "key": "attribute.ifttt", "value": "IFTTT" },
+      {
+        "key": "attribute.adjustable-thermostat",
+        "value": "Justerbar termostat"
+      },
+      { "key": "attribute.working-height", "value": "Arbetshöjd" },
+      {
+        "key": "attribute.direct-water-connection",
+        "value": "Direkt vattenanslutning"
+      },
+      {
+        "key": "attribute.removable-drip-cover",
+        "value": "Avtagbar droppskydd"
+      },
+      { "key": "attribute.antifreeze-function", "value": "Antifrost-funktion" },
+      { "key": "attribute.capacity-flour", "value": "Kapacitet (mjöl)" },
+      {
+        "key": "attribute.removable-drip-guard",
+        "value": "Avtagbar droppskydd"
+      },
+      { "key": "attribute.material", "value": "Material" },
+      { "key": "attribute.speed-steps", "value": "Hastighets steg" },
+      {
+        "key": "attribute.adjustment-zeroing-tare",
+        "value": "Justering / Nollställning (Tare)"
+      },
+      { "key": "attribute.non-stick-coating", "value": "Non-stick beläggning" },
+      {
+        "key": "attribute.charging-time-hours",
+        "value": "Uppladdningstid, timmar"
+      },
+      { "key": "attribute.number-of-capsules", "value": "Antal kapslar" },
+      { "key": "attribute.aroma-control", "value": "Aromakontroll" },
+      { "key": "attribute.blender-type", "value": "Blendertype" },
+      { "key": "EnergyLabelImage", "value": "Energimärkningsetikett" },
+      { "key": "vendor_item_number", "value": "Leverantörens artikelnummer" },
+      { "key": "barcode", "value": "Barcode" },
+      { "key": "orderReview.giftCard", "value": "Presentkort" },
+      { "key": "giftCard.used", "value": "Aktivt presentkort" },
+      { "key": "voucher.removed", "value": "borttaget" },
+      { "key": "voucher.added", "value": "tillagd" },
+      {
+        "key": "cart.removedItems",
+        "value": "Följande artiklar är slut i lager och har tagits bort från din kundvagn"
+      },
+      { "key": "width", "value": "Bredd" },
+      { "key": "height", "value": "Höjd" },
+      { "key": "length", "value": "Längd" },
+      { "key": "weight", "value": "Vikt" },
+      { "key": "capacity_milliliter", "value": "Kapacitet" },
+      { "key": "depth", "value": "Djup" },
+      { "key": "previous", "value": "Förgående" },
+      { "key": "next", "value": "Nästa" },
+      { "key": "button.back", "value": "Tillbaka" },
+      { "key": "button.CustomerService", "value": "Kundservice" },
+      { "key": "gas.options", "value": "Val av gasanslutning" },
+      {
+        "key": "giftCard.addedToCart",
+        "value": "Presentkort tillagt i varukorgen"
+      },
+      {
+        "key": "giftCard.removedToCart",
+        "value": "Presentkort borttaget från varukorgen"
+      },
+      { "key": "brand", "value": "Varumärke" },
+      { "key": "sku", "value": "Artikelnummer" },
+      { "key": "showAll", "value": "Visa alla" },
+      { "key": "showMore", "value": "Visa mer" },
+      { "key": "hours", "value": "Timme" },
+      { "key": "minutes", "value": "Minut" },
+      { "key": "search.noResults", "value": "Inga sökresultat hittades" },
+      { "key": "search.showAllResults", "value": "Visa alla resultat" },
+      { "key": "products", "value": "Produkter" },
+      { "key": "giftcard.leftBalance", "value": "Kvarvarande saldo" },
+      { "key": "searchResults", "value": "Sökresultat" },
+      {
+        "key": "error.unableAddUpdateGiftcard",
+        "value": "Ogiltigt presentkort | Vänligen kontrollera koden eller prova en annan."
+      },
+      {
+        "key": "error.missingDiscount",
+        "value": "Rabattkod saknas | Vänligen ange en giltig rabattkod"
+      },
+      {
+        "key": "error.conditionDiscount",
+        "value": "Rabattkoden uppfyller inte villkoren | Kontrollera villkoren för koden."
+      },
+      {
+        "key": "error.conditionDiscountExternal",
+        "value": "Rabattkoden kan inte användas | Gäller inte för denna beställning."
+      },
+      {
+        "key": "error.expiredDiscount",
+        "value": "Rabattkoden har gått ut | Vänligen använd en giltig kod."
+      },
+      {
+        "key": "error.alreadyAddedDiscount",
+        "value": "Rabattkoden är redan tillagd | Du kan inte använda samma kod igen."
+      },
+      {
+        "key": "user.UpdatedInformation",
+        "value": "Klart | Dina uppgifter har uppdaterats."
+      },
+      {
+        "key": "account.passwordResetted",
+        "value": "Lösenordet har återställts"
+      },
+      { "key": "account.enterNewPassword", "value": "Ange nytt lösenord" },
+      { "key": "account.newPassword", "value": "Nytt lösenord" },
+      {
+        "key": "account.confirmNewPassword",
+        "value": "Bekräfta nytt lösenord"
+      },
+      { "key": "account.resetPasword", "value": "Återställ lösenord" },
+      { "key": "account.resetPaswordHere", "value": "Återställ lösenord här" },
+      {
+        "key": "account.passwordLinkExpired",
+        "value": "Lösenordslänken har gått ut"
+      },
+      {
+        "key": "account.passwordsDoesNotMatch",
+        "value": "Lösenorden matchar inte"
+      },
+      {
+        "key": "account.passwordMinLength",
+        "value": "Lösenordet måste vara minst 10 tecken långt."
+      },
+      {
+        "key": "account.passwordRequirements",
+        "value": "Lösenordet måste innehålla minst en siffra."
+      },
+      {
+        "key": "account.verifyAccountEmail",
+        "value": "Bekräfta ditt konto genom att klicka på Verifiera i det mejl som har skickats till din e-postadress."
+      },
+      { "key": "account.confirmEmail", "value": "Bekräfta e-post" },
+      { "key": "account.createAccount", "value": "Bli medlem" },
+      { "key": "account.firstName", "value": "Förnamn" },
+      { "key": "account.lastName", "value": "Efternamn" },
+      { "key": "account.address", "value": "Adress" },
+      { "key": "account.postalCode", "value": "Postnummer" },
+      { "key": "account.city", "value": "Stad" },
+      { "key": "account.phoneNumber", "value": "Telefonnummer" },
+      { "key": "account.password", "value": "Lösenord" },
+      { "key": "account.confirmPassword", "value": "Bekräfta lösenord" },
+      {
+        "key": "account.sendVerifyEmailAgain",
+        "value": "Skicka verifkationsmail igen"
+      },
+      {
+        "key": "account.alreadyHaveAccount",
+        "value": "Har du redan ett konto?"
+      },
+      { "key": "account.userAlreadyExists", "value": "Kontot finns redan" },
+      { "key": "account.forgotYourPassword", "value": "Glömt ditt lösenord?" },
+      { "key": "account.resetPasswordHere", "value": "Återställ här" },
+      { "key": "account.haveNoAccount", "value": "Har du inget konto?" },
+      {
+        "key": "account.rememberYourAccount",
+        "value": "Kommer du ihåg ditt lösenord?"
+      },
+      { "key": "account.resetPassword", "value": "Återställ lösenord" },
+      { "key": "account.email", "value": "E-postadress" },
+      { "key": "account.forgotPassword", "value": "Glömt lösenord" },
+      {
+        "key": "account.controllPasswordEmail",
+        "value": "Kontrollera din e-post för återställningslänken. Om du inte har fått den, klicka på \"Skicka verifiering igen\" nedan."
+      },
+      { "key": "account.resendEmailAgain", "value": "Skicka verifiering igen" },
+      { "key": "account.userNotFound", "value": "Användare hittades inte" },
+      {
+        "key": "account.emailNotVerified",
+        "value": "E-postadressen är inte verifierad"
+      },
+      { "key": "account.wrongPassword", "value": "Fel lösenord" },
+      { "key": "carousel.recommendedForYou", "value": "Rekommenderat för dig" },
+      { "key": "myFavorites", "value": "Mina favoriter" },
+      { "key": "account.communicationPreferences", "value": "Aviseringar" },
+      {
+        "key": "account.acceptEmailNotifications",
+        "value": "Jag accepterar e-post"
+      },
+      {
+        "key": "account.acceptSmsNotifications",
+        "value": "Jag accepterar SMS"
+      },
+      {
+        "key": "account.acceptPostalNotifications",
+        "value": "Jag accepterar post"
+      },
+      {
+        "key": "error.giftCardInsufficientBalance",
+        "value": "Otillräckligt saldo | Det begärda presentkortet har otillräckligt saldo."
+      },
+      { "key": "FULLY_DELIVERED", "value": "Levererad" },
+      { "key": "PARTIALLY_DELIVERED", "value": "Delvis levererad" },
+      { "key": "PARTIALLY_COMPENSATED", "value": "Delvis kompenserad " },
+      { "key": "FULLY_COMPENSATED", "value": "Kompenserad" },
+      { "key": "CANCELLED", "value": "Avbruten" },
+      { "key": "FULLY_REFUNDED", "value": "Återbetald" },
+      { "key": "PLACED", "value": "Registrerad" },
+      {
+        "key": "newsletter.SignupSuccess",
+        "value": "Tack för att du har signerat upp dig på vårt nyhetsbrev! "
+      },
+      { "key": "stock.estimatedInStock", "value": "Förväntad i lager" },
+      { "key": "stock.deliveryDate", "value": "Leveranstid" },
+      { "key": "stock.soonInStock", "value": "Snart i lager" },
+      { "key": "stock.notInStore", "value": " Finns ej Göteborgsbutiken" },
+      { "key": "stock.inStore", "value": "Finns i Göteborgsbutiken" },
+      { "key": "cart.TotalSavings", "value": "Du sparar" },
+      { "key": "cart.youSave", "value": "Tillbehör - Spara " },
+      { "key": "PARTIALLY_REFUNDED", "value": "Delvis återbetald" },
+      { "key": "order.seeOrder", "value": " Se beställning" },
+      { "key": "order.orderNumber", "value": "Beställningsnummer" },
+      { "key": "order.orderDate", "value": "Orderdatum" },
+      { "key": "order", "value": "Beställning" },
+      { "key": "order.sentOrders", "value": "Skickade ordrar" },
+      {
+        "key": "order.sentOrdersDescription",
+        "value": "Här hittar du en historik över dina avslutade ordrar."
+      },
+      {
+        "key": "order.noRegisteredOrders",
+        "value": "Inga registrerade ordrar"
+      },
+      { "key": "order.showMore", "value": "Visa fler" },
+      { "key": "order.showLess", "value": "Visa färre" },
+      { "key": "order.myOrders", "value": "Mina ordrar" },
+      {
+        "key": "order.orderHistoryDescription",
+        "value": "Här kan du se en översikt av dina ordrar."
+      },
+      { "key": "order.registeredOrders", "value": "Registrerade ordrar" },
+      {
+        "key": "order.registeredOrdersDescription",
+        "value": "Här kan du granska detaljerna för dina pågående ordrar."
+      },
+      { "key": "order.Track", "value": "Spåra" },
+      { "key": "order.deliveryAddress", "value": "Leveransadress" },
+      { "key": "order.invoiceAddress", "value": "Fakturaadress" },
+      { "key": "order.delivery", "value": "Leverans" },
+      { "key": "product.expired", "value": "Utgått" },
+      { "key": "page.blog", "value": "Blogg" },
+      { "key": "product.campaign", "value": "Kampanj" },
+      { "key": "consent.acceptPrivacy", "value": "Jag accepterar" },
+      { "key": "consent.privacyPolicy", "value": "integritetspolicyn" },
+      { "key": "consentLink.privacyPolicy", "value": "integritetspolicy" },
+      {
+        "key": "search.Placeholder",
+        "value": "Sök produkt, varumärke, kategori"
+      },
+      { "key": "attributes.tags", "value": "Taggar" },
+      { "key": "tag.bast-i-test", "value": "Bäst i test" },
+      { "key": "tag.nyhet", "value": "Nyheter" },
+      { "key": "deleteAccount", "value": "Radera konto" },
+      {
+        "key": "account.areYouSure",
+        "value": "Är du säker på att du vill radera ditt konto?"
+      },
+      {
+        "key": "account.deleteAccountDescription",
+        "value": "När du raderar ditt konto kommer alla uppgifter att raderas permanent och du kommer inte längre att ha tillgång till dina tidigare beställningar eller sparade inställningar. Detta kan inte ångras."
+      },
+      { "key": "cancel", "value": "Avbryt" },
+      { "key": "confirmText", "value": "RADERA" },
+      { "key": "account.myCredentials", "value": "Mina uppgifter" },
+      {
+        "key": "account.myCredentialsDescription",
+        "value": "Här kan du se och korrigera dina uppgifter"
+      },
+      { "key": "account.saveChanges", "value": "Spara uppgifter" },
+      { "key": "sidebar.overview", "value": "Översikt" },
+      { "key": "sidebar.myOrders", "value": "Mina ordrar" },
+      { "key": "sidebar.myFavorites", "value": "Mina favoriter" },
+      { "key": "sidebar.myInformation", "value": "Mina Uppgifter" },
+      { "key": "signout", "value": "Logga ut" },
+      {
+        "key": "deleteaccount.confirmText",
+        "value": "Skriv 'RADERA' för att bekräfta"
+      },
+      { "key": "popular.categories", "value": "Populära kategorier" },
+      { "key": "bundle.savings", "value": "Paketerbjudande - Spara" },
+      { "key": "bundle.offer", "value": "Paketerbjudande" },
+      { "key": "order.referenceNumber", "value": "Referensnummer" },
+      { "key": "inventory", "value": "Finns i lager" },
+      { "key": "gbg-store", "value": "Göteborgsbutiken" },
+      { "key": "concept-store", "value": "Concept Store" },
+      { "key": "online-store", "value": "Online" },
+      { "key": "cart.free", "value": "Gratis" },
+      { "key": "cart.shippingCalculatedCart", "value": "Beräknas i kassan" },
+      { "key": "products.completeWith", "value": "Komplettera med" },
+      { "key": "menu.AllCategory", "value": "Allt inom" },
+      { "key": "social.followUs", "value": "Följ oss" },
+      { "key": "sort.standard", "value": "Toppsäljare" },
+      { "key": "sort.priceLowToHigh", "value": "Lågt till Högt" },
+      { "key": "sort.priceHighToLow", "value": "Högt till Lågt" },
+      { "key": "sort.ratingLowToHigh", "value": "Betyg: Lågt till Högt" },
+      { "key": "sort.ratingHighToLow", "value": "Betyg: Högt till Lågt" },
+      { "key": "sort.discountLowToHigh", "value": "Rabatt: Lågt till Högt" },
+      { "key": "sort.discountHighToLow", "value": "Rabatt: Högt till Lågt" },
+      { "key": "sort", "value": "Sortera" },
+      { "key": "see.products", "value": "Se produkter" },
+      {
+        "key": "attribute.hot-maintenance-function",
+        "value": "Varmhållningsfunktion"
+      },
+      { "key": "attribute.stopping-function", "value": "Stoppfunktion" },
+      { "key": "attribute.thawing-function", "value": "Upptiningsfunktion" },
+      { "key": "attribute.crumbs", "value": "Smulfack" },
+      {
+        "key": "attribute.warm-maintenance-function",
+        "value": "Varmhållningsfunktion"
+      },
+      {
+        "key": "attribute.can-withstand-machine-wash",
+        "value": "Tål maskindisk"
+      },
+      { "key": "attribute.leaf-length", "value": "Bladlängd" },
+      { "key": "search.PlaceholderBrand", "value": "Sök varumärke" },
+      {
+        "key": "account.inactiveVerifyLinkDescription",
+        "value": "Hoppsan! Det verkar som att denna länk inte längre är giltig. Har du redan ett konto?"
+      },
+      {
+        "key": "account.inactiveVerifyLink",
+        "value": "Länken är inte aktuell"
+      },
+      {
+        "key": "error.discountBadRequest",
+        "value": "Ogiltigt format | Endast bokstäver, siffror, understreck och bindestreck är tillåtna."
+      },
+      { "key": "form.enterFirstname", "value": "Ange ditt förnamn" },
+      { "key": "form.enterEmail", "value": "Ange din e-postadress" },
+      { "key": "filter.clear", "value": "Rensa filter" },
+      { "key": "myPages", "value": "Mina sidor" },
+      { "key": "myAccount", "value": "Mitt konto" },
+      { "key": "account.logout", "value": "Logga ut" },
+      { "key": "is.not.available", "value": "är inte längre tillgänglig" },
+      { "key": "newsletter.SignupButton", "value": "Prenumerera" },
+      {
+        "key": "checkoutPage.dialogNotAllowed",
+        "value": "Kan inte levereras till valt postnummer"
+      },
+      {
+        "key": "checkoutPage.dialogNotAllowedCTA",
+        "value": "Ändra postnummer"
+      },
+      {
+        "key": "checkoutPage.dialogNotAllowedCustomerService",
+        "value": "Kontakt kundtjänst"
+      },
+      { "key": "attribute.temperature-holding", "value": "Temperaturhållning" },
+      {
+        "key": "attribute.secondary-oven-volume",
+        "value": "Sekundär ugnsvolym"
+      },
+      { "key": "attribute.gas-option", "value": "Gasalternativ" },
+      { "key": "attribute.grill-area", "value": "Grillyta" },
+      { "key": "attribute.cup-heater", "value": "Koppvärmare" },
+      {
+        "key": "attribute.2-cups-per-brewing",
+        "value": "2 koppar per bryggning"
+      },
+      { "key": "attribute.milk-containers", "value": "Mjölkbehållare" },
+      {
+        "key": "attribute.programming-of-water-hardness",
+        "value": "Programmering av vattenhårdhet"
+      },
+      { "key": "attribute.seal-beans", "value": "Förseglade bönor" },
+      { "key": "attribute.capacity-liter", "value": "Kapacitet liter" },
+      {
+        "key": "attribute.coffee-sump-containers-capacity",
+        "value": "Behållare för kaffesump"
+      },
+      { "key": "attributes.all_categories", "value": "Kategori" },
+      { "key": "didYouMean", "value": "Menar du? " },
+      { "key": "qty.unit", "value": "st" },
+      { "key": "youResultsFor", "value": "Ditt resultat för" },
+      { "key": "attribute.number-of-shelves", "value": "Antal hyllor" },
+      { "key": "attribute.material-of-shelves", "value": "Material på hyllor" },
+      {
+        "key": "attribute.number-of-temperature-zones",
+        "value": "Antal temperaturzoner"
+      },
+      { "key": "attribute.uv-protection", "value": "UV-skydd" },
+      { "key": "attribute.placement-type", "value": "Placeringstyp" },
+      { "key": "attribute.lockable", "value": "Låsbar" },
+      { "key": "attribute.door-hinge", "value": "Hängning" },
+      { "key": "attribute.app-controled", "value": "Appstyrd" },
+      {
+        "key": "checkoutPage.dialogNotApprovedTerms",
+        "value": "Du måste godkänna villkoren för att kunna slutföra köpet"
+      },
+      {
+        "key": "checkoutPage.ApproveTerms",
+        "value": "Jag godkänner de allmänna villkoren"
+      },
+      { "key": "reversible-door", "value": "Vändbar dörr" },
+      { "key": "placement-type", "value": "Placeringstyp" },
+      { "key": "lockable", "value": "Låsbar" },
+      { "key": "door-hinge", "value": "Hängning" },
+      { "key": "app-controled", "value": "Appstyrd" },
+      { "key": "campaign.PriceIsValidTo", "value": "Priset gäller i" }
+    ]
+  },
+  "da": {
+    "items": [
+      { "key": "account.login", "value": "Log ind" },
+      { "key": "search", "value": "Søg" },
+      { "key": "cart", "value": "Kurv" },
+      { "key": "favorites", "value": "Favoritter" },
+      { "key": "voucher.promoCode", "value": "Rabatkode" },
+      {
+        "key": "voucher.terms",
+        "value": "En rabatkode kan ikke kombineres med andre rabatter."
+      },
+      { "key": "giftCard.giftCard", "value": "Gavekort" },
+      { "key": "orderReview.subtotal", "value": "Subtotal" },
+      { "key": "orderReview.shipping", "value": "Leveringsomkostninger" },
+      { "key": "orderReview.total", "value": "I alt inkl. Moms" },
+      { "key": "orderReview.totalVat", "value": "Heraf moms" },
+      { "key": "voucher.apply", "value": "Aktivér" },
+      { "key": "giftCard.code", "value": "Indtast gavekort" },
+      { "key": "giftCard.pin", "value": "Indtast pinkode" },
+      { "key": "voucher.placeholder", "value": "Indtast kode" },
+      { "key": "voucher.used", "value": "Aktiv rabatkode" },
+      { "key": "orderReview.discount", "value": "Rabat" },
+      {
+        "key": "giftCard.maxDisplayAmount",
+        "value": "Det er ikke muligt at bestille gavekort på mere end 10 000 DKK. Hvis du ønsker at bestille et højere beløb"
+      },
+      { "key": "giftCard.loadAmount", "value": "Gavekortets beløb" },
+      { "key": "giftCard.sendDate", "value": "Tidspunkt for afsendelse" },
+      {
+        "key": "giftCard.receivingEmail",
+        "value": "Modtagerens e-mailadresse"
+      },
+      { "key": "giftCard.emailText", "value": "Personligt meddelande" },
+      { "key": "quantity", "value": "Antal" },
+      {
+        "key": "giftCard.receivingMsisdn",
+        "value": "Modtagerens telefonnummer"
+      },
+      { "key": "cart.addToCart", "value": "Læg i kurv" },
+      { "key": "giftCard.typeEmail", "value": "Via email" },
+      { "key": "giftCard.typeSms", "value": "Via SMS" },
+      { "key": "giftCard.typePhysical", "value": "Fysisk" },
+      {
+        "key": "giftCard.requiredError",
+        "value": "Indtast venligst et beløb."
+      },
+      {
+        "key": "giftCard.dateRequiredError",
+        "value": "Vælg venligst en dato."
+      },
+      {
+        "key": "giftCard.receivingMsisdnError",
+        "value": "Indtast et gyldigt telefonnummer."
+      },
+      {
+        "key": "giftCard.SmsTextMax",
+        "value": "SMS-teksten må ikke overstige 200 tegn."
+      },
+      {
+        "key": "giftCard.emailTextMax",
+        "value": "E-mailens tekst må ikke overstige 1000 tegn."
+      },
+      {
+        "key": "email.validation",
+        "value": "Angiv venligst en gyldig e-mailadresse."
+      },
+      { "key": "requiredfield", "value": "Obligatorisk felt" },
+      { "key": "confirmation.ThankYou", "value": "Tak for din bestilling!" },
+      {
+        "key": "confirmation.ThankYouText",
+        "value": "Vi begynder straks at behandle din ordre. Du vil snart modtage en ordrebekræftelse via e-mail til"
+      },
+      {
+        "key": "confirmation.ContinueShopping",
+        "value": "Fortsæt med at handle"
+      },
+      { "key": "confirmation.Ordernumber", "value": "Ordrenummer" },
+      { "key": "confirmation.Products", "value": "Produkter" },
+      { "key": "confirmation.OrderTotal", "value": "I alt" },
+      { "key": "confirmation.Discount", "value": "Rabat" },
+      { "key": "confirmation.Shipping", "value": "Fragt" },
+      { "key": "cart.Empty", "value": "Din kurv er tom" },
+      { "key": "cart.EmptyHeader", "value": "Har du brug for inspiration?" },
+      { "key": "cart.EmptyText", "value": "Se de seneste nyheder nedenfor." },
+      { "key": "cart.EmptyBtn", "value": "Shop alle nyhederne" },
+      { "key": "cart.goToCheckout", "value": "Gå til kurven" },
+      { "key": "cart.freeShippingText", "value": "Fri fragt" },
+      { "key": "cart.freeShippingYouHave", "value": "Du har" },
+      { "key": "cart.freeShippingLeft", "value": "Tilbage til fri fragt" },
+      { "key": "checkout.YourCart", "value": "Din kurv" },
+      { "key": "checkout", "value": "Kassen" },
+      {
+        "key": "error.discountIsInactive",
+        "value": "Vi kunne ikke finde en gyldig rabatkode"
+      },
+      { "key": "giftCard.physicalFirstName", "value": "Modtagers fornavn" },
+      { "key": "giftCard.physicalLastName", "value": "Modtagers efternavn" },
+      { "key": "giftCard.physicalStreetAddress", "value": "Modtagers adresse" },
+      { "key": "giftCard.physicalPostalCode", "value": "Modtagers postnummer" },
+      { "key": "giftCard.physicalCity", "value": "Modtagers by" },
+      { "key": "giftCard.physicalCountry", "value": "Modtagers land" },
+      { "key": "attributes.color", "value": "Farve" },
+      { "key": "attributes.brand", "value": "Varemærke" },
+      { "key": "facet.Price", "value": "Pris" },
+      { "key": "materials", "value": "Materiale" },
+      { "key": "availability", "value": "Tilgængelighed" },
+      { "key": "categories", "value": "Kategorier" },
+      { "key": "IN_STOCK", "value": "På lager" },
+      { "key": "brands", "value": "Varemærke" },
+      { "key": "OUT_OF_STOCK", "value": "Ikke på lager" },
+      { "key": "attributes.size", "value": "Størrelse" },
+      { "key": "readMore", "value": "Læs mere" },
+      { "key": "readLess", "value": "Vis mindre" },
+      { "key": "compare", "value": "Sammenlign" },
+      { "key": "stopCompare", "value": "Afslut sammenligningen " },
+      { "key": "productComparison", "value": "Produktsammenligning" },
+      { "key": "clickForCompare", "value": "Klik for sammenligning" },
+      {
+        "key": "youCanCompareMaximum3Products",
+        "value": "Du kan maksimalt sammenligne 3 produkter ad gangen"
+      },
+      { "key": "colorFamilies", "value": "Farve" },
+      { "key": "cart.ProductWasAddedToCart", "value": "Produkt lagt i kurven" },
+      {
+        "key": "carousel.frequentlyBoughtTogether",
+        "value": "Andre har også købt"
+      },
+      {
+        "key": "carousel.recommendedProducts",
+        "value": "Anbefalede produkter"
+      },
+      {
+        "key": "carousel.othersYouMayLike",
+        "value": "Du er måske også interesseret i"
+      },
+      { "key": "price", "value": "Pris" },
+      { "key": "product.moreInfoAbout", "value": "Mere information om" },
+      { "key": "product.specification", "value": "Specifikation" },
+      { "key": "product.description", "value": "Produktbeskrivelse" },
+      { "key": "product.reviews", "value": "Anmeldelser" },
+      { "key": "monitor.isOos", "value": "Hold øje med produktet" },
+      { "key": "monitor.dialog.description", "value": "Vi informerer dig" },
+      { "key": "monitor.notifyMe", "value": "Følg produktet nu" },
+      { "key": "form.email.input", "value": "Din e-mailadresse" },
+      { "key": "stock.outOfStock", "value": "Udsolgt" },
+      { "key": "stock.watchOOS", "value": "Hold øje med" },
+      { "key": "stock.lowInStock", "value": "Få på lager" },
+      {
+        "key": "monitor.saved",
+        "value": "Du er nu registreret. Vi giver dig besked."
+      },
+      { "key": "attributes.serie", "value": "Produktserie" },
+      { "key": "category", "value": "Kategori" },
+      { "key": "attribute.category", "value": "Kategori" },
+      {
+        "key": "attribute.vendor-item-no",
+        "value": "Leverandørens artikelnummer"
+      },
+      { "key": "attribute.barcode", "value": "EAN nummer" },
+      { "key": "attribute.color", "value": "Farve" },
+      { "key": "attribute.effect", "value": "Effekt" },
+      { "key": "attribute.energy-class", "value": "Energimærke" },
+      { "key": "attribute.feature-lines", "value": "Feature lines" },
+      {
+        "key": "attribute.automatic-shutdown",
+        "value": "Automatisk afbrydelse"
+      },
+      {
+        "key": "attribute.adjustable-temperature",
+        "value": "Justerbar temperatur"
+      },
+      { "key": "attribute.water-meter", "value": "Vandmåler" },
+      { "key": "attribute.capacity-litres", "value": "Kapacitet (liter)" },
+      { "key": "attribute.filter", "value": "Filter" },
+      { "key": "attribute.size", "value": "Størrelse" },
+      { "key": "attribute.material-of-jugs", "value": "Kandemateriale" },
+      { "key": "attribute.weighs-up", "value": "Vejer op til" },
+      { "key": "attribute.capacity-liters", "value": "Kapacitet (liter)" },
+      { "key": "attribute.number-of-layers", "value": "Antal lag" },
+      { "key": "attribute.novelty", "value": "Nyhed" },
+      { "key": "attribute.cutting-steel", "value": "Skærende stål" },
+      { "key": "attribute.number-of-settings", "value": "Antal indstillinger" },
+      { "key": "attribute.with-wi-fi", "value": "Med Wi-Fi" },
+      { "key": "attribute.grid", "value": "Rist" },
+      { "key": "attribute.swivelling-filter", "value": "Svingbart filter" },
+      { "key": "attribute.step-of-speed", "value": "Hastighedstrin" },
+      { "key": "attribute.pre-ground-beans", "value": "Formalede bønner" },
+      {
+        "key": "attribute.built-in-coffee-grinder",
+        "value": "Indbygget kaffekværn"
+      },
+      { "key": "attribute.milk-container", "value": "Mælkebeholder" },
+      { "key": "attribute.cup-height", "value": "Kophøjde" },
+      { "key": "attribute.capacity-kilo", "value": "Kapacitet (kilo)" },
+      { "key": "attribute.hot-water-function", "value": "Varmt vand funktion" },
+      { "key": "attribute.number-of-bowls", "value": "Antal skåle" },
+      { "key": "attribute.cup-of-light", "value": "Koplys" },
+      {
+        "key": "attribute.number-of-heating-elements",
+        "value": "Antal varmeelementer"
+      },
+      { "key": "attribute.capacity", "value": "Kapacitet" },
+      {
+        "key": "attribute.adjustable-tea-water-outlet",
+        "value": "Justerbart tevandsudløb"
+      },
+      { "key": "attribute.stove-type", "value": "Komfurtype" },
+      { "key": "attribute.dropback", "value": "Droppback" },
+      { "key": "attribute.variant", "value": "Variant" },
+      {
+        "key": "attribute.adjusting-coffee-strength",
+        "value": "Justering af kaffestyrke"
+      },
+      {
+        "key": "attribute.capacity-bread-dough",
+        "value": "Kapacitet (brøddej)"
+      },
+      { "key": "attribute.2-cups-per-brew", "value": "2 kopper pr. brygning" },
+      { "key": "attribute.without-bag", "value": "Poseløs" },
+      { "key": "attribute.cordless", "value": "Ledningsfri" },
+      { "key": "attribute.dust-emission-class", "value": "Støvudslipsklasse" },
+      { "key": "attribute.sound-level", "value": "Lydniveau" },
+      { "key": "attribute.grain", "value": "Korn" },
+      {
+        "key": "attribute.bridge-combs-capacity",
+        "value": "Bryggekammer kapacitet"
+      },
+      { "key": "attribute.brew-time", "value": "Bryggetid" },
+      { "key": "attribute.effect-grill", "value": "Effekt (grill)" },
+      { "key": "attribute.number-of-hotplates", "value": "Antal kogeplader" },
+      { "key": "attribute.ingredients", "value": "Ingredienser" },
+      { "key": "attribute.stair-sensor", "value": "Trappesencor" },
+      { "key": "attribute.anti-frost-function", "value": "AntiFrost-funktion" },
+      { "key": "attribute.burning-time", "value": "Brændetid" },
+      { "key": "attribute.auto-program", "value": "Autoprogram" },
+      { "key": "attribute.knife-length", "value": "Knivlængde" },
+      { "key": "attribute.crumb-tray", "value": "Krummebakke" },
+      {
+        "key": "attribute.dry-and-liquid-food-items",
+        "value": "Tørre og væskeholdige fødevarer"
+      },
+      { "key": "attribute.number-of-discs", "value": "Antal skiver" },
+      { "key": "attribute.diameter", "value": "Diameter" },
+      { "key": "attribute.keep-warm-function", "value": "Hold varm funktion" },
+      { "key": "attribute.defrost-function", "value": "Optøningsfunktion" },
+      { "key": "attribute.number-of-withdrawals", "value": "Antal udtag" },
+      {
+        "key": "attribute.main-burner-effect",
+        "value": "Hovedbrænderens effekt"
+      },
+      {
+        "key": "attribute.rotisserie-included",
+        "value": "Rotisserie medfølger"
+      },
+      {
+        "key": "attribute.gas-regulator-included",
+        "value": "Gasregulator medfølger"
+      },
+      { "key": "attribute.stand", "value": "Stativ" },
+      { "key": "attribute.wheel", "value": "Hjul" },
+      { "key": "attribute.heat-source", "value": "Varmekilde" },
+      { "key": "attribute.pyrolysis", "value": "Pyrolyse funktion" },
+      { "key": "attribute.cord-length", "value": "Ledningslængde" },
+      { "key": "attribute.milk-foam-type", "value": "Mælkeskummer type" },
+      { "key": "attribute.suitable-for", "value": "Passer til" },
+      {
+        "key": "attribute.general-special-news",
+        "value": "Generel - Speciel (nyhed)"
+      },
+      { "key": "attribute.cooling-capacity", "value": "Kølekapacitet" },
+      { "key": "attribute.container", "value": "Beholder" },
+      { "key": "attribute.container-water", "value": "Beholder (vand)" },
+      { "key": "attribute.number-of-bottles", "value": "Antal flasker" },
+      { "key": "attribute.grill", "value": "Grill" },
+      { "key": "attribute.base-color", "value": "Farve" },
+      { "key": "attribute.guarantee", "value": "Garanti" },
+      { "key": "attribute.works-on-induction", "value": "Virker på induktion" },
+      { "key": "attribute.ecological", "value": "Økologisk" },
+      { "key": "attribute.switch", "value": "Afbryder" },
+      { "key": "attribute.charging-time", "value": "Ladetid" },
+      { "key": "attribute.cord-winder", "value": "Ledningsoprul" },
+      { "key": "attribute.ventilated-cooling", "value": "Ventileret køl" },
+      { "key": "attribute.maximum-range", "value": "Maksimal rækkevidde" },
+      { "key": "attribute.filter-type", "value": "Filtertype" },
+      {
+        "key": "attribute.emptying-indicator",
+        "value": "Indikator for tømning"
+      },
+      {
+        "key": "attribute.dust-collection-on-carpet",
+        "value": "Støvopsamling på tæpper"
+      },
+      { "key": "attribute.electrical", "value": "Elektrisk" },
+      {
+        "key": "attribute.dust-collection-on-hard-floor",
+        "value": "Støvopsamling på hårde gulve"
+      },
+      {
+        "key": "attribute.adjustable-suction-capacity",
+        "value": "Justerbar sugestyrke"
+      },
+      { "key": "attribute.bowl-material", "value": "Skålmateriale" },
+      {
+        "key": "attribute.general-special-new",
+        "value": "Generel - Speciel (nyhed)"
+      },
+      { "key": "attribute.reversible-door", "value": "Vendbar dør" },
+      { "key": "attribute.oven-volume", "value": "Ovnvolumen" },
+      {
+        "key": "attribute.secondary-furnace-volume",
+        "value": "Sekundær ovn (volumen)"
+      },
+      { "key": "attribute.microwave-safe", "value": "Tåler mikrobølgeovn" },
+      { "key": "attribute.grinder-knives", "value": "Kvarnknivar" },
+      { "key": "attribute.milling-knives", "value": "Kvarnknivar" },
+      {
+        "key": "attribute.smarthome-compatible",
+        "value": "SmartHome kompatibel"
+      },
+      {
+        "key": "attribute.electronic-temperature-control",
+        "value": "Elektronisk temperaturstyring"
+      },
+      {
+        "key": "attribute.independent-compressor",
+        "value": "Selvstændig kompressor"
+      },
+      { "key": "attribute.number-of-zones", "value": "Antal zoner" },
+      { "key": "attribute.clearance", "value": "Frihøjde" },
+      { "key": "attribute.program", "value": "Program" },
+      { "key": "attribute.power-consumption", "value": "Energiforbrug" },
+      { "key": "attribute.outlet-hole-plug", "value": "Prop til udløbsstuds" },
+      {
+        "key": "attribute.systematic-navigation",
+        "value": "Systematisk navigation"
+      },
+      { "key": "attribute.softclose-function", "value": "SoftClose-funktion" },
+      {
+        "key": "attribute.annual-energy-consumption",
+        "value": "Årligt energiforbrug"
+      },
+      { "key": "attribute.brewing-temperature", "value": "Bryggetemperatur" },
+      { "key": "attribute.timer-function", "value": "Timerfunktion" },
+      { "key": "attribute.power-grill", "value": "Effekt (grill)" },
+      { "key": "attribute.drip-stop", "value": "Drypstop" },
+      {
+        "key": "attribute.location-of-the-freezer",
+        "value": "Fryserens placering"
+      },
+      { "key": "attribute.freezing-capacity", "value": "Fryse kapacitet" },
+      {
+        "key": "attribute.dust-collection-on-hard-floors",
+        "value": "Støvopsamling på hårdt gulv"
+      },
+      { "key": "attribute.circulator", "value": "Cirkulator" },
+      { "key": "attribute.disc-holder", "value": "Skive holder" },
+      { "key": "attribute.roasting", "value": "Ristning" },
+      { "key": "attribute.automatic-defrost", "value": "Automatisk defrost" },
+      { "key": "attribute.removable-handle", "value": "Aftageligt håndtag" },
+      { "key": "attribute.power-hot-air", "value": "Effekt (varmluft)" },
+      {
+        "key": "attribute.pizzacrisp-function",
+        "value": "Pizza / Crisp funktion"
+      },
+      {
+        "key": "attribute.illuminated-control-button",
+        "value": "Oplyst kontrolknap"
+      },
+      { "key": "attribute.handle-on-the-bowl", "value": "Håndtag på skål" },
+      { "key": "attribute.bread-sizes", "value": "Brødstørrelser" },
+      { "key": "attribute.pump-type", "value": "Pumpetype" },
+      {
+        "key": "attribute.top-steered-propeller",
+        "value": "Topbetjent propel"
+      },
+      {
+        "key": "attribute.revolutions-per-minute",
+        "value": "Omdrejninger pr. minut"
+      },
+      { "key": "attribute.smartphone-app", "value": "Smartphone app" },
+      { "key": "attribute.capacity-cups", "value": "Kapacitet (kopper)" },
+      { "key": "attribute.length-thread", "value": "Længde (tråd)" },
+      { "key": "attribute.quantity", "value": "Antal" },
+      {
+        "key": "attribute.adjustment-zero-setting-tare",
+        "value": "Justering / Nulstilling (tare)"
+      },
+      { "key": "attribute.beer-glass-type", "value": "Ølglas type" },
+      {
+        "key": "attribute.emptying-indication",
+        "value": "Indikator for tømning"
+      },
+      { "key": "attribute.trend", "value": "Trend" },
+      {
+        "key": "attribute.temperature-maintenance",
+        "value": "Temperaturfastholdelse"
+      },
+      { "key": "attribute.google-assistant", "value": "Google Assistant" },
+      {
+        "key": "attribute.main-burner-power",
+        "value": "Hovedbrænderens effekt"
+      },
+      { "key": "attribute.materials", "value": "Material" },
+      {
+        "key": "attribute.side-burner-power",
+        "value": "Effekt af sidebrænder"
+      },
+      { "key": "attribute.tag-position", "value": "Tag position" },
+      { "key": "attribute.settings", "value": "Indstillinger" },
+      { "key": "attribute.threshold", "value": "Dørtrin" },
+      { "key": "attribute.plate-size", "value": "Tallerken størrelse" },
+      { "key": "attribute.bean-type", "value": "Bønnetype" },
+      { "key": "attribute.area", "value": "Areal" },
+      { "key": "attribute.intensity", "value": "Intensitet" },
+      { "key": "attribute.fan-system", "value": "Emhætte system" },
+      {
+        "key": "attribute.dough-scraper-included",
+        "value": "Dejskraber medfølger"
+      },
+      {
+        "key": "attribute.top-controlled-propeller",
+        "value": "Topbetjent propel"
+      },
+      { "key": "attribute.dishwasher-safe", "value": "Tåler opvaskemaskine" },
+      { "key": "attribute.workspace", "value": "Arbejdsareal" },
+      {
+        "key": "attribute.voice-control-with",
+        "value": "Stemmestyring kompatibel med"
+      },
+      {
+        "key": "attribute.descaling-indicator",
+        "value": "Afkalkningsindikator"
+      },
+      { "key": "attribute.slow-juicer-type", "value": "Slowjuicer type" },
+      {
+        "key": "attribute.pulp-container-capacity",
+        "value": "Frugtkød beholder kapacitet"
+      },
+      {
+        "key": "attribute.virtual-wall-function",
+        "value": "Virtuel vægfunktion"
+      },
+      { "key": "attribute.stove", "value": "Komfur" },
+      {
+        "key": "attribute.number-of-side-burners",
+        "value": "Antal sidebrændere"
+      },
+      { "key": "attribute.clean-more-rooms", "value": "Rengør flere rum" },
+      { "key": "attribute.amazon-alexa", "value": "Amazon Alexa" },
+      { "key": "attribute.freezer-location", "value": "Placering af fryseren" },
+      { "key": "attribute.number-of-outlets", "value": "Antal udtag" },
+      { "key": "attribute.handle", "value": "Håndtag" },
+      {
+        "key": "attribute.compressor-size",
+        "value": "Kompressorens størrelse"
+      },
+      { "key": "attribute.skimming-function", "value": "Afskumningsfunktion" },
+      { "key": "attribute.reduction-gear", "value": "Reduktionsgear" },
+      { "key": "attribute.dough-hook-included", "value": "Dejkorg medfølger" },
+      { "key": "attribute.weight", "value": "Vægt" },
+      { "key": "attribute.capacity-kettle", "value": "Kapacitet (kedel)" },
+      { "key": "attribute.mixer-knife", "value": "Mixerkniv" },
+      {
+        "key": "attribute.variable-roasting-degree",
+        "value": "Variabel ristningsgrad"
+      },
+      { "key": "attribute.storage-function", "value": "Opbevaringsfunktion" },
+      {
+        "key": "attribute.apple-homekit-yes-no",
+        "value": "Apple Homekit (Ja / Nej)"
+      },
+      { "key": "attribute.prayer-type", "value": "BÃ¶ntyp" },
+      { "key": "attribute.schedule-programming", "value": "Skemalægning" },
+      {
+        "key": "attribute.width-adjustable-coffee-outlet",
+        "value": "Bredd-justerbart kaffeutlopp"
+      },
+      { "key": "attribute.recommended-size", "value": "Anbefalet størrelse" },
+      { "key": "attribute.capsule-type", "value": "Kapseltype" },
+      { "key": "attribute.steam-cooking", "value": "Dampkogning" },
+      {
+        "key": "attribute.variable-degree-of-roasting",
+        "value": "Variabel ristningsgrad"
+      },
+      {
+        "key": "attribute.setting-the-thickness-of-the-foam-milk-frother",
+        "value": "Indstilling af tykkelse af skum (mælkeskummer)"
+      },
+      { "key": "attribute.fan-type", "value": "Emhætte-model" },
+      { "key": "attribute.operating-time", "value": "Driftstid" },
+      {
+        "key": "attribute.coffee-grounds-container-capacity",
+        "value": "Kaffegrumsbeholderens kapacitet"
+      },
+      {
+        "key": "attribute.adjustment-of-coffee-strength",
+        "value": "Justering af kaffestyrke"
+      },
+      { "key": "attribute.stop-function", "value": "Stop funktion" },
+      {
+        "key": "attribute.adjustable-height-level-on-grill-grate",
+        "value": "Justerbar højdeniveau på grillrist"
+      },
+      { "key": "attribute.pump-pressure-bar", "value": "Pumpetryk (bar)" },
+      {
+        "key": "attribute.water-hardness-programming",
+        "value": "Programmering af vandhårdhed"
+      },
+      { "key": "attribute.steam-function", "value": "Dampfunktion" },
+      { "key": "attribute.infrared-burner", "value": "Infrarød brænder" },
+      { "key": "attribute.fuel", "value": "Brændstof" },
+      { "key": "attribute.automatic-upload", "value": "Automatisk opladning" },
+      { "key": "attribute.number-of-servings", "value": "Antal portioner" },
+      { "key": "attribute.manufacturing-time", "value": "Fremstillingstid" },
+      {
+        "key": "attribute.built-in-lighting-in-the-machine-headhousing",
+        "value": "Indbygget lys i maskinhovedet"
+      },
+      {
+        "key": "attribute.integrated-thermometer",
+        "value": "Integreret termometer"
+      },
+      { "key": "attribute.swivel-filter", "value": "Svingbart filter" },
+      { "key": "attribute.number-of-cups", "value": "Antal kopper" },
+      { "key": "attribute.ifttt-compatible", "value": "IFTTT-kompatibel" },
+      {
+        "key": "attribute.plug-for-outlet-hole",
+        "value": "Prop til udløbsstuds"
+      },
+      {
+        "key": "attribute.inside-measurement-in-the-bowl",
+        "value": "Indvendig mål i skål"
+      },
+      { "key": "attribute.milk-frother-type", "value": "Mælkeskummer type" },
+      {
+        "key": "attribute.upload-and-continue",
+        "value": "Genoplad og fortsæt"
+      },
+      { "key": "attribute.apple-homekit", "value": "Apple Homekit" },
+      { "key": "attribute.wet-mop", "value": "Vådmoppe" },
+      {
+        "key": "attribute.brewing-chamber-capacity",
+        "value": "Bryggekammer kapacitet"
+      },
+      { "key": "attribute.rotating-plate", "value": "Roterende tallerken" },
+      { "key": "attribute.sound-level-db", "value": "Lydniveau (dB)" },
+      { "key": "attribute.brewing-time", "value": "Bryggetid" },
+      {
+        "key": "attribute.amazon-alexa-yesno",
+        "value": "Amazon Alexa (Ja / Nej)"
+      },
+      {
+        "key": "attribute.smart-home-compatible",
+        "value": "SmartHome kompatibel"
+      },
+      { "key": "attribute.delayed-start", "value": "Forsinket start" },
+      { "key": "attribute.investment", "value": "Placering" },
+      { "key": "attribute.keep-cold-function", "value": "Hold kold funktion" },
+      { "key": "attribute.thickness", "value": "Tykkelse" },
+      { "key": "attribute.scratch-resistant", "value": "Ridsefast" },
+      {
+        "key": "attribute.internal-dimension-of-the-bowl",
+        "value": "Indvendig mål i skål"
+      },
+      { "key": "attribute.warranty", "value": "Garanti" },
+      { "key": "attribute.accuracy", "value": "Nøjagtighed" },
+      { "key": "attribute.container-beans", "value": "Beholder (bønner)" },
+      {
+        "key": "attribute.automatic-cleaning-program",
+        "value": "Automatisk renseprogram"
+      },
+      { "key": "attribute.display", "value": "Display" },
+      { "key": "attribute.cup-warmer", "value": "Kopvarmer" },
+      { "key": "attribute.bpa-free", "value": "BPA-fri" },
+      { "key": "attribute.grill-type", "value": "Grilltype" },
+      { "key": "attribute.coffee-grinder-type", "value": "Kaffekværn type" },
+      {
+        "key": "attribute.espresso-machine-type",
+        "value": "Espressomaskine type"
+      },
+      { "key": "attribute.gas-consumption", "value": "Gasforbrug" },
+      { "key": "attribute.hinge", "value": "Dørhængsling" },
+      { "key": "attribute.grill-surface", "value": "Grillareal" },
+      { "key": "attribute.side-burner", "value": "Sidebrændere" },
+      { "key": "attribute.child-protection", "value": "Børnesikring" },
+      { "key": "attribute.with-wifi", "value": "Med Wi-Fi" },
+      { "key": "attribute.model", "value": "Model" },
+      {
+        "key": "attribute.self-contained-compressor",
+        "value": "Selvstændig kompressor"
+      },
+      {
+        "key": "attribute.side-burner-effect",
+        "value": "Effekt af sidebrænder"
+      },
+      { "key": "attribute.hot-air", "value": "Varmluft" },
+      { "key": "attribute.cable-length", "value": "Kabellængde" },
+      { "key": "attribute.container-capacity", "value": "Beholderkapacitet" },
+      {
+        "key": "attribute.removable-water-tank",
+        "value": "Aftagelige vandtank"
+      },
+      {
+        "key": "attribute.the-lift-button-is-on",
+        "value": "Lift-knap sidder på:"
+      },
+      { "key": "attribute.test-winner", "value": "Testvinder" },
+      { "key": "attribute.number-of-burners", "value": "Antal brændere" },
+      {
+        "key": "attribute.number-of-gas-cartridges",
+        "value": "Antal gaspatroner"
+      },
+      {
+        "key": "attribute.programming-water-hardness",
+        "value": "Programmering af vandhårdhed"
+      },
+      { "key": "attribute.material-on-jugs", "value": "Kandemateriale" },
+      { "key": "attribute.self-cleaning", "value": "Selvrens" },
+      {
+        "key": "attribute.google-assistant-yes-no",
+        "value": "Google Assistant (Ja / Nej)"
+      },
+      { "key": "attribute.bowl-size", "value": "Skålstørrelse" },
+      { "key": "attribute.turbotorque-button", "value": "Turbo/momentknap" },
+      { "key": "attribute.lighting", "value": "Belysning" },
+      {
+        "key": "attribute.included-accessories",
+        "value": "Inkluderet tilbehør"
+      },
+      { "key": "attribute.automatic-ignition", "value": "Automatisk tænding" },
+      { "key": "attribute.capacity-copper", "value": "Kapacitet (kopper)" },
+      { "key": "attribute.side-table", "value": "Sidebord" },
+      {
+        "key": "attribute.general-gift-ideas",
+        "value": ".Generel - gaveideer"
+      },
+      { "key": "attribute.type-of-electrical-connector", "value": "Stiktype" },
+      { "key": "attribute.blade-length", "value": "Bladlængde" },
+      { "key": "attribute.temperature", "value": "Temperatur" },
+      {
+        "key": "attribute.capacity-cookie-dough",
+        "value": "Kapacitet (kagedej)"
+      },
+      { "key": "attribute.number", "value": "Antal" },
+      { "key": "attribute.cup-light", "value": "Koplys" },
+      {
+        "key": "attribute.built-in-lighting-in-the-machines-headcasing",
+        "value": "Indbygget belysning i maskinens hoved"
+      },
+      { "key": "attribute.power-micro", "value": "Effekt (micro)" },
+      {
+        "key": "attribute.setting-the-temperature-milk-frother",
+        "value": "Indstilling af temperatur (mælkeskummer)"
+      },
+      { "key": "attribute.battery-type", "value": "Batteritype" },
+      { "key": "attribute.ifttt", "value": "IFTTT" },
+      {
+        "key": "attribute.adjustable-thermostat",
+        "value": "Justerbar termostat"
+      },
+      { "key": "attribute.working-height", "value": "Arbejdshøjde" },
+      {
+        "key": "attribute.direct-water-connection",
+        "value": "Direkte vandtilslutning"
+      },
+      {
+        "key": "attribute.removable-drip-cover",
+        "value": "Aftagelig drypbakke"
+      },
+      { "key": "attribute.antifreeze-function", "value": "Antifrost-funktion" },
+      { "key": "attribute.capacity-flour", "value": "Kapacitet (mel)" },
+      { "key": "attribute.removable-drip-guard", "value": "Drypbakke" },
+      { "key": "attribute.material", "value": "Materiale" },
+      { "key": "attribute.speed-steps", "value": "Hastighedstrin" },
+      {
+        "key": "attribute.adjustment-zeroing-tare",
+        "value": "Justering / Nulstilling (tare)"
+      },
+      { "key": "attribute.non-stick-coating", "value": "Non-stick belægning" },
+      { "key": "attribute.charging-time-hours", "value": "Opladningstid" },
+      { "key": "attribute.number-of-capsules", "value": "Antal kapsler" },
+      { "key": "attribute.aroma-control", "value": "Aromakontrol" },
+      { "key": "attribute.blender-type", "value": "Blendertype" },
+      { "key": "EnergyLabelImage", "value": "Energimærke" },
+      { "key": "vendor_item_number", "value": "Leverandørens artikelnummer" },
+      { "key": "barcode", "value": "EAN nummer" },
+      { "key": "orderReview.giftCard", "value": "Gavekort" },
+      { "key": "giftCard.used", "value": "Aktivt gavekort" },
+      { "key": "voucher.removed", "value": "Fjernet" },
+      { "key": "voucher.added", "value": "Tilføjet" },
+      {
+        "key": "cart.removedItems",
+        "value": "Følgende varer er ikke på lager og er blevet fjernet fra din kurv"
+      },
+      { "key": "width", "value": "Bredde" },
+      { "key": "height", "value": "Højde" },
+      { "key": "length", "value": "Længde" },
+      { "key": "weight", "value": "Vægt" },
+      { "key": "capacity_milliliter", "value": "Kapacitet" },
+      { "key": "depth", "value": "Dybde" },
+      { "key": "previous", "value": "Forrige" },
+      { "key": "next", "value": "Næste" },
+      { "key": "button.back", "value": "Tilbage" },
+      { "key": "button.CustomerService", "value": "Kundeservice" },
+      { "key": "gas.options", "value": "Valg af gastilslutning" },
+      { "key": "giftCard.addedToCart", "value": "Gavekort lagt i kurven" },
+      {
+        "key": "giftCard.removedToCart",
+        "value": "Gavekort fjernet fra kurven"
+      },
+      { "key": "brand", "value": "Mærke" },
+      { "key": "sku", "value": "Artikelnummer" },
+      { "key": "showAll", "value": "Vis alle" },
+      { "key": "showMore", "value": "Se mere" },
+      { "key": "hours", "value": "Time" },
+      { "key": "minutes", "value": "Minut" },
+      { "key": "search.noResults", "value": "Intet søgeresultat fundet" },
+      { "key": "search.showAllResults", "value": "Se alle resultater" },
+      { "key": "products", "value": "Produkter" },
+      { "key": "giftcard.leftBalance", "value": "Resterende saldo" },
+      { "key": "searchResults", "value": "Søgeresultat" },
+      {
+        "key": "error.unableAddUpdateGiftcard",
+        "value": "Ugyldigt gavekort | Tjek venligst koden eller prøv en anden."
+      },
+      {
+        "key": "error.missingDiscount",
+        "value": "Rabatkode mangler | Angiv venligst en gyldig rabatkode"
+      },
+      {
+        "key": "error.conditionDiscount",
+        "value": "Rabatkoden opfylder ikke betingelserne | Kontroller venligst betingelserne for koden."
+      },
+      {
+        "key": "error.conditionDiscountExternal",
+        "value": "Rabatkoden kan ikke anvendes | Gælder ikke for denne ordre."
+      },
+      {
+        "key": "error.expiredDiscount",
+        "value": "Rabatkoden er udløbet | Anvend venligst en gyldig kode."
+      },
+      {
+        "key": "error.alreadyAddedDiscount",
+        "value": "Rabatkoden er allerede tilføjet | Du kan ikke anvende den samme kode igen."
+      },
+      {
+        "key": "user.UpdatedInformation",
+        "value": "Færdig | Dine oplysninger er blevet opdateret."
+      },
+      {
+        "key": "account.passwordResetted",
+        "value": "Passwordet er blevet nulstillet"
+      },
+      { "key": "account.enterNewPassword", "value": "Indtast nyt password" },
+      { "key": "account.newPassword", "value": "Nyt password" },
+      { "key": "account.confirmNewPassword", "value": "Bekræft nyt password" },
+      { "key": "account.resetPasword", "value": "Nulstil password" },
+      { "key": "account.resetPaswordHere", "value": "Nulstil password her" },
+      {
+        "key": "account.passwordLinkExpired",
+        "value": "Linket til passwordnulstilling er udløbet"
+      },
+      {
+        "key": "account.passwordsDoesNotMatch",
+        "value": "Indtastede passwords er forskellige"
+      },
+      {
+        "key": "account.passwordMinLength",
+        "value": "Dit password skal indeholde mindst 10 tegn."
+      },
+      {
+        "key": "account.passwordRequirements",
+        "value": "Passwordet skal have mindst ét ciffer."
+      },
+      {
+        "key": "account.verifyAccountEmail",
+        "value": "Bekræft din konto ved at klikke på \"Bekræft nu\" i den e-mail, der er sendt til din e-mailadresse."
+      },
+      { "key": "account.confirmEmail", "value": "Bekræft e-mail" },
+      { "key": "account.createAccount", "value": "Bliv medlem" },
+      { "key": "account.firstName", "value": "Fornavn" },
+      { "key": "account.lastName", "value": "Efternavn" },
+      { "key": "account.address", "value": "Adresse" },
+      { "key": "account.postalCode", "value": "Postnummer" },
+      { "key": "account.city", "value": "By" },
+      { "key": "account.phoneNumber", "value": "Telefonnummer" },
+      { "key": "account.password", "value": "Password" },
+      { "key": "account.confirmPassword", "value": "Bekræft password" },
+      {
+        "key": "account.sendVerifyEmailAgain",
+        "value": "Send bekræftelsesmail igen"
+      },
+      {
+        "key": "account.alreadyHaveAccount",
+        "value": "Har du allerede en konto?"
+      },
+      {
+        "key": "account.userAlreadyExists",
+        "value": "Kontoen findes allerede"
+      },
+      {
+        "key": "account.forgotYourPassword",
+        "value": "Har du glemt dit password?"
+      },
+      { "key": "account.resetPasswordHere", "value": "Nulstil her" },
+      { "key": "account.haveNoAccount", "value": "Har du ikke en konto?" },
+      {
+        "key": "account.rememberYourAccount",
+        "value": "Kan du huske dit password?"
+      },
+      { "key": "account.resetPassword", "value": "Nulstil password" },
+      { "key": "account.email", "value": "E-mail" },
+      { "key": "account.forgotPassword", "value": "Glemt password" },
+      {
+        "key": "account.controllPasswordEmail",
+        "value": "Tjek din e-mail for genoprettelseslinket. Hvis du ikke har modtaget det"
+      },
+      { "key": "account.resendEmailAgain", "value": "Send bekræftelsen igen" },
+      { "key": "account.userNotFound", "value": "Brugeren blev ikke fundet" },
+      {
+        "key": "account.emailNotVerified",
+        "value": "E-mailadressen er ikke verificeret"
+      },
+      { "key": "account.wrongPassword", "value": "Forkert password" },
+      { "key": "carousel.recommendedForYou", "value": "Anbefalet til dig" },
+      { "key": "myFavorites", "value": "Mine favoritter" },
+      { "key": "account.communicationPreferences", "value": "Meddelelser" },
+      {
+        "key": "account.acceptEmailNotifications",
+        "value": "Jeg accepterer e-mail"
+      },
+      {
+        "key": "account.acceptSmsNotifications",
+        "value": "Jeg accepterer SMS"
+      },
+      {
+        "key": "account.acceptPostalNotifications",
+        "value": "Jeg accepterer post"
+      },
+      {
+        "key": "error.giftCardInsufficientBalance",
+        "value": "Utilstrækkelig saldo | Det anmodede gavekort har utilstrækkelig saldo."
+      },
+      { "key": "FULLY_DELIVERED", "value": "Leveret" },
+      { "key": "PARTIALLY_DELIVERED", "value": "Delvist leveret" },
+      { "key": "PARTIALLY_COMPENSATED", "value": "Delvist kompenseret " },
+      { "key": "FULLY_COMPENSATED", "value": "Kompenseret" },
+      { "key": "CANCELLED", "value": "Annulleret" },
+      { "key": "FULLY_REFUNDED", "value": "Refunderet" },
+      { "key": "PLACED", "value": "Ordren er placeret" },
+      {
+        "key": "newsletter.SignupSuccess",
+        "value": "Tak, fordi du har tilmeldt dig vores nyhedsbrev!"
+      },
+      { "key": "stock.estimatedInStock", "value": "Forventes på lager" },
+      { "key": "stock.deliveryDate", "value": "Leveringstid" },
+      { "key": "stock.soonInStock", "value": "Snart på lager" },
+      {
+        "key": "stock.notInStore",
+        "value": "Ikke tilgængelig Göteborgsbutiken"
+      },
+      { "key": "stock.inStore", "value": "Tilgængelig i butikken i Göteborg" },
+      { "key": "cart.TotalSavings", "value": "Du sparer" },
+      { "key": "cart.youSave", "value": "Tilbehør - Spar" },
+      { "key": "PARTIALLY_REFUNDED", "value": "Delvist refunderet" },
+      { "key": "order.seeOrder", "value": "Se ordre" },
+      { "key": "order.orderNumber", "value": "Ordrenummer" },
+      { "key": "order.orderDate", "value": "Dato for bestilling" },
+      { "key": "order", "value": "Ordre" },
+      { "key": "order.sentOrders", "value": "Afsendte ordrer" },
+      {
+        "key": "order.sentOrdersDescription",
+        "value": "Her kan du finde en historik over dine gennemførte ordrer."
+      },
+      {
+        "key": "order.noRegisteredOrders",
+        "value": "Ingen registrerede ordrer"
+      },
+      { "key": "order.showMore", "value": "Se mere" },
+      { "key": "order.showLess", "value": "Vis mindre" },
+      { "key": "order.myOrders", "value": "Mine ordrer" },
+      {
+        "key": "order.orderHistoryDescription",
+        "value": "Her kan du se en oversigt over dine ordrer."
+      },
+      { "key": "order.registeredOrders", "value": "Registrerede ordrer" },
+      {
+        "key": "order.registeredOrdersDescription",
+        "value": "Her kan du gennemgå detaljerne for dine igangværende ordrer."
+      },
+      { "key": "order.Track", "value": "Tracking" },
+      { "key": "order.deliveryAddress", "value": "Leveringsadresse" },
+      { "key": "order.invoiceAddress", "value": "Adresse på faktura" },
+      { "key": "order.delivery", "value": "Levering" },
+      { "key": "product.expired", "value": "Udgået" },
+      { "key": "page.blog", "value": "Blog" },
+      { "key": "product.campaign", "value": "Kampagne" },
+      { "key": "consent.acceptPrivacy", "value": "Jeg accepterer" },
+      { "key": "consent.privacyPolicy", "value": "Privatlivspolitik" },
+      { "key": "consentLink.privacyPolicy", "value": "Privatlivspolitik" },
+      {
+        "key": "search.Placeholder",
+        "value": "Søg efter produkt, mærke, kategori"
+      },
+      { "key": "attributes.tags", "value": "Tags" },
+      { "key": "tag.bast-i-test", "value": "Bedst i test" },
+      { "key": "tag.nyhet", "value": "Nyheder" },
+      { "key": "deleteAccount", "value": "Slet konto" },
+      {
+        "key": "account.areYouSure",
+        "value": "Er du sikker på, at du vil slette din konto?"
+      },
+      {
+        "key": "account.deleteAccountDescription",
+        "value": "Når du sletter din konto, slettes alle dine data permanent, og du vil ikke længere have adgang til dine tidligere ordrer eller gemte præferencer. Dette kan ikke fortrydes."
+      },
+      { "key": "cancel", "value": "Annuller" },
+      { "key": "confirmText", "value": "SLET" },
+      { "key": "account.myCredentials", "value": "Mine oplysninger" },
+      {
+        "key": "account.myCredentialsDescription",
+        "value": "Her kan du se og rette dine oplysninger"
+      },
+      { "key": "account.saveChanges", "value": "Gem oplysninger" },
+      { "key": "sidebar.overview", "value": "Oversigt" },
+      { "key": "sidebar.myOrders", "value": "Mine ordrer" },
+      { "key": "sidebar.myFavorites", "value": "Mine favoritter" },
+      { "key": "sidebar.myInformation", "value": "Mine oplysninger" },
+      { "key": "signout", "value": "Log ud" },
+      {
+        "key": "deleteaccount.confirmText",
+        "value": "Skriv 'SLET' for at bekræfte"
+      },
+      { "key": "popular.categories", "value": "Populære kategorier" },
+      { "key": "bundle.savings", "value": "Pakketilbud - spar" },
+      { "key": "bundle.offer", "value": "Pakke-tilbud" },
+      { "key": "order.referenceNumber", "value": "Referencenummer" },
+      { "key": "inventory", "value": "Tilgængelig på lager" },
+      { "key": "gbg-store", "value": "Göteborgsbutiken" },
+      { "key": "concept-store", "value": "Concept Store" },
+      { "key": "online-store", "value": "Online" },
+      { "key": "cart.free", "value": "Helt gratis" },
+      { "key": "cart.shippingCalculatedCart", "value": "Beregnet ved kassen" },
+      { "key": "products.completeWith", "value": "Andre købte også" },
+      { "key": "menu.AllCategory", "value": "Alt i" },
+      { "key": "social.followUs", "value": "Følg os" },
+      { "key": "sort.standard", "value": "Bestsellere" },
+      { "key": "sort.priceLowToHigh", "value": "Pris: Lav til Høj" },
+      { "key": "sort.priceHighToLow", "value": "Pris: Høj til Lav" },
+      { "key": "sort.ratingLowToHigh", "value": "Bedømmelse: Lav til Høj" },
+      { "key": "sort.ratingHighToLow", "value": "Bedømmelse: Høj til Lav" },
+      { "key": "sort.discountLowToHigh", "value": "Rabat: Lav til Høj" },
+      { "key": "sort.discountHighToLow", "value": "Rabat: Høj til Lav" },
+      { "key": "sort", "value": "Sorter" },
+      { "key": "see.products", "value": "Se produkter" },
+      {
+        "key": "attribute.hot-maintenance-function",
+        "value": "Hold varm-funktion"
+      },
+      { "key": "attribute.stopping-function", "value": "Stop-funktion" },
+      { "key": "attribute.thawing-function", "value": "Optøningsfunktion" },
+      { "key": "attribute.crumbs", "value": "Krummebakke" },
+      {
+        "key": "attribute.warm-maintenance-function",
+        "value": "Keep warm-funktion"
+      },
+      {
+        "key": "attribute.can-withstand-machine-wash",
+        "value": "Tåler opvaskemaskine"
+      },
+      { "key": "attribute.leaf-length", "value": "Bladlængde" },
+      { "key": "search.PlaceholderBrand", "value": "Søg efter mærke" },
+      {
+        "key": "account.inactiveVerifyLinkDescription",
+        "value": "Ups! Det ser ud til, at dette link ikke længere er gyldigt. Har du allerede en konto?"
+      },
+      {
+        "key": "account.inactiveVerifyLink",
+        "value": "Linket er ikke længere aktuelt."
+      },
+      {
+        "key": "error.discountBadRequest",
+        "value": "Ugyldigt format | Kun bogstaver, tal, understreger og bindestreger er tilladt."
+      },
+      { "key": "form.enterFirstname", "value": "Indtast dit fornavn" },
+      { "key": "form.enterEmail", "value": "Indtast din e-mailadresse" },
+      { "key": "filter.clear", "value": "Ryd filtre" },
+      { "key": "myPages", "value": "Mine sider" },
+      { "key": "myAccount", "value": "Min konto" },
+      { "key": "account.logout", "value": "Log ud" },
+      { "key": "is.not.available", "value": "er ikke længere tilgængelig" },
+      { "key": "newsletter.SignupButton", "value": "Tilmeld" },
+      {
+        "key": "checkoutPage.dialogNotAllowed",
+        "value": "Kan ikke leveres til valgte postnummer"
+      },
+      {
+        "key": "checkoutPage.dialogNotAllowedCTA",
+        "value": "Skift postnummer"
+      },
+      {
+        "key": "checkoutPage.dialogNotAllowedCustomerService",
+        "value": "Kontakt kundeservice"
+      },
+      { "key": "attribute.temperature-holding", "value": "Temperaturhållning" },
+      {
+        "key": "attribute.secondary-oven-volume",
+        "value": "Volume sekundær ovn"
+      },
+      { "key": "attribute.gas-option", "value": "Gastilslutning" },
+      { "key": "attribute.grill-area", "value": "Grillareal" },
+      { "key": "attribute.cup-heater", "value": "Kopvarmer" },
+      {
+        "key": "attribute.2-cups-per-brewing",
+        "value": "2 kopper pr. brygning"
+      },
+      { "key": "attribute.milk-containers", "value": "Mælkebeholder" },
+      {
+        "key": "attribute.programming-of-water-hardness",
+        "value": "Programmering af vandets hårdhed"
+      },
+      { "key": "attribute.seal-beans", "value": "Forseglede bønner" },
+      { "key": "attribute.capacity-liter", "value": "Kapacitet (liter)" },
+      {
+        "key": "attribute.coffee-sump-containers-capacity",
+        "value": "Kaffegrumsbeholder"
+      },
+      { "key": "attributes.all_categories", "value": "Kategori" },
+      { "key": "didYouMean", "value": "Mente du?" },
+      { "key": "qty.unit", "value": "stk." },
+      { "key": "youResultsFor", "value": "Dit resultat for" },
+      { "key": "attribute.number-of-shelves", "value": "Antal hylder" },
+      {
+        "key": "attribute.material-of-shelves",
+        "value": "Materiale på hylder"
+      },
+      {
+        "key": "attribute.number-of-temperature-zones",
+        "value": "Antal temperaturzoner"
+      },
+      { "key": "attribute.uv-protection", "value": "UV-beskyttet glasdør" },
+      { "key": "attribute.placement-type", "value": "Placeringstyp" },
+      { "key": "attribute.lockable", "value": "Låsbar" },
+      { "key": "attribute.door-hinge", "value": "Hängning" },
+      { "key": "attribute.app-controled", "value": "Appstyrd" },
+      {
+        "key": "checkoutPage.dialogNotApprovedTerms",
+        "value": "Du skal acceptere vilkårene og betingelserne for at afslutte købet."
+      },
+      {
+        "key": "checkoutPage.ApproveTerms",
+        "value": "Jeg accepterer de generelle betingelser"
+      },
+      { "key": "reversible-door", "value": "Vendbar dør" },
+      {
+        "key": "placement-type",
+        "value": "Placeringstype (Fritstående / integreret)"
+      },
+      { "key": "lockable", "value": "Låsbart" },
+      { "key": "door-hinge", "value": "Hængsling (Højre / Venstre)" },
+      { "key": "app-controled", "value": "Appstyret (Ja / Nej)" },
+      { "key": "campaign.PriceIsValidTo", "value": "Prisen er gyldig i" }
+    ]
+  },
+  "no": {
+    "items": [
+      { "key": "account.login", "value": "Logg inn" },
+      { "key": "search", "value": "Søk" },
+      { "key": "cart", "value": "Handlekurv" },
+      { "key": "favorites", "value": "Favoritter" },
+      { "key": "voucher.promoCode", "value": "Rabattkode" },
+      {
+        "key": "voucher.terms",
+        "value": "En rabattkode kan ikke kombineres med andre rabatter."
+      },
+      { "key": "giftCard.giftCard", "value": "Gavekort" },
+      { "key": "orderReview.subtotal", "value": "Delsum" },
+      { "key": "orderReview.shipping", "value": "Fraktkostnad" },
+      { "key": "orderReview.total", "value": "Totalt beløp inkl. mva" },
+      { "key": "orderReview.totalVat", "value": "Hvorav mva" },
+      { "key": "voucher.apply", "value": "Aktiver" },
+      { "key": "giftCard.code", "value": "Skriv inn gavekortkode" },
+      { "key": "giftCard.pin", "value": "Skriv inn pinkode" },
+      { "key": "voucher.placeholder", "value": "Skriv inn kode" },
+      { "key": "voucher.used", "value": "Aktiv rabattkode" },
+      { "key": "orderReview.discount", "value": "Rabatt" },
+      {
+        "key": "giftCard.maxDisplayAmount",
+        "value": "Det er ikke mulig å bestille gavekort på mer enn 10 000 kr. Hvis du ønsker å bestille for et høyere beløp"
+      },
+      { "key": "giftCard.loadAmount", "value": "Gavekortets beløp" },
+      { "key": "giftCard.sendDate", "value": "Utsendelsesdato" },
+      { "key": "giftCard.receivingEmail", "value": "Mottakers e-post" },
+      { "key": "giftCard.emailText", "value": "Personlig melding" },
+      { "key": "quantity", "value": "Antall" },
+      { "key": "giftCard.receivingMsisdn", "value": "Mottakers telefonnummer" },
+      { "key": "cart.addToCart", "value": "Legg i handlekurv" },
+      { "key": "giftCard.typeEmail", "value": "Via e-post" },
+      { "key": "giftCard.typeSms", "value": "Via SMS" },
+      { "key": "giftCard.typePhysical", "value": "Fysisk" },
+      { "key": "giftCard.requiredError", "value": "Vennligst angi et beløp." },
+      {
+        "key": "giftCard.dateRequiredError",
+        "value": "Vennligst velg en dato."
+      },
+      {
+        "key": "giftCard.receivingMsisdnError",
+        "value": "Oppgi et gyldig telefonnummer (uten mellomrom eller bindestrek og kan ikke starte med 0)."
+      },
+      {
+        "key": "giftCard.SmsTextMax",
+        "value": "SMS-teksten kan ikke overstige 200 tegn."
+      },
+      {
+        "key": "giftCard.emailTextMax",
+        "value": "E-postmeldingen kan ikke overstige 1000 tegn."
+      },
+      {
+        "key": "email.validation",
+        "value": "Vennligst oppgi en gyldig e-postadresse."
+      },
+      { "key": "requiredfield", "value": "Obligatorisk felt" },
+      { "key": "confirmation.ThankYou", "value": "Takk for din bestilling!" },
+      {
+        "key": "confirmation.ThankYouText",
+        "value": "Vi begynner umiddelbart å behandle bestillingen din"
+      },
+      { "key": "confirmation.ContinueShopping", "value": "Fortsett å handle" },
+      { "key": "confirmation.Ordernumber", "value": "Ordrenummer" },
+      { "key": "confirmation.Products", "value": "Produkter" },
+      { "key": "confirmation.OrderTotal", "value": "Totalsum" },
+      { "key": "confirmation.Discount", "value": "Rabatt" },
+      { "key": "confirmation.Shipping", "value": "Frakt" },
+      { "key": "cart.Empty", "value": "Handlekurven din er tom" },
+      { "key": "cart.EmptyHeader", "value": "Trenger du inspirasjon?" },
+      {
+        "key": "cart.EmptyText",
+        "value": "Oppdag de siste nyhetene nedenfor."
+      },
+      { "key": "cart.EmptyBtn", "value": "Shop nyheter" },
+      { "key": "cart.goToCheckout", "value": "Gå til kassen" },
+      { "key": "cart.freeShippingText", "value": "Fri frakt!" },
+      { "key": "cart.freeShippingYouHave", "value": "Du har" },
+      { "key": "cart.freeShippingLeft", "value": "igjen til fri frakt" },
+      { "key": "checkout.YourCart", "value": "Din handlekurv" },
+      { "key": "checkout", "value": "Kasse" },
+      {
+        "key": "error.discountIsInactive",
+        "value": "Vi kunne ikke finne en gyldig rabattkode"
+      },
+      { "key": "giftCard.physicalFirstName", "value": "Mottakers fornavn" },
+      { "key": "giftCard.physicalLastName", "value": "Mottakers etternavn" },
+      { "key": "giftCard.physicalStreetAddress", "value": "Mottakers adresse" },
+      { "key": "giftCard.physicalPostalCode", "value": "Mottakers postnummer" },
+      { "key": "giftCard.physicalCity", "value": "Mottakers by" },
+      { "key": "giftCard.physicalCountry", "value": "Mottakers land" },
+      { "key": "attributes.color", "value": "Farge" },
+      { "key": "attributes.brand", "value": "Varemerke" },
+      { "key": "facet.Price", "value": "Pris" },
+      { "key": "materials", "value": "Materiale" },
+      { "key": "availability", "value": "Tilgjengelighet" },
+      { "key": "categories", "value": "Kategorier" },
+      { "key": "IN_STOCK", "value": "På lager" },
+      { "key": "brands", "value": "Varemerke" },
+      { "key": "OUT_OF_STOCK", "value": "Ikke på lager" },
+      { "key": "attributes.size", "value": "Størrelse" },
+      { "key": "readMore", "value": "Vis mer" },
+      { "key": "readLess", "value": "Vis mindre" },
+      { "key": "compare", "value": "Sammenlign" },
+      { "key": "stopCompare", "value": "Stopp sammenligning" },
+      { "key": "productComparison", "value": "Produktsammenligning" },
+      { "key": "clickForCompare", "value": "Klikk for sammenligning" },
+      {
+        "key": "youCanCompareMaximum3Products",
+        "value": "Du kan sammenligne maksimalt 3 produkter om gangen"
+      },
+      { "key": "colorFamilies", "value": "Farge" },
+      {
+        "key": "cart.ProductWasAddedToCart",
+        "value": "Produktet ble lagt i handlekurven"
+      },
+      {
+        "key": "carousel.frequentlyBoughtTogether",
+        "value": "Andre kjøpte også"
+      },
+      { "key": "carousel.recommendedProducts", "value": "Anbefalte produkter" },
+      {
+        "key": "carousel.othersYouMayLike",
+        "value": "Du vil kanskje også like"
+      },
+      { "key": "price", "value": "Pris" },
+      { "key": "product.moreInfoAbout", "value": "Mer informasjon om" },
+      { "key": "product.specification", "value": "Spesifikasjon" },
+      { "key": "product.description", "value": "Beskrivelse" },
+      { "key": "product.reviews", "value": "Anmeldelser" },
+      { "key": "monitor.isOos", "value": "Overvåk produkt" },
+      {
+        "key": "monitor.dialog.description",
+        "value": "Vi informerer deg når produktet er tilbake på lager."
+      },
+      { "key": "monitor.notifyMe", "value": "Overvåk nå" },
+      { "key": "form.email.input", "value": "Din e-postadresse" },
+      { "key": "stock.outOfStock", "value": "Utsolgt" },
+      { "key": "stock.watchOOS", "value": "Overvåk" },
+      { "key": "stock.lowInStock", "value": "Få på lager" },
+      {
+        "key": "monitor.saved",
+        "value": "Du er nå registrert. Vi gir beskjed så snart produktet er på lager igjen."
+      },
+      { "key": "attributes.serie", "value": "Serie" },
+      { "key": "category", "value": "Kategori" },
+      { "key": "attribute.category", "value": "Kategori" },
+      {
+        "key": "attribute.vendor-item-no",
+        "value": "Leverandørens artikkelnummer"
+      },
+      { "key": "attribute.barcode", "value": "Strekkode" },
+      { "key": "attribute.color", "value": "Farge" },
+      { "key": "attribute.effect", "value": "Effekt" },
+      { "key": "attribute.energy-class", "value": "Energiklasse" },
+      { "key": "attribute.feature-lines", "value": "Funksjonslinjer" },
+      {
+        "key": "attribute.automatic-shutdown",
+        "value": "Automatisk avstenging"
+      },
+      {
+        "key": "attribute.adjustable-temperature",
+        "value": "Justerbar temperatur"
+      },
+      { "key": "attribute.water-meter", "value": "Vannmåler" },
+      { "key": "attribute.capacity-litres", "value": "Kapasitet (liter)" },
+      { "key": "attribute.filter", "value": "Filter" },
+      { "key": "attribute.size", "value": "Størrelse" },
+      { "key": "attribute.material-of-jugs", "value": "Materiale på kanner" },
+      { "key": "attribute.weighs-up", "value": "Veier opptil" },
+      { "key": "attribute.capacity-liters", "value": "Kapasitet (liter)" },
+      { "key": "attribute.number-of-layers", "value": "Antall lag" },
+      { "key": "attribute.novelty", "value": "Nyhet" },
+      { "key": "attribute.cutting-steel", "value": "Skjærende stål" },
+      {
+        "key": "attribute.number-of-settings",
+        "value": "Antall innstillinger"
+      },
+      { "key": "attribute.with-wi-fi", "value": "Med wifi" },
+      { "key": "attribute.grid", "value": "Rist" },
+      { "key": "attribute.swivelling-filter", "value": "Svingbart filter" },
+      { "key": "attribute.step-of-speed", "value": "Hastighetstrinn" },
+      { "key": "attribute.pre-ground-beans", "value": "Forhåndsmalte bønner" },
+      {
+        "key": "attribute.built-in-coffee-grinder",
+        "value": "Innebygd kaffekvern"
+      },
+      { "key": "attribute.milk-container", "value": "Melkebeholder" },
+      { "key": "attribute.cup-height", "value": "Kopphøyde" },
+      { "key": "attribute.capacity-kilo", "value": "Kapasitet (kilo)" },
+      { "key": "attribute.hot-water-function", "value": "Varmtvannsfunksjon" },
+      { "key": "attribute.number-of-bowls", "value": "Antall skåler" },
+      { "key": "attribute.cup-of-light", "value": "Kopplys" },
+      {
+        "key": "attribute.number-of-heating-elements",
+        "value": "Antall varmeelementer"
+      },
+      { "key": "attribute.capacity", "value": "Kapasitet" },
+      {
+        "key": "attribute.adjustable-tea-water-outlet",
+        "value": "Justerbart tevannsutløp"
+      },
+      { "key": "attribute.stove-type", "value": "Komfyrtype" },
+      { "key": "attribute.dropback", "value": "Dryppbrett" },
+      { "key": "attribute.variant", "value": "Variant" },
+      {
+        "key": "attribute.adjusting-coffee-strength",
+        "value": "Justering av kaffestyrke"
+      },
+      {
+        "key": "attribute.capacity-bread-dough",
+        "value": "Kapasitet (brøddeig)"
+      },
+      { "key": "attribute.2-cups-per-brew", "value": "2 kopper per brygging" },
+      { "key": "attribute.without-bag", "value": "Uten pose" },
+      { "key": "attribute.cordless", "value": "Ledningsfri" },
+      { "key": "attribute.dust-emission-class", "value": "Støvutslippsklasse" },
+      { "key": "attribute.sound-level", "value": "Lydnivå" },
+      { "key": "attribute.grain", "value": "Korn" },
+      {
+        "key": "attribute.bridge-combs-capacity",
+        "value": "Kapasitet bryggekammer"
+      },
+      { "key": "attribute.brew-time", "value": "Bryggetid" },
+      { "key": "attribute.effect-grill", "value": "Effekt (grill)" },
+      { "key": "attribute.number-of-hotplates", "value": "Antall kokeplater" },
+      { "key": "attribute.ingredients", "value": "Ingredienser" },
+      { "key": "attribute.stair-sensor", "value": "Trappesensor" },
+      { "key": "attribute.anti-frost-function", "value": "Antifrost-funksjon" },
+      { "key": "attribute.burning-time", "value": "Brenntid" },
+      { "key": "attribute.auto-program", "value": "Autoprogram" },
+      { "key": "attribute.knife-length", "value": "Knivlengde" },
+      { "key": "attribute.crumb-tray", "value": "Smulebrett" },
+      {
+        "key": "attribute.dry-and-liquid-food-items",
+        "value": "Tørre og flytende matvarer"
+      },
+      { "key": "attribute.number-of-discs", "value": "Antall skiver" },
+      { "key": "attribute.diameter", "value": "Diameter" },
+      { "key": "attribute.keep-warm-function", "value": "Hold varm-funksjon" },
+      { "key": "attribute.defrost-function", "value": "Opptiningsfunksjon" },
+      { "key": "attribute.number-of-withdrawals", "value": "Antall uttak" },
+      { "key": "attribute.main-burner-effect", "value": "Hovedbrennereffekt" },
+      {
+        "key": "attribute.rotisserie-included",
+        "value": "Rotisseri inkludert"
+      },
+      {
+        "key": "attribute.gas-regulator-included",
+        "value": "Gassregulator inkludert"
+      },
+      { "key": "attribute.stand", "value": "Stativ" },
+      { "key": "attribute.wheel", "value": "Hjul" },
+      { "key": "attribute.heat-source", "value": "Varmekilde" },
+      { "key": "attribute.pyrolysis", "value": "Pyrolyse" },
+      { "key": "attribute.cord-length", "value": "Ledningslengde" },
+      { "key": "attribute.milk-foam-type", "value": "Melkeskummertype" },
+      { "key": "attribute.suitable-for", "value": "Passer til" },
+      {
+        "key": "attribute.general-special-news",
+        "value": "Generell - Spesiell (nyhet)"
+      },
+      { "key": "attribute.cooling-capacity", "value": "Kjølekapasitet" },
+      { "key": "attribute.container", "value": "Beholder" },
+      { "key": "attribute.container-water", "value": "Beholder (vann)" },
+      { "key": "attribute.number-of-bottles", "value": "Antall flasker" },
+      { "key": "attribute.grill", "value": "Grill" },
+      { "key": "attribute.base-color", "value": "Grunnfarge" },
+      { "key": "attribute.guarantee", "value": "Garanti" },
+      {
+        "key": "attribute.works-on-induction",
+        "value": "Fungerer på induksjon"
+      },
+      { "key": "attribute.ecological", "value": "Økologisk" },
+      { "key": "attribute.switch", "value": "Strømbryter" },
+      { "key": "attribute.charging-time", "value": "Ladetid" },
+      { "key": "attribute.cord-winder", "value": "Ledningsoppruller" },
+      { "key": "attribute.ventilated-cooling", "value": "Ventilert kjøling" },
+      { "key": "attribute.maximum-range", "value": "Maksimal rekkevidde" },
+      { "key": "attribute.filter-type", "value": "Filtertype" },
+      {
+        "key": "attribute.emptying-indicator",
+        "value": "Indikator for tømming"
+      },
+      {
+        "key": "attribute.dust-collection-on-carpet",
+        "value": "Støvoppsamling på teppe"
+      },
+      { "key": "attribute.electrical", "value": "Elektrisk" },
+      {
+        "key": "attribute.dust-collection-on-hard-floor",
+        "value": "Støvoppsamling på harde gulv"
+      },
+      {
+        "key": "attribute.adjustable-suction-capacity",
+        "value": "Justerbar sugeevne"
+      },
+      { "key": "attribute.bowl-material", "value": "Skålmateriale" },
+      {
+        "key": "attribute.general-special-new",
+        "value": "Generell - Spesiell (nyhet)"
+      },
+      { "key": "attribute.reversible-door", "value": "Vendbar dør" },
+      { "key": "attribute.oven-volume", "value": "Ovnsvolum" },
+      {
+        "key": "attribute.secondary-furnace-volume",
+        "value": "Sekundærovn (volum)"
+      },
+      { "key": "attribute.microwave-safe", "value": "Tåler mikrobølgeovn" },
+      { "key": "attribute.grinder-knives", "value": "Kvernkniver" },
+      { "key": "attribute.milling-knives", "value": "Kvernkniver" },
+      {
+        "key": "attribute.smarthome-compatible",
+        "value": "SmartHome-kompatibel"
+      },
+      {
+        "key": "attribute.electronic-temperature-control",
+        "value": "Elektronisk temperaturkontroll"
+      },
+      {
+        "key": "attribute.independent-compressor",
+        "value": "Uavhengig kompressor"
+      },
+      { "key": "attribute.number-of-zones", "value": "Antall soner" },
+      { "key": "attribute.clearance", "value": "Sluttsalg" },
+      { "key": "attribute.program", "value": "Program" },
+      { "key": "attribute.power-consumption", "value": "Energiforbruk" },
+      { "key": "attribute.outlet-hole-plug", "value": "Propp til avløpshull" },
+      {
+        "key": "attribute.systematic-navigation",
+        "value": "Systematisk navigering"
+      },
+      { "key": "attribute.softclose-function", "value": "SoftClose-funksjon" },
+      {
+        "key": "attribute.annual-energy-consumption",
+        "value": "Årlig energiforbruk"
+      },
+      { "key": "attribute.brewing-temperature", "value": "Bryggetemperatur" },
+      { "key": "attribute.timer-function", "value": "Timerfunksjon" },
+      { "key": "attribute.power-grill", "value": "Effekt (grill)" },
+      { "key": "attribute.drip-stop", "value": "Dryppstopp" },
+      {
+        "key": "attribute.location-of-the-freezer",
+        "value": "Fryserens plassering"
+      },
+      { "key": "attribute.freezing-capacity", "value": "Frysekapasitet" },
+      {
+        "key": "attribute.dust-collection-on-hard-floors",
+        "value": "Støvoppsamling på harde gulv"
+      },
+      { "key": "attribute.circulator", "value": "Sirkulator" },
+      { "key": "attribute.disc-holder", "value": "Skiveholder" },
+      { "key": "attribute.roasting", "value": "Risting" },
+      { "key": "attribute.automatic-defrost", "value": "Automatisk avriming" },
+      { "key": "attribute.removable-handle", "value": "Avtagbart håndtak" },
+      { "key": "attribute.power-hot-air", "value": "Effekt (varmluft)" },
+      {
+        "key": "attribute.pizzacrisp-function",
+        "value": "Pizza-/Crisp-funksjon"
+      },
+      {
+        "key": "attribute.illuminated-control-button",
+        "value": "Belyst kontrollknapp"
+      },
+      { "key": "attribute.handle-on-the-bowl", "value": "Håndtak på skålen" },
+      { "key": "attribute.bread-sizes", "value": "Brødstørrelser" },
+      { "key": "attribute.pump-type", "value": "Pumpetype" },
+      {
+        "key": "attribute.top-steered-propeller",
+        "value": "Toppstyrt propell"
+      },
+      {
+        "key": "attribute.revolutions-per-minute",
+        "value": "Omdreininger per minutt"
+      },
+      { "key": "attribute.smartphone-app", "value": "Smarttelefon-app" },
+      { "key": "attribute.capacity-cups", "value": "Kapasitet (kopper)" },
+      { "key": "attribute.length-thread", "value": "Lengde (tråd)" },
+      { "key": "attribute.quantity", "value": "Antall" },
+      {
+        "key": "attribute.adjustment-zero-setting-tare",
+        "value": "Justering/nullstilling (tare)"
+      },
+      { "key": "attribute.beer-glass-type", "value": "Type ølglass" },
+      {
+        "key": "attribute.emptying-indication",
+        "value": "Indikator for tømming"
+      },
+      { "key": "attribute.trend", "value": "Trend" },
+      {
+        "key": "attribute.temperature-maintenance",
+        "value": "Temperaturholding"
+      },
+      { "key": "attribute.google-assistant", "value": "Google Assistant" },
+      { "key": "attribute.main-burner-power", "value": "Effekt hovedbrenner" },
+      { "key": "attribute.materials", "value": "Materiale" },
+      { "key": "attribute.side-burner-power", "value": "Effekt sidebrenner" },
+      { "key": "attribute.tag-position", "value": "Tag-posisjon" },
+      { "key": "attribute.settings", "value": "Innstillinger" },
+      { "key": "attribute.threshold", "value": "Terskel" },
+      { "key": "attribute.plate-size", "value": "Tallerkenstørrelse" },
+      { "key": "attribute.bean-type", "value": "Bønnetype" },
+      { "key": "attribute.area", "value": "Areal" },
+      { "key": "attribute.intensity", "value": "Intensitet" },
+      { "key": "attribute.fan-system", "value": "Viftesystem" },
+      {
+        "key": "attribute.dough-scraper-included",
+        "value": "Deigskrape medfølger"
+      },
+      {
+        "key": "attribute.top-controlled-propeller",
+        "value": "Toppstyrt propell"
+      },
+      { "key": "attribute.dishwasher-safe", "value": "Tåler oppvaskmaskin" },
+      { "key": "attribute.workspace", "value": "Arbeidsflate" },
+      { "key": "attribute.voice-control-with", "value": "Talekontroll med" },
+      {
+        "key": "attribute.descaling-indicator",
+        "value": "Avkalkingsindikator"
+      },
+      { "key": "attribute.slow-juicer-type", "value": "Slowjuicer-type" },
+      {
+        "key": "attribute.pulp-container-capacity",
+        "value": "Kapasitet fruktkjøttbeholder"
+      },
+      {
+        "key": "attribute.virtual-wall-function",
+        "value": "Virtuell veggfunksjon"
+      },
+      { "key": "attribute.stove", "value": "Komfyr" },
+      {
+        "key": "attribute.number-of-side-burners",
+        "value": "Antall sidebrennere"
+      },
+      { "key": "attribute.clean-more-rooms", "value": "Rengjør flere rom" },
+      { "key": "attribute.amazon-alexa", "value": "Amazon Alexa" },
+      { "key": "attribute.freezer-location", "value": "Fryserens plassering" },
+      { "key": "attribute.number-of-outlets", "value": "Antall uttak" },
+      { "key": "attribute.handle", "value": "Håndtak" },
+      { "key": "attribute.compressor-size", "value": "Kompressorstørrelse" },
+      { "key": "attribute.skimming-function", "value": "Avskummingsfunksjon" },
+      { "key": "attribute.reduction-gear", "value": "Reduksjonsgir" },
+      { "key": "attribute.dough-hook-included", "value": "Deigkrok medfølger" },
+      { "key": "attribute.weight", "value": "Vekt" },
+      { "key": "attribute.capacity-kettle", "value": "Kapasitet (vannkoker)" },
+      { "key": "attribute.mixer-knife", "value": "Mikserkniv" },
+      {
+        "key": "attribute.variable-roasting-degree",
+        "value": "Variabel brenningsgrad"
+      },
+      { "key": "attribute.storage-function", "value": "Oppbevaringsfunksjon" },
+      {
+        "key": "attribute.apple-homekit-yes-no",
+        "value": "Apple Homekit (ja/nei)"
+      },
+      { "key": "attribute.prayer-type", "value": "Bønnetype" },
+      { "key": "attribute.schedule-programming", "value": "Tidsplanlegging" },
+      {
+        "key": "attribute.width-adjustable-coffee-outlet",
+        "value": "Breddejusterbart kaffeutløp"
+      },
+      { "key": "attribute.recommended-size", "value": "Anbefalt størrelse" },
+      { "key": "attribute.capsule-type", "value": "Kapseltype" },
+      { "key": "attribute.steam-cooking", "value": "Dampkoking" },
+      {
+        "key": "attribute.variable-degree-of-roasting",
+        "value": "Variabel brenningsgrad"
+      },
+      {
+        "key": "attribute.setting-the-thickness-of-the-foam-milk-frother",
+        "value": "Innstilling av skumtykkelse (melkeskummer)"
+      },
+      { "key": "attribute.fan-type", "value": "Viftetype" },
+      { "key": "attribute.operating-time", "value": "Driftstid" },
+      {
+        "key": "attribute.coffee-grounds-container-capacity",
+        "value": "Kapasitet kaffegrutbeholder"
+      },
+      {
+        "key": "attribute.adjustment-of-coffee-strength",
+        "value": "Justering av kaffestyrke"
+      },
+      { "key": "attribute.stop-function", "value": "Stoppfunksjon" },
+      {
+        "key": "attribute.adjustable-height-level-on-grill-grate",
+        "value": "Justerbart høydenivå på grillrist"
+      },
+      { "key": "attribute.pump-pressure-bar", "value": "Pumpetrykk (bar)" },
+      {
+        "key": "attribute.water-hardness-programming",
+        "value": "Programmering av vannhardhet"
+      },
+      { "key": "attribute.steam-function", "value": "Dampfunksjon" },
+      { "key": "attribute.infrared-burner", "value": "Infrarød brenner" },
+      { "key": "attribute.fuel", "value": "Brennstoff" },
+      { "key": "attribute.automatic-upload", "value": "Automatisk opplasting" },
+      { "key": "attribute.number-of-servings", "value": "Antall porsjoner" },
+      { "key": "attribute.manufacturing-time", "value": "Produksjonstid" },
+      {
+        "key": "attribute.built-in-lighting-in-the-machine-headhousing",
+        "value": "Innebygd belysning i maskinens hode/hus"
+      },
+      {
+        "key": "attribute.integrated-thermometer",
+        "value": "Integrert termometer"
+      },
+      { "key": "attribute.swivel-filter", "value": "Svingbart filter" },
+      { "key": "attribute.number-of-cups", "value": "Antall kopper" },
+      { "key": "attribute.ifttt-compatible", "value": "IFTTT-kompatibel" },
+      {
+        "key": "attribute.plug-for-outlet-hole",
+        "value": "Propp til avløpshull"
+      },
+      {
+        "key": "attribute.inside-measurement-in-the-bowl",
+        "value": "Innvendig mål i skålen"
+      },
+      { "key": "attribute.milk-frother-type", "value": "Melkeskummertype" },
+      {
+        "key": "attribute.upload-and-continue",
+        "value": "Last opp og fortsett"
+      },
+      { "key": "attribute.apple-homekit", "value": "Apple Homekit" },
+      { "key": "attribute.wet-mop", "value": "Våtmopp" },
+      {
+        "key": "attribute.brewing-chamber-capacity",
+        "value": "Kapasitet bryggekammer"
+      },
+      { "key": "attribute.rotating-plate", "value": "Roterende tallerken" },
+      { "key": "attribute.sound-level-db", "value": "Lydnivå (dB)" },
+      { "key": "attribute.brewing-time", "value": "Bryggetid" },
+      {
+        "key": "attribute.amazon-alexa-yesno",
+        "value": "Amazon Alexa (ja/nei)"
+      },
+      {
+        "key": "attribute.smart-home-compatible",
+        "value": "SmartHome-kompatibel"
+      },
+      { "key": "attribute.delayed-start", "value": "Forsinket start" },
+      { "key": "attribute.investment", "value": "Plassering" },
+      { "key": "attribute.keep-cold-function", "value": "Hold kald-funksjon" },
+      { "key": "attribute.thickness", "value": "Tykkelse" },
+      { "key": "attribute.scratch-resistant", "value": "Ripebestandig" },
+      {
+        "key": "attribute.internal-dimension-of-the-bowl",
+        "value": "Innvendig mål i skålen"
+      },
+      { "key": "attribute.warranty", "value": "Garanti" },
+      { "key": "attribute.accuracy", "value": "Nøyaktighet" },
+      { "key": "attribute.container-beans", "value": "Beholder (bønner)" },
+      {
+        "key": "attribute.automatic-cleaning-program",
+        "value": "Automatisk rengjøringsprogram"
+      },
+      { "key": "attribute.display", "value": "Display" },
+      { "key": "attribute.cup-warmer", "value": "Koppvarmer" },
+      { "key": "attribute.bpa-free", "value": "BPA-fri" },
+      { "key": "attribute.grill-type", "value": "Grilltype" },
+      { "key": "attribute.coffee-grinder-type", "value": "Type kaffekvern" },
+      {
+        "key": "attribute.espresso-machine-type",
+        "value": "Type espressomaskin"
+      },
+      { "key": "attribute.gas-consumption", "value": "Gassforbruk" },
+      { "key": "attribute.hinge", "value": "Hengsel" },
+      { "key": "attribute.grill-surface", "value": "Grillflate" },
+      { "key": "attribute.side-burner", "value": "Sidebrenner" },
+      { "key": "attribute.child-protection", "value": "Barnesikring" },
+      { "key": "attribute.with-wifi", "value": "Med wifi" },
+      { "key": "attribute.model", "value": "Modell" },
+      {
+        "key": "attribute.self-contained-compressor",
+        "value": "Uavhengig kompressor"
+      },
+      { "key": "attribute.side-burner-effect", "value": "Effekt sidebrenner" },
+      { "key": "attribute.hot-air", "value": "Varmluft" },
+      { "key": "attribute.cable-length", "value": "Kabellengde" },
+      { "key": "attribute.container-capacity", "value": "Beholderkapasitet" },
+      { "key": "attribute.removable-water-tank", "value": "Avtagbar vanntank" },
+      {
+        "key": "attribute.the-lift-button-is-on",
+        "value": "Løfteknappen sitter på"
+      },
+      { "key": "attribute.test-winner", "value": "Testvinner" },
+      { "key": "attribute.number-of-burners", "value": "Antall brennere" },
+      {
+        "key": "attribute.number-of-gas-cartridges",
+        "value": "Antall gasspatroner"
+      },
+      {
+        "key": "attribute.programming-water-hardness",
+        "value": "Programmering av vannhardhet"
+      },
+      { "key": "attribute.material-on-jugs", "value": "Materiale på kanner" },
+      { "key": "attribute.self-cleaning", "value": "Selvrensende" },
+      {
+        "key": "attribute.google-assistant-yes-no",
+        "value": "Google Assistant (ja/nei)"
+      },
+      { "key": "attribute.bowl-size", "value": "Skålstørrelse" },
+      { "key": "attribute.turbotorque-button", "value": "Turbo-/momentknapp" },
+      { "key": "attribute.lighting", "value": "Belysning" },
+      {
+        "key": "attribute.included-accessories",
+        "value": "Inkludert tilbehør"
+      },
+      { "key": "attribute.automatic-ignition", "value": "Automatisk tenning" },
+      { "key": "attribute.capacity-copper", "value": "Kapasitet (kopper)" },
+      { "key": "attribute.side-table", "value": "Sidebord" },
+      { "key": "attribute.general-gift-ideas", "value": "Generelle gaveidéer" },
+      {
+        "key": "attribute.type-of-electrical-connector",
+        "value": "Type elektrisk kontakt"
+      },
+      { "key": "attribute.blade-length", "value": "Bladlengde" },
+      { "key": "attribute.temperature", "value": "Temperatur" },
+      {
+        "key": "attribute.capacity-cookie-dough",
+        "value": "Kapasitet (kakedeig)"
+      },
+      { "key": "attribute.number", "value": "Antall" },
+      { "key": "attribute.cup-light", "value": "Kopplys" },
+      {
+        "key": "attribute.built-in-lighting-in-the-machines-headcasing",
+        "value": "Innebygd belysning i maskinens hode/hus"
+      },
+      { "key": "attribute.power-micro", "value": "Effekt (mikrobølgeovn)" },
+      {
+        "key": "attribute.setting-the-temperature-milk-frother",
+        "value": "Innstilling av temperatur (melkeskummer)"
+      },
+      { "key": "attribute.battery-type", "value": "Batteritype" },
+      { "key": "attribute.ifttt", "value": "IFTTT" },
+      {
+        "key": "attribute.adjustable-thermostat",
+        "value": "Justerbar termostat"
+      },
+      { "key": "attribute.working-height", "value": "Arbeidshøyde" },
+      {
+        "key": "attribute.direct-water-connection",
+        "value": "Direkte vanntilkobling"
+      },
+      {
+        "key": "attribute.removable-drip-cover",
+        "value": "Avtagbar dryppbeskyttelse"
+      },
+      { "key": "attribute.antifreeze-function", "value": "Antifrostfunksjon" },
+      { "key": "attribute.capacity-flour", "value": "Kapasitet (mel)" },
+      {
+        "key": "attribute.removable-drip-guard",
+        "value": "Avtagbar dryppbeskyttelse"
+      },
+      { "key": "attribute.material", "value": "Materiale" },
+      { "key": "attribute.speed-steps", "value": "Hastighetstrinn" },
+      {
+        "key": "attribute.adjustment-zeroing-tare",
+        "value": "Justering/nullstilling (tare)"
+      },
+      { "key": "attribute.non-stick-coating", "value": "Non-stick-belegg" },
+      { "key": "attribute.charging-time-hours", "value": "Ladetid (timer)" },
+      { "key": "attribute.number-of-capsules", "value": "Antall kapsler" },
+      { "key": "attribute.aroma-control", "value": "Aromakontroll" },
+      { "key": "attribute.blender-type", "value": "Blendertype" },
+      { "key": "EnergyLabelImage", "value": "Energimerkeetikett" },
+      { "key": "vendor_item_number", "value": "Leverandørens artikkelnummer" },
+      { "key": "barcode", "value": "Strekkode" },
+      { "key": "orderReview.giftCard", "value": "Gavekort" },
+      { "key": "giftCard.used", "value": "Aktivt gavekort" },
+      { "key": "voucher.removed", "value": "Fjernet" },
+      { "key": "voucher.added", "value": "Lagt til" },
+      {
+        "key": "cart.removedItems",
+        "value": "Følgende artikler er utsolgt og har blitt fjernet fra handlekurven din"
+      },
+      { "key": "width", "value": "Bredde" },
+      { "key": "height", "value": "Høyde" },
+      { "key": "length", "value": "Lengde" },
+      { "key": "weight", "value": "Vekt" },
+      { "key": "capacity_milliliter", "value": "Kapasitet" },
+      { "key": "depth", "value": "Dybde" },
+      { "key": "previous", "value": "Forrige" },
+      { "key": "next", "value": "Neste" },
+      { "key": "button.back", "value": "Tilbake" },
+      { "key": "button.CustomerService", "value": "Kundeservice" },
+      { "key": "gas.options", "value": "Valg av gasstilkobling" },
+      {
+        "key": "giftCard.addedToCart",
+        "value": "Gavekort lagt til i handlekurven"
+      },
+      {
+        "key": "giftCard.removedToCart",
+        "value": "Gavekort fjernet fra handlekurven"
+      },
+      { "key": "brand", "value": "Merke" },
+      { "key": "sku", "value": "Artikkelnummer" },
+      { "key": "showAll", "value": "Vis alle" },
+      { "key": "showMore", "value": "Vis mer" },
+      { "key": "hours", "value": "Time" },
+      { "key": "minutes", "value": "Minutt" },
+      { "key": "search.noResults", "value": "Ingen søkeresultater funnet" },
+      { "key": "search.showAllResults", "value": "Vis alle resultater" },
+      { "key": "products", "value": "Produkter" },
+      { "key": "giftcard.leftBalance", "value": "Gjenværende saldo" },
+      { "key": "searchResults", "value": "Søkeresultater" },
+      {
+        "key": "error.unableAddUpdateGiftcard",
+        "value": "Ugyldig gavekort | Vennligst kontroller koden eller prøv en annen."
+      },
+      {
+        "key": "error.missingDiscount",
+        "value": "Rabattkode mangler | Vennligst oppgi en gyldig rabattkode"
+      },
+      {
+        "key": "error.conditionDiscount",
+        "value": "Rabattkoden oppfyller ikke vilkårene | Sjekk vilkårene for koden."
+      },
+      {
+        "key": "error.conditionDiscountExternal",
+        "value": "Rabattkoden kan ikke brukes | Gjelder ikke for denne bestillingen."
+      },
+      {
+        "key": "error.expiredDiscount",
+        "value": "Rabattkoden har utløpt | Vennligst bruk en gyldig kode."
+      },
+      {
+        "key": "error.alreadyAddedDiscount",
+        "value": "Rabattkoden er allerede lagt til | Du kan ikke bruke samme kode igjen."
+      },
+      {
+        "key": "user.UpdatedInformation",
+        "value": "Ferdig | Dine opplysninger har blitt oppdatert."
+      },
+      {
+        "key": "account.passwordResetted",
+        "value": "Passordet har blitt tilbakestilt"
+      },
+      { "key": "account.enterNewPassword", "value": "Oppgi nytt passord" },
+      { "key": "account.newPassword", "value": "Nytt passord" },
+      { "key": "account.confirmNewPassword", "value": "Bekreft nytt passord" },
+      { "key": "account.resetPasword", "value": "Tilbakestill passord" },
+      {
+        "key": "account.resetPaswordHere",
+        "value": "Tilbakestill passord her"
+      },
+      {
+        "key": "account.passwordLinkExpired",
+        "value": "Passordlenken har utløpt"
+      },
+      {
+        "key": "account.passwordsDoesNotMatch",
+        "value": "Passordene samsvarer ikke"
+      },
+      {
+        "key": "account.passwordMinLength",
+        "value": "Passordet må være minst 10 tegn langt."
+      },
+      {
+        "key": "account.passwordRequirements",
+        "value": "Passordet må inneholde minst ett tall."
+      },
+      {
+        "key": "account.verifyAccountEmail",
+        "value": "Bekreft kontoen din ved å klikke på Verifiser i e-posten som har blitt sendt til din e-postadresse."
+      },
+      { "key": "account.confirmEmail", "value": "Bekreft e-post" },
+      { "key": "account.createAccount", "value": "Bli medlem" },
+      { "key": "account.firstName", "value": "Fornavn" },
+      { "key": "account.lastName", "value": "Etternavn" },
+      { "key": "account.address", "value": "Adresse" },
+      { "key": "account.postalCode", "value": "Postnummer" },
+      { "key": "account.city", "value": "By" },
+      { "key": "account.phoneNumber", "value": "Telefonnummer" },
+      { "key": "account.password", "value": "Passord" },
+      { "key": "account.confirmPassword", "value": "Bekreft passord" },
+      {
+        "key": "account.sendVerifyEmailAgain",
+        "value": "Send verifikasjonsmail igjen"
+      },
+      {
+        "key": "account.alreadyHaveAccount",
+        "value": "Har du allerede en konto?"
+      },
+      {
+        "key": "account.userAlreadyExists",
+        "value": "Kontoen finnes allerede"
+      },
+      { "key": "account.forgotYourPassword", "value": "Glemt passordet ditt?" },
+      { "key": "account.resetPasswordHere", "value": "Tilbakestill her" },
+      { "key": "account.haveNoAccount", "value": "Har du ikke en konto?" },
+      {
+        "key": "account.rememberYourAccount",
+        "value": "Husker du passordet ditt?"
+      },
+      { "key": "account.resetPassword", "value": "Tilbakestill passord" },
+      { "key": "account.email", "value": "E-postadresse" },
+      { "key": "account.forgotPassword", "value": "Glemt passord" },
+      {
+        "key": "account.controllPasswordEmail",
+        "value": "Sjekk e-posten din for tilbakestillingslenken. Hvis du ikke har mottatt den"
+      },
+      { "key": "account.resendEmailAgain", "value": "Send verifisering igjen" },
+      { "key": "account.userNotFound", "value": "Bruker ikke funnet" },
+      {
+        "key": "account.emailNotVerified",
+        "value": "E-postadressen er ikke verifisert"
+      },
+      { "key": "account.wrongPassword", "value": "Feil passord" },
+      { "key": "carousel.recommendedForYou", "value": "Anbefalt for deg" },
+      { "key": "myFavorites", "value": "Mine favoritter" },
+      {
+        "key": "account.communicationPreferences",
+        "value": "Varslingsinnstillinger"
+      },
+      {
+        "key": "account.acceptEmailNotifications",
+        "value": "Jeg godtar e-postvarsler"
+      },
+      {
+        "key": "account.acceptSmsNotifications",
+        "value": "Jeg godtar SMS-varsler"
+      },
+      {
+        "key": "account.acceptPostalNotifications",
+        "value": "Jeg godtar postutsendelser"
+      },
+      {
+        "key": "error.giftCardInsufficientBalance",
+        "value": "Utilstrekkelig saldo | Det valgte gavekortet har for lav saldo."
+      },
+      { "key": "FULLY_DELIVERED", "value": "Levert" },
+      { "key": "PARTIALLY_DELIVERED", "value": "Delvis levert" },
+      { "key": "PARTIALLY_COMPENSATED", "value": "Delvis kompensert" },
+      { "key": "FULLY_COMPENSATED", "value": "Kompensert" },
+      { "key": "CANCELLED", "value": "Avbrutt" },
+      { "key": "FULLY_REFUNDED", "value": "Refundert" },
+      { "key": "PLACED", "value": "Lagt inn" },
+      {
+        "key": "newsletter.SignupSuccess",
+        "value": "Takk for at du har meldt deg på nyhetsbrevet vårt!"
+      },
+      { "key": "stock.estimatedInStock", "value": "Forventet på lager" },
+      { "key": "stock.deliveryDate", "value": "Leveringstid" },
+      { "key": "stock.soonInStock", "value": "Snart på lager" },
+      { "key": "stock.notInStore", "value": "Finnes ikke i Göteborg-butikken" },
+      { "key": "stock.inStore", "value": "Finnes i Göteborg-butikken" },
+      { "key": "cart.TotalSavings", "value": "Du sparer" },
+      { "key": "cart.youSave", "value": "Tilbehør – Spar" },
+      { "key": "PARTIALLY_REFUNDED", "value": "Delvis tilbakebetalt" },
+      { "key": "order.seeOrder", "value": "Se bestilling" },
+      { "key": "order.orderNumber", "value": "Ordrenummer" },
+      { "key": "order.orderDate", "value": "Ordredato" },
+      { "key": "order", "value": "Bestilling" },
+      { "key": "order.sentOrders", "value": "Sendte bestillinger" },
+      {
+        "key": "order.sentOrdersDescription",
+        "value": "Her finner du en historikk over dine avsluttede bestillinger."
+      },
+      {
+        "key": "order.noRegisteredOrders",
+        "value": "Ingen registrerte bestillinger"
+      },
+      { "key": "order.showMore", "value": "Vis flere" },
+      { "key": "order.showLess", "value": "Vis færre" },
+      { "key": "order.myOrders", "value": "Mine bestillinger" },
+      {
+        "key": "order.orderHistoryDescription",
+        "value": "Her kan du se en oversikt over dine bestillinger."
+      },
+      { "key": "order.registeredOrders", "value": "Registrerte bestillinger" },
+      {
+        "key": "order.registeredOrdersDescription",
+        "value": "Her kan du gjennomgå detaljene for dine pågående bestillinger."
+      },
+      { "key": "order.Track", "value": "Spor" },
+      { "key": "order.deliveryAddress", "value": "Leveringsadresse" },
+      { "key": "order.invoiceAddress", "value": "Fakturaadresse" },
+      { "key": "order.delivery", "value": "Levering" },
+      { "key": "product.expired", "value": "Utgått" },
+      { "key": "page.blog", "value": "Blogg" },
+      { "key": "product.campaign", "value": "Kampanje" },
+      { "key": "consent.acceptPrivacy", "value": "Jeg aksepterer" },
+      { "key": "consent.privacyPolicy", "value": "Personvernerklæringen" },
+      { "key": "consentLink.privacyPolicy", "value": "Personvernerklæring" },
+      { "key": "search.Placeholder", "value": "Søk etter produkt" },
+      { "key": "attributes.tags", "value": "Tagger" },
+      { "key": "tag.bast-i-test", "value": "Best i test" },
+      { "key": "tag.nyhet", "value": "Nyheter" },
+      { "key": "deleteAccount", "value": "Slett konto" },
+      {
+        "key": "account.areYouSure",
+        "value": "Er du sikker på at du vil slette kontoen din?"
+      },
+      {
+        "key": "account.deleteAccountDescription",
+        "value": "Ved å slette kontoen din vil all data bli permanent slettet, og du vil ikke lenger ha tilgang til dine tidligere bestillinger eller lagrede preferanser. Dette kan ikke angres."
+      },
+      { "key": "cancel", "value": "Avbryt" },
+      { "key": "confirmText", "value": "SLETT" },
+      { "key": "account.myCredentials", "value": "Mine opplysninger" },
+      {
+        "key": "account.myCredentialsDescription",
+        "value": "Her kan du se og rette opplysningene dine"
+      },
+      { "key": "account.saveChanges", "value": "Lagre opplysninger" },
+      { "key": "sidebar.overview", "value": "Oversikt" },
+      { "key": "sidebar.myOrders", "value": "Mine bestillinger" },
+      { "key": "sidebar.myFavorites", "value": "Mine favoritter" },
+      { "key": "sidebar.myInformation", "value": "Mine opplysninger" },
+      { "key": "signout", "value": "Logg ut" },
+      {
+        "key": "deleteaccount.confirmText",
+        "value": "Skriv 'SLETT' for å bekrefte"
+      },
+      { "key": "popular.categories", "value": "Populære kategorier" },
+      { "key": "bundle.savings", "value": "Pakkeavtale - Spar" },
+      { "key": "bundle.offer", "value": "Pakketilbud" },
+      { "key": "order.referenceNumber", "value": "Referansenummer" },
+      { "key": "inventory", "value": "Tilgjengelig på lager" },
+      { "key": "gbg-store", "value": "Göteborgsbutiken" },
+      { "key": "concept-store", "value": "Concept Store" },
+      { "key": "online-store", "value": "Online" },
+      { "key": "cart.free", "value": "Kostnadsfritt" },
+      { "key": "cart.shippingCalculatedCart", "value": "Beregnes ved kassa" },
+      { "key": "products.completeWith", "value": "Komplett med" },
+      { "key": "menu.AllCategory", "value": "Alt i" },
+      { "key": "social.followUs", "value": "Følg oss" },
+      { "key": "sort.standard", "value": "Bestselgere" },
+      { "key": "sort.priceLowToHigh", "value": "Pris: Lav til Høy" },
+      { "key": "sort.priceHighToLow", "value": "Pris: Høy til Lav" },
+      { "key": "sort.ratingLowToHigh", "value": "Vurdering: Lav til Høy" },
+      { "key": "sort.ratingHighToLow", "value": "Vurdering: Høy til Lav" },
+      { "key": "sort.discountLowToHigh", "value": "Rabatt: Lav til Høy" },
+      { "key": "sort.discountHighToLow", "value": "Rabatt: Høy til Lav" },
+      { "key": "sort", "value": "Sorter" },
+      { "key": "see.products", "value": "Se produkter" },
+      {
+        "key": "attribute.hot-maintenance-function",
+        "value": "Varmeholdingsfunksjon"
+      },
+      { "key": "attribute.stopping-function", "value": "Stoppfunksjon" },
+      { "key": "attribute.thawing-function", "value": "Opptiningsfunksjon" },
+      { "key": "attribute.crumbs", "value": "Smulebrett" },
+      {
+        "key": "attribute.warm-maintenance-function",
+        "value": "Varmeholdingsfunksjon"
+      },
+      {
+        "key": "attribute.can-withstand-machine-wash",
+        "value": "Tåler oppvaskmaskin"
+      },
+      { "key": "attribute.leaf-length", "value": "Bladlengde" },
+      { "key": "search.PlaceholderBrand", "value": "Søk etter merke" },
+      {
+        "key": "account.inactiveVerifyLinkDescription",
+        "value": "Oi! Det ser ut som om denne lenken ikke lenger er gyldig. Har du allerede en konto?"
+      },
+      {
+        "key": "account.inactiveVerifyLink",
+        "value": "Lenken er ikke lenger aktuell."
+      },
+      {
+        "key": "error.discountBadRequest",
+        "value": "Ugyldig format | Kun bokstaver, tall, understrek og bindestrek er tillatt."
+      },
+      { "key": "form.enterFirstname", "value": "Angi fornavnet ditt" },
+      { "key": "form.enterEmail", "value": "Angi e-postadressen din" },
+      { "key": "filter.clear", "value": "Fjern filtre" },
+      { "key": "myPages", "value": "Mine sider" },
+      { "key": "myAccount", "value": "Min konto" },
+      { "key": "account.logout", "value": "Logg ut" },
+      { "key": "is.not.available", "value": "er ikke lenger tilgjengelig" },
+      { "key": "newsletter.SignupButton", "value": "Abonner" },
+      {
+        "key": "checkoutPage.dialogNotAllowed",
+        "value": "Kan ikke leveres til valgte postnummer"
+      },
+      {
+        "key": "checkoutPage.dialogNotAllowedCTA",
+        "value": "Endre postnummer"
+      },
+      {
+        "key": "checkoutPage.dialogNotAllowedCustomerService",
+        "value": "Kontakt kundeservice"
+      },
+      { "key": "attribute.temperature-holding", "value": "Temperaturhållning" },
+      {
+        "key": "attribute.secondary-oven-volume",
+        "value": "Volum sekundærovn"
+      },
+      { "key": "attribute.gas-option", "value": "Gasstype" },
+      { "key": "attribute.grill-area", "value": "Grillareal" },
+      { "key": "attribute.cup-heater", "value": "Koppvarmer" },
+      {
+        "key": "attribute.2-cups-per-brewing",
+        "value": "2 kopper per brygging"
+      },
+      { "key": "attribute.milk-containers", "value": "Melkebeholder" },
+      {
+        "key": "attribute.programming-of-water-hardness",
+        "value": "Programmering av vannhardhet"
+      },
+      { "key": "attribute.seal-beans", "value": "Forseglede bønner" },
+      { "key": "attribute.capacity-liter", "value": "Kapasitet (liter)" },
+      {
+        "key": "attribute.coffee-sump-containers-capacity",
+        "value": "Kaffe-sump-beholdere"
+      },
+      { "key": "attributes.all_categories", "value": "Kategori" },
+      { "key": "didYouMean", "value": "Mente du?" },
+      { "key": "qty.unit", "value": "stk." },
+      { "key": "youResultsFor", "value": "Ditt resultat for" },
+      { "key": "attribute.number-of-shelves", "value": "Antall hyller" },
+      {
+        "key": "attribute.material-of-shelves",
+        "value": "Materiale på hyller"
+      },
+      {
+        "key": "attribute.number-of-temperature-zones",
+        "value": "Antall temperatursoner"
+      },
+      { "key": "attribute.uv-protection", "value": "UV-beskyttet glassdør" },
+      { "key": "attribute.placement-type", "value": "Placeringstyp" },
+      { "key": "attribute.lockable", "value": "Låsbar" },
+      { "key": "attribute.door-hinge", "value": "Hängning" },
+      { "key": "attribute.app-controled", "value": "Appstyrd" },
+      {
+        "key": "checkoutPage.dialogNotApprovedTerms",
+        "value": "Du måste godkänna villkoren för att kunna slutföra köpet"
+      },
+      {
+        "key": "checkoutPage.ApproveTerms",
+        "value": "Jag godkänner de allmänna villkoren"
+      },
+      { "key": "reversible-door", "value": "Vendbar dør" },
+      {
+        "key": "placement-type",
+        "value": "Plasseringstype (Frittstående / integrert)"
+      },
+      { "key": "lockable", "value": "Låsbar" },
+      { "key": "door-hinge", "value": "Hengsling (Høyre / Venstre)" },
+      { "key": "app-controled", "value": "Appstyrt (Ja / Nei)" },
+      { "key": "campaign.PriceIsValidTo", "value": "Prisen er gyldig i" }
+    ]
+  },
+  "fi": {
+    "items": [
+      { "key": "account.login", "value": "Kirjaudu" },
+      { "key": "search", "value": "Haku" },
+      { "key": "cart", "value": "Ostoskori" },
+      { "key": "favorites", "value": "Suosikit" },
+      { "key": "voucher.promoCode", "value": "Alennuskoodi" },
+      {
+        "key": "voucher.terms",
+        "value": "Alennuskoodia ei voi yhdistää muihin alennuksiin"
+      },
+      { "key": "giftCard.giftCard", "value": "Lahjakortti" },
+      { "key": "orderReview.subtotal", "value": "Tilauksen arvo" },
+      { "key": "orderReview.shipping", "value": "Toimitusmaksu" },
+      { "key": "orderReview.total", "value": "Yhteensä sis. Alv" },
+      { "key": "orderReview.totalVat", "value": "Josta arvonlisävero" },
+      { "key": "voucher.apply", "value": "Aktivoi" },
+      { "key": "giftCard.code", "value": "Syötä lahjakortin koodi" },
+      { "key": "giftCard.pin", "value": "Syötä pinkoodi" },
+      { "key": "voucher.placeholder", "value": "Syötä koodi" },
+      { "key": "voucher.used", "value": "Aktiivinen alennuskoodi" },
+      { "key": "orderReview.discount", "value": "Alennus" },
+      {
+        "key": "giftCard.maxDisplayAmount",
+        "value": "Yli 1000 euron arvoisia lahjakortteja ei voi tilata. Jos haluat tilata suuremman summan"
+      },
+      { "key": "giftCard.loadAmount", "value": "Lahjakortin summa" },
+      { "key": "giftCard.sendDate", "value": "Lähetysajankohta" },
+      {
+        "key": "giftCard.receivingEmail",
+        "value": "Vastaanottajan sähköposti"
+      },
+      { "key": "giftCard.emailText", "value": "Henkilökohtainen viesti" },
+      { "key": "quantity", "value": "Määrä" },
+      {
+        "key": "giftCard.receivingMsisdn",
+        "value": "Vastaanottajan puhelinnumero"
+      },
+      { "key": "cart.addToCart", "value": "Lisää ostoskoriin" },
+      { "key": "giftCard.typeEmail", "value": "Sähköpostitse" },
+      { "key": "giftCard.typeSms", "value": "Tekstiviestillä" },
+      { "key": "giftCard.typePhysical", "value": "Fyysisesti" },
+      { "key": "giftCard.requiredError", "value": "Kirjoita summa" },
+      { "key": "giftCard.dateRequiredError", "value": "Valitse päivämäärä" },
+      {
+        "key": "giftCard.receivingMsisdnError",
+        "value": "Kirjoita voimassa oleva puhelinnumero (ilman välilyöntejä tai väliviivoja eikä ensimmäinen numero saa olla 0)"
+      },
+      {
+        "key": "giftCard.SmsTextMax",
+        "value": "Tekstiviestin teksti saa ylittää 200 merkkiä"
+      },
+      {
+        "key": "giftCard.emailTextMax",
+        "value": "Sähköpostiteksti ei saa ylittää 1000 merkkiä"
+      },
+      {
+        "key": "email.validation",
+        "value": "Ilmoita voimassa oleva sähköpostiosoite"
+      },
+      { "key": "requiredfield", "value": "Pakollinen kenttä" },
+      { "key": "confirmation.ThankYou", "value": "Kiitos tilauksestasi!" },
+      {
+        "key": "confirmation.ThankYouText",
+        "value": "Aloitamme tilauksesi käsittelyn välittömästi ja saat pian tilausvahvistuksen sähköpostitse osoitteeseesi"
+      },
+      { "key": "confirmation.ContinueShopping", "value": "Jatka tilaamista" },
+      { "key": "confirmation.Ordernumber", "value": "Tilausnumero" },
+      { "key": "confirmation.Products", "value": "Tuotteet" },
+      { "key": "confirmation.OrderTotal", "value": "Kokonaissumma" },
+      { "key": "confirmation.Discount", "value": "Alennus" },
+      { "key": "confirmation.Shipping", "value": "Toimitusmaksu" },
+      { "key": "cart.Empty", "value": "Ostoskorisi on tyhjä" },
+      { "key": "cart.EmptyHeader", "value": "Tarvitsetko inspiraatiota?" },
+      {
+        "key": "cart.EmptyText",
+        "value": "Tutustu tuoreimpiin uutuuksiin alla"
+      },
+      { "key": "cart.EmptyBtn", "value": "Osta uutuuksia" },
+      { "key": "cart.goToCheckout", "value": "Siirry kassalle" },
+      { "key": "cart.freeShippingText", "value": "Ilmainen toimitus!" },
+      { "key": "cart.freeShippingYouHave", "value": "Sinulla on" },
+      {
+        "key": "cart.freeShippingLeft",
+        "value": "jäljellä ilmaiseen toimitukseen"
+      },
+      { "key": "checkout.YourCart", "value": "Ostoskorisi" },
+      { "key": "checkout", "value": "Kassa" },
+      {
+        "key": "error.discountIsInactive",
+        "value": "Emme löytäneet voimassa olevaa alennuskoodia"
+      },
+      {
+        "key": "giftCard.physicalFirstName",
+        "value": "Vastaanottajan etunimi"
+      },
+      {
+        "key": "giftCard.physicalLastName",
+        "value": "Vastaanottajan sukunimi"
+      },
+      {
+        "key": "giftCard.physicalStreetAddress",
+        "value": "Vastaanottajan osoite"
+      },
+      {
+        "key": "giftCard.physicalPostalCode",
+        "value": "Vastaanottajan postinumero"
+      },
+      { "key": "giftCard.physicalCity", "value": "Vastaanottajan kaupunki" },
+      { "key": "giftCard.physicalCountry", "value": "Vastaanottajan maa" },
+      { "key": "attributes.color", "value": "Väri" },
+      { "key": "attributes.brand", "value": "Tuotemerkki" },
+      { "key": "facet.Price", "value": "Hinta" },
+      { "key": "materials", "value": "Materiaali" },
+      { "key": "availability", "value": "Saatavuus" },
+      { "key": "categories", "value": "Kategoria" },
+      { "key": "IN_STOCK", "value": "Varastossa" },
+      { "key": "brands", "value": "Tuotemerkki" },
+      { "key": "OUT_OF_STOCK", "value": "Loppu varastosta" },
+      { "key": "attributes.size", "value": "Koko" },
+      { "key": "readMore", "value": "Näytä lisää" },
+      { "key": "readLess", "value": " Näytä vähemmän" },
+      { "key": "compare", "value": "Vertaa" },
+      { "key": "stopCompare", "value": "Lopeta vertailu" },
+      { "key": "productComparison", "value": "Tuotevertailu" },
+      { "key": "clickForCompare", "value": "Klikkaa vertailua varten" },
+      {
+        "key": "youCanCompareMaximum3Products",
+        "value": "Voit vertailla enintään 3 tuotetta kerrallaan"
+      },
+      { "key": "colorFamilies", "value": "Väri" },
+      {
+        "key": "cart.ProductWasAddedToCart",
+        "value": "Tuote lisätty ostoskoriin"
+      },
+      {
+        "key": "carousel.frequentlyBoughtTogether",
+        "value": "Muut ostivat myös"
+      },
+      {
+        "key": "carousel.recommendedProducts",
+        "value": "Suositellut tuotteet"
+      },
+      {
+        "key": "carousel.othersYouMayLike",
+        "value": "Sinua saattaa myös kiinnostaa"
+      },
+      { "key": "price", "value": "Hinta" },
+      { "key": "product.moreInfoAbout", "value": "Lisätietoa" },
+      { "key": "product.specification", "value": "Tekniset tiedot" },
+      { "key": "product.description", "value": "Tuotekuvaus" },
+      { "key": "product.reviews", "value": "Arvostelut" },
+      { "key": "monitor.isOos", "value": "Seuraa tuotteen saatavuutta" },
+      {
+        "key": "monitor.dialog.description",
+        "value": "Ilmoitamme sinulle kun tuote on jälleen varastossa."
+      },
+      { "key": "monitor.notifyMe", "value": "Katsele nyt" },
+      { "key": "form.email.input", "value": "Sähköpostiosoitteesi" },
+      { "key": "stock.outOfStock", "value": "Loppuunmyyty" },
+      { "key": "stock.watchOOS", "value": "Seuraa" },
+      { "key": "stock.lowInStock", "value": "Pieni varastosaldo" },
+      {
+        "key": "monitor.saved",
+        "value": "Sinut on rekisteröity Ilmoitamme sinulle heti kun tuote on jälleen varastossa."
+      },
+      { "key": "attributes.serie", "value": "Sarja" },
+      { "key": "category", "value": "Kategoria" },
+      { "key": "attribute.category", "value": "Kategoria" },
+      { "key": "attribute.vendor-item-no", "value": "Vendor Item No" },
+      { "key": "attribute.barcode", "value": "Viivakoodi" },
+      { "key": "attribute.color", "value": "Väri" },
+      { "key": "attribute.effect", "value": "Teho" },
+      { "key": "attribute.energy-class", "value": "Energialuokka" },
+      { "key": "attribute.feature-lines", "value": "Ominaisuudet" },
+      {
+        "key": "attribute.automatic-shutdown",
+        "value": "Automaattinen virrankatkaisu"
+      },
+      {
+        "key": "attribute.adjustable-temperature",
+        "value": "Säädettävä lämpötila"
+      },
+      { "key": "attribute.water-meter", "value": "Vesimittari" },
+      { "key": "attribute.capacity-litres", "value": "Tilavuus (litraa)" },
+      { "key": "attribute.filter", "value": "Suodatin" },
+      { "key": "attribute.size", "value": "Koko" },
+      { "key": "attribute.material-of-jugs", "value": "Kannujen materiaali" },
+      { "key": "attribute.weighs-up", "value": "Paino" },
+      { "key": "attribute.capacity-liters", "value": "Tilavuus (litraa)" },
+      { "key": "attribute.number-of-layers", "value": "Kerrosten määrä" },
+      { "key": "attribute.novelty", "value": "Uutuus" },
+      { "key": "attribute.cutting-steel", "value": "Leikkuuteräs" },
+      { "key": "attribute.number-of-settings", "value": "Asetusten määrä" },
+      { "key": "attribute.with-wi-fi", "value": "Toimii wifillä" },
+      { "key": "attribute.grid", "value": "Verkko" },
+      { "key": "attribute.swivelling-filter", "value": "Kääntyvä suodatin" },
+      { "key": "attribute.step-of-speed", "value": "Nopeusaste" },
+      { "key": "attribute.pre-ground-beans", "value": "Esijauhetut pavut" },
+      {
+        "key": "attribute.built-in-coffee-grinder",
+        "value": "Sisäänrakennettu kahvimylly"
+      },
+      { "key": "attribute.milk-container", "value": "Maitosäiliö" },
+      { "key": "attribute.cup-height", "value": "Kupin korkeus" },
+      { "key": "attribute.capacity-kilo", "value": "Kapasiteetti (kiloa)" },
+      { "key": "attribute.hot-water-function", "value": "Kuumavesitoiminto" },
+      { "key": "attribute.number-of-bowls", "value": "Kulhojen määrä" },
+      { "key": "attribute.cup-of-light", "value": "Kupin valo" },
+      {
+        "key": "attribute.number-of-heating-elements",
+        "value": "Lämmityselementtien määrä"
+      },
+      { "key": "attribute.capacity", "value": "Kapasiteetti" },
+      {
+        "key": "attribute.adjustable-tea-water-outlet",
+        "value": "Säädettävä teeveden poistoaukko"
+      },
+      { "key": "attribute.stove-type", "value": "Liesityyppi" },
+      { "key": "attribute.dropback", "value": "Droppback" },
+      { "key": "attribute.variant", "value": "Versio" },
+      {
+        "key": "attribute.adjusting-coffee-strength",
+        "value": "Kahvin vahvuuden säätö"
+      },
+      {
+        "key": "attribute.capacity-bread-dough",
+        "value": "Kapasiteetti (leipätaikina)"
+      },
+      {
+        "key": "attribute.2-cups-per-brew",
+        "value": "2 kupillista suodatuksella"
+      },
+      { "key": "attribute.without-bag", "value": "Ilman pussia" },
+      { "key": "attribute.cordless", "value": "Johdoton" },
+      { "key": "attribute.dust-emission-class", "value": "Pölypäästöluokka" },
+      { "key": "attribute.sound-level", "value": "Äänitaso" },
+      { "key": "attribute.grain", "value": "Vilja" },
+      {
+        "key": "attribute.bridge-combs-capacity",
+        "value": "Suodatuskammion kapasiteetti"
+      },
+      { "key": "attribute.brew-time", "value": "Suodatusaika" },
+      { "key": "attribute.effect-grill", "value": "Teho (grilli)" },
+      {
+        "key": "attribute.number-of-hotplates",
+        "value": "Keittotasojen määrä"
+      },
+      { "key": "attribute.ingredients", "value": "Ainekset" },
+      { "key": "attribute.stair-sensor", "value": "Porrasanturi" },
+      { "key": "attribute.anti-frost-function", "value": "Antifrost-toiminto" },
+      { "key": "attribute.burning-time", "value": "Paloaika" },
+      { "key": "attribute.auto-program", "value": "Automaattiohjelma" },
+      { "key": "attribute.knife-length", "value": "Terän pituus" },
+      { "key": "attribute.crumb-tray", "value": "Murulokero" },
+      {
+        "key": "attribute.dry-and-liquid-food-items",
+        "value": "Kuivat ja nestemäiset elintarvikkeet"
+      },
+      { "key": "attribute.number-of-discs", "value": "Palojen lukumäärä" },
+      { "key": "attribute.diameter", "value": "Halkaisija" },
+      {
+        "key": "attribute.keep-warm-function",
+        "value": "Lämpimänäpitotoiminto"
+      },
+      { "key": "attribute.defrost-function", "value": "Sulatustoiminto" },
+      {
+        "key": "attribute.number-of-withdrawals",
+        "value": "Pistokkeiden määrä"
+      },
+      { "key": "attribute.main-burner-effect", "value": "Pääpolttimen teho" },
+      {
+        "key": "attribute.rotisserie-included",
+        "value": "Mukana rotisserie-varras"
+      },
+      {
+        "key": "attribute.gas-regulator-included",
+        "value": "Kaasusäädin sisältyy"
+      },
+      { "key": "attribute.stand", "value": "Jalusta" },
+      { "key": "attribute.wheel", "value": "Pyörät" },
+      { "key": "attribute.heat-source", "value": "Lämmönlähde" },
+      { "key": "attribute.pyrolysis", "value": "Pyrolyysi" },
+      { "key": "attribute.cord-length", "value": "Johdon pituus" },
+      { "key": "attribute.milk-foam-type", "value": "Maidonvaahdotintyyppi" },
+      { "key": "attribute.suitable-for", "value": "Sopii tuotteisiin" },
+      {
+        "key": "attribute.general-special-news",
+        "value": "Yleistä - Erityistä (uutuus)"
+      },
+      { "key": "attribute.cooling-capacity", "value": "Jäähdytyskapasiteetti" },
+      { "key": "attribute.container", "value": "Säiliö" },
+      { "key": "attribute.container-water", "value": "Säiliö (vesi)" },
+      { "key": "attribute.number-of-bottles", "value": "Pullojen määrä" },
+      { "key": "attribute.grill", "value": "Grilli" },
+      { "key": "attribute.base-color", "value": "Perusväri" },
+      { "key": "attribute.guarantee", "value": "Takuu" },
+      { "key": "attribute.works-on-induction", "value": "Toimii induktiolla" },
+      { "key": "attribute.ecological", "value": "Ekologinen" },
+      { "key": "attribute.switch", "value": "Katkaisija" },
+      { "key": "attribute.charging-time", "value": "Latausaika" },
+      { "key": "attribute.cord-winder", "value": "Johtokelain" },
+      {
+        "key": "attribute.ventilated-cooling",
+        "value": "Ilmastoitu jäähdytys"
+      },
+      { "key": "attribute.maximum-range", "value": "Enimmäiskantama" },
+      { "key": "attribute.filter-type", "value": "Suodatintyyppi" },
+      {
+        "key": "attribute.emptying-indicator",
+        "value": "Tyhjennyksen ilmaisin"
+      },
+      {
+        "key": "attribute.dust-collection-on-carpet",
+        "value": "Pölynkeräys matolla"
+      },
+      { "key": "attribute.electrical", "value": "Elektroninen" },
+      {
+        "key": "attribute.dust-collection-on-hard-floor",
+        "value": "Pölynkeräys kovilla lattioilla"
+      },
+      {
+        "key": "attribute.adjustable-suction-capacity",
+        "value": "Säädettävä imukapasiteetti"
+      },
+      { "key": "attribute.bowl-material", "value": "Kulhon materiaali" },
+      {
+        "key": "attribute.general-special-new",
+        "value": "Yleistä - Erityistä (uutuus)"
+      },
+      { "key": "attribute.reversible-door", "value": "Käännettävä ovi" },
+      { "key": "attribute.oven-volume", "value": "Uunin tilavuus" },
+      {
+        "key": "attribute.secondary-furnace-volume",
+        "value": "Toinen uuni (tilavuus)"
+      },
+      { "key": "attribute.microwave-safe", "value": "Kestää mikroaaltouunin" },
+      { "key": "attribute.grinder-knives", "value": "Myllyterät" },
+      { "key": "attribute.milling-knives", "value": "Myllyterät" },
+      {
+        "key": "attribute.smarthome-compatible",
+        "value": "SmartHome-yhteensopiva"
+      },
+      {
+        "key": "attribute.electronic-temperature-control",
+        "value": "Elektroninen lämpötilansäätö"
+      },
+      {
+        "key": "attribute.independent-compressor",
+        "value": "Itsenäisesti toimiva kompressori"
+      },
+      { "key": "attribute.number-of-zones", "value": "Vyöhykkeiden lukumäärä" },
+      { "key": "attribute.clearance", "value": "Loppuunmyynti" },
+      { "key": "attribute.program", "value": "Ohjelma" },
+      { "key": "attribute.power-consumption", "value": "Energiankulutus" },
+      { "key": "attribute.outlet-hole-plug", "value": "Pistorasiatulppa" },
+      {
+        "key": "attribute.systematic-navigation",
+        "value": "Systematisk navigering"
+      },
+      { "key": "attribute.softclose-function", "value": "SoftClose-toiminto" },
+      {
+        "key": "attribute.annual-energy-consumption",
+        "value": "Vuotuinen energiankulutus"
+      },
+      { "key": "attribute.brewing-temperature", "value": "Suodatuslämpö" },
+      { "key": "attribute.timer-function", "value": "Ajastintoiminto" },
+      { "key": "attribute.power-grill", "value": "Teho (grilli)" },
+      { "key": "attribute.drip-stop", "value": "Tippalukko" },
+      {
+        "key": "attribute.location-of-the-freezer",
+        "value": "Pakastimen sijainti"
+      },
+      { "key": "attribute.freezing-capacity", "value": "Pakastuskapasiteetti" },
+      {
+        "key": "attribute.dust-collection-on-hard-floors",
+        "value": "Pölynkeräys kovilla lattioilla"
+      },
+      { "key": "attribute.circulator", "value": "Kiertovesipumppu" },
+      { "key": "attribute.disc-holder", "value": "Viipaleidenpitimet" },
+      { "key": "attribute.roasting", "value": "Paahto" },
+      {
+        "key": "attribute.automatic-defrost",
+        "value": "Automaattinen sulatus"
+      },
+      { "key": "attribute.removable-handle", "value": "Irrotettava kahva" },
+      { "key": "attribute.power-hot-air", "value": "Teho (kiertoilma)" },
+      {
+        "key": "attribute.pizzacrisp-function",
+        "value": "pizzacrisp-toiminto"
+      },
+      {
+        "key": "attribute.illuminated-control-button",
+        "value": "Valaistu ohjauspainike"
+      },
+      { "key": "attribute.handle-on-the-bowl", "value": "Kahva kulhossa" },
+      { "key": "attribute.bread-sizes", "value": "Leivän koot" },
+      { "key": "attribute.pump-type", "value": "Pumpputyyppi" },
+      {
+        "key": "attribute.top-steered-propeller",
+        "value": "Ylhäältä ohjattava potkuri"
+      },
+      {
+        "key": "attribute.revolutions-per-minute",
+        "value": "Kierrosta minuutissa"
+      },
+      { "key": "attribute.smartphone-app", "value": "Smartphone app" },
+      {
+        "key": "attribute.capacity-cups",
+        "value": "Kapasiteetti (kupillista)"
+      },
+      { "key": "attribute.length-thread", "value": "Pituus (kierre)" },
+      { "key": "attribute.quantity", "value": "Määrä" },
+      {
+        "key": "attribute.adjustment-zero-setting-tare",
+        "value": "Säätö / Nollaus (Taara)"
+      },
+      { "key": "attribute.beer-glass-type", "value": "Olutlasin tyyppi" },
+      {
+        "key": "attribute.emptying-indication",
+        "value": "Ilmoitus tyhjennyksestä"
+      },
+      { "key": "attribute.trend", "value": "Trendi" },
+      {
+        "key": "attribute.temperature-maintenance",
+        "value": "Lämpötilan ylläpito"
+      },
+      { "key": "attribute.google-assistant", "value": "Google Assistant" },
+      { "key": "attribute.main-burner-power", "value": "Pääpolttimen teho" },
+      { "key": "attribute.materials", "value": "Materiaali" },
+      { "key": "attribute.side-burner-power", "value": "Sivupolttimen teho" },
+      { "key": "attribute.tag-position", "value": "Tag-tila" },
+      { "key": "attribute.settings", "value": "Asetukset" },
+      { "key": "attribute.threshold", "value": "Kynnysarvo" },
+      { "key": "attribute.plate-size", "value": "Lautasen koko" },
+      { "key": "attribute.bean-type", "value": "Paputyyppi" },
+      { "key": "attribute.area", "value": "Pinta-ala" },
+      { "key": "attribute.intensity", "value": "Intensiteetti" },
+      { "key": "attribute.fan-system", "value": "Tuuletinjärjestelmä" },
+      {
+        "key": "attribute.dough-scraper-included",
+        "value": "Mukana taikinakaavin"
+      },
+      {
+        "key": "attribute.top-controlled-propeller",
+        "value": "Yläpuolelta ohjattu potkuri"
+      },
+      {
+        "key": "attribute.dishwasher-safe",
+        "value": "Astianpesukoneen kestävä"
+      },
+      { "key": "attribute.workspace", "value": "Työtaso" },
+      { "key": "attribute.voice-control-with", "value": "Puheohjaus" },
+      {
+        "key": "attribute.descaling-indicator",
+        "value": "Kalkinpoistoindikaattori"
+      },
+      { "key": "attribute.slow-juicer-type", "value": "Slowjuicer-tyyyppi" },
+      {
+        "key": "attribute.pulp-container-capacity",
+        "value": "Hedelmälihasäiliön kapasiteetti"
+      },
+      {
+        "key": "attribute.virtual-wall-function",
+        "value": "Virtual-wall-toiminto"
+      },
+      { "key": "attribute.stove", "value": "Liesi" },
+      {
+        "key": "attribute.number-of-side-burners",
+        "value": "Sivupoltinten määrä"
+      },
+      {
+        "key": "attribute.clean-more-rooms",
+        "value": "Puhdistaa useita tiloja"
+      },
+      { "key": "attribute.amazon-alexa", "value": "Amazon-alexa" },
+      { "key": "attribute.freezer-location", "value": "Pakastimen sijainti" },
+      { "key": "attribute.number-of-outlets", "value": "Pistorasioiden määrä" },
+      { "key": "attribute.handle", "value": "Kahva" },
+      { "key": "attribute.compressor-size", "value": "Kompressorin koko" },
+      { "key": "attribute.skimming-function", "value": "Vaahdotustoiminto" },
+      { "key": "attribute.reduction-gear", "value": "Reduction-gear" },
+      {
+        "key": "attribute.dough-hook-included",
+        "value": "Mukana taikinakoukut"
+      },
+      { "key": "attribute.weight", "value": "Paino" },
+      {
+        "key": "attribute.capacity-kettle",
+        "value": "Kapasiteetti (vedenkeitin)"
+      },
+      { "key": "attribute.mixer-knife", "value": "Sekoitinterä" },
+      {
+        "key": "attribute.variable-roasting-degree",
+        "value": "Säädettävä paahtoaste"
+      },
+      { "key": "attribute.storage-function", "value": "Varastointitoiminto" },
+      {
+        "key": "attribute.apple-homekit-yes-no",
+        "value": "Apple Homekit (Kyllä / Ei)"
+      },
+      { "key": "attribute.prayer-type", "value": "Paputyyppi" },
+      {
+        "key": "attribute.schedule-programming",
+        "value": "Aikataulun ohjelmointi"
+      },
+      {
+        "key": "attribute.width-adjustable-coffee-outlet",
+        "value": "Leveyssuunnassa säädettävä kahvintulo"
+      },
+      { "key": "attribute.recommended-size", "value": "Suositeltu koko" },
+      { "key": "attribute.capsule-type", "value": "Kapselityyppi" },
+      { "key": "attribute.steam-cooking", "value": "Höyrykypsennys" },
+      {
+        "key": "attribute.variable-degree-of-roasting",
+        "value": "Säädettävä paahtoaste"
+      },
+      {
+        "key": "attribute.setting-the-thickness-of-the-foam-milk-frother",
+        "value": "Säädettävä vaahdon paksuus (maidonvaahdotin)"
+      },
+      { "key": "attribute.fan-type", "value": "Tuuletintyyppi" },
+      { "key": "attribute.operating-time", "value": "Käyttöaika" },
+      {
+        "key": "attribute.coffee-grounds-container-capacity",
+        "value": "Kahvinporosäiliön kapasiteetti"
+      },
+      {
+        "key": "attribute.adjustment-of-coffee-strength",
+        "value": "Kahvin vahvuuden säätö"
+      },
+      { "key": "attribute.stop-function", "value": "Pysäytystoiminto" },
+      {
+        "key": "attribute.adjustable-height-level-on-grill-grate",
+        "value": "Säädettävä grilliritilän korkeus"
+      },
+      { "key": "attribute.pump-pressure-bar", "value": "Pumpunpaine (bar)" },
+      {
+        "key": "attribute.water-hardness-programming",
+        "value": "Veden kovuuden ohjelmointi"
+      },
+      { "key": "attribute.steam-function", "value": "Höyrytoiminto" },
+      { "key": "attribute.infrared-burner", "value": "Infrapunapoltin" },
+      { "key": "attribute.fuel", "value": "Polttoaine" },
+      { "key": "attribute.automatic-upload", "value": "Automaattinen lataus" },
+      { "key": "attribute.number-of-servings", "value": "Annosmäärä" },
+      { "key": "attribute.manufacturing-time", "value": "Valmistusaika" },
+      {
+        "key": "attribute.built-in-lighting-in-the-machine-headhousing",
+        "value": "Sisäänrakennettu valaistus koneen päässä/kotelossa"
+      },
+      {
+        "key": "attribute.integrated-thermometer",
+        "value": "Integroitava lämpömittari"
+      },
+      { "key": "attribute.swivel-filter", "value": "Kääntyvä suodatin" },
+      { "key": "attribute.number-of-cups", "value": "Kupillisten määrä" },
+      { "key": "attribute.ifttt-compatible", "value": "IFTTT-yhteensopiva" },
+      { "key": "attribute.plug-for-outlet-hole", "value": "Pistorasian suoja" },
+      {
+        "key": "attribute.inside-measurement-in-the-bowl",
+        "value": "Kulhon sisämitat"
+      },
+      {
+        "key": "attribute.milk-frother-type",
+        "value": "Maidonvaahdottimen tyyppi"
+      },
+      { "key": "attribute.upload-and-continue", "value": "Lataa ja jatka" },
+      { "key": "attribute.apple-homekit", "value": "Apple Homekit" },
+      { "key": "attribute.wet-mop", "value": "Märkämoppi" },
+      {
+        "key": "attribute.brewing-chamber-capacity",
+        "value": "Haudutuskammion kapasiteetti"
+      },
+      { "key": "attribute.rotating-plate", "value": "Pyörivä lautanen" },
+      { "key": "attribute.sound-level-db", "value": "Äänitaso (dB)" },
+      { "key": "attribute.brewing-time", "value": "Valmistusaika" },
+      {
+        "key": "attribute.amazon-alexa-yesno",
+        "value": "Amazon Alexa (Kyllä / Ei)"
+      },
+      {
+        "key": "attribute.smart-home-compatible",
+        "value": "Smarthome-yhteensopiva"
+      },
+      { "key": "attribute.delayed-start", "value": "Viivästetty käynnistys" },
+      { "key": "attribute.investment", "value": "Sijoitus" },
+      { "key": "attribute.keep-cold-function", "value": "Kylmänäpitotoiminto" },
+      { "key": "attribute.thickness", "value": "Paksuus" },
+      { "key": "attribute.scratch-resistant", "value": "Naarmunkestävä" },
+      {
+        "key": "attribute.internal-dimension-of-the-bowl",
+        "value": "Kulhon sisämitat"
+      },
+      { "key": "attribute.warranty", "value": "Takuu" },
+      { "key": "attribute.accuracy", "value": "Tarkkuus" },
+      { "key": "attribute.container-beans", "value": "Säiliö (pavut)" },
+      {
+        "key": "attribute.automatic-cleaning-program",
+        "value": "Automaattinen puhdistusohjelma"
+      },
+      { "key": "attribute.display", "value": "Näyttö" },
+      { "key": "attribute.cup-warmer", "value": "Kupinlämmitin" },
+      { "key": "attribute.bpa-free", "value": "BPA-vapaa" },
+      { "key": "attribute.grill-type", "value": "Grillityyppi" },
+      { "key": "attribute.coffee-grinder-type", "value": "Kahvimyllyn tyyppi" },
+      {
+        "key": "attribute.espresso-machine-type",
+        "value": "Espressokeittimen tyyppi"
+      },
+      { "key": "attribute.gas-consumption", "value": "Kaasunkulutus" },
+      { "key": "attribute.hinge", "value": "Saranat" },
+      { "key": "attribute.grill-surface", "value": "Grillitaso" },
+      { "key": "attribute.side-burner", "value": "Sivupoltin" },
+      { "key": "attribute.child-protection", "value": "Lapsilukko" },
+      { "key": "attribute.with-wifi", "value": "Sisältää wifin" },
+      { "key": "attribute.model", "value": "Malli" },
+      {
+        "key": "attribute.self-contained-compressor",
+        "value": "Itsenäinen kompressori"
+      },
+      { "key": "attribute.side-burner-effect", "value": "Sivupolttimon teho" },
+      { "key": "attribute.hot-air", "value": "Kiertoilma" },
+      { "key": "attribute.cable-length", "value": "Kaapelin pituus" },
+      {
+        "key": "attribute.container-capacity",
+        "value": "Säiliön kapasiteetti"
+      },
+      {
+        "key": "attribute.removable-water-tank",
+        "value": "Irrotettava vesisäiliö"
+      },
+      {
+        "key": "attribute.the-lift-button-is-on",
+        "value": "Nostopainike on päällä"
+      },
+      { "key": "attribute.test-winner", "value": "Testivoittaja" },
+      { "key": "attribute.number-of-burners", "value": "Poltinten määrä" },
+      {
+        "key": "attribute.number-of-gas-cartridges",
+        "value": "Kaasupatruunoiden määrä"
+      },
+      {
+        "key": "attribute.programming-water-hardness",
+        "value": "Veden kovuuden ohjelmointi"
+      },
+      { "key": "attribute.material-on-jugs", "value": "Kannujen materiaali" },
+      { "key": "attribute.self-cleaning", "value": "Itsepuhdistuva" },
+      {
+        "key": "attribute.google-assistant-yes-no",
+        "value": "Google Assistant (Kyllä / Ei)"
+      },
+      { "key": "attribute.bowl-size", "value": "Kulhon koko" },
+      {
+        "key": "attribute.turbotorque-button",
+        "value": "Turbomoottoripainike"
+      },
+      { "key": "attribute.lighting", "value": "Valaistus" },
+      {
+        "key": "attribute.included-accessories",
+        "value": "Sisältyvät tarvikkeet"
+      },
+      {
+        "key": "attribute.automatic-ignition",
+        "value": "Automaattinen sytytys"
+      },
+      {
+        "key": "attribute.capacity-copper",
+        "value": "Kapasiteetti (kupillisia)"
+      },
+      { "key": "attribute.side-table", "value": "Sivupöytä" },
+      {
+        "key": "attribute.general-gift-ideas",
+        "value": ".Yleistä - lahjaideat"
+      },
+      {
+        "key": "attribute.type-of-electrical-connector",
+        "value": "Sähköpistokkeen tyyppi"
+      },
+      { "key": "attribute.blade-length", "value": "Terän pituus" },
+      { "key": "attribute.temperature", "value": "Lämpötila" },
+      {
+        "key": "attribute.capacity-cookie-dough",
+        "value": "Kapasiteetti (kakkutaikina)"
+      },
+      { "key": "attribute.number", "value": "Määrä" },
+      { "key": "attribute.cup-light", "value": "Kupin valo" },
+      {
+        "key": "attribute.built-in-lighting-in-the-machines-headcasing",
+        "value": "Sisäänrakennettu-valaistus-koneissa-kotelossa"
+      },
+      { "key": "attribute.power-micro", "value": "Teho (mikro)" },
+      {
+        "key": "attribute.setting-the-temperature-milk-frother",
+        "value": "Lämpötila-asetukset (maidonvaahdotin)"
+      },
+      { "key": "attribute.battery-type", "value": "Paristotyyppi" },
+      { "key": "attribute.ifttt", "value": "IFTTT" },
+      {
+        "key": "attribute.adjustable-thermostat",
+        "value": "Säädettävä termostaatti"
+      },
+      { "key": "attribute.working-height", "value": "Työskentelykorkeus" },
+      {
+        "key": "attribute.direct-water-connection",
+        "value": "Suora vesiliitäntä"
+      },
+      {
+        "key": "attribute.removable-drip-cover",
+        "value": "Irrotettava tippasuoja"
+      },
+      { "key": "attribute.antifreeze-function", "value": "Antifrost-toiminto" },
+      { "key": "attribute.capacity-flour", "value": "Kapasiteeti (jauho)" },
+      {
+        "key": "attribute.removable-drip-guard",
+        "value": "Irrotettava tippasuoja"
+      },
+      { "key": "attribute.material", "value": "Materiaali" },
+      { "key": "attribute.speed-steps", "value": "Nopeusaskel" },
+      {
+        "key": "attribute.adjustment-zeroing-tare",
+        "value": "Säätö / Nollaus (Taara)"
+      },
+      { "key": "attribute.non-stick-coating", "value": "Non-stick-pinnoite" },
+      { "key": "attribute.charging-time-hours", "value": "Latausaika" },
+      { "key": "attribute.number-of-capsules", "value": "Kapseleiden määrä" },
+      { "key": "attribute.aroma-control", "value": "Aroma-control" },
+      { "key": "attribute.blender-type", "value": "Tehosekoitintyyppi" },
+      { "key": "EnergyLabelImage", "value": "Energiamerkintä" },
+      { "key": "vendor_item_number", "value": "Toimittajan tuotenumero" },
+      { "key": "barcode", "value": "Viivakoodi" },
+      { "key": "orderReview.giftCard", "value": "Lahjakortti" },
+      { "key": "giftCard.used", "value": "Aktiivinen lahjakortti" },
+      { "key": "voucher.removed", "value": "Poistettu" },
+      { "key": "voucher.added", "value": "Lisätty" },
+      {
+        "key": "cart.removedItems",
+        "value": "Seuraavat tuotteet ovat loppuneet varastosta ja ne on poistettu ostoskoristasi"
+      },
+      { "key": "width", "value": "Leveys" },
+      { "key": "height", "value": "Korkeus" },
+      { "key": "length", "value": "Pituus" },
+      { "key": "weight", "value": "Paino" },
+      { "key": "capacity_milliliter", "value": "Tilavuus" },
+      { "key": "depth", "value": "Syvyys" },
+      { "key": "previous", "value": "Edellinen" },
+      { "key": "next", "value": "Seuraava" },
+      { "key": "button.back", "value": "Takaisin" },
+      { "key": "button.CustomerService", "value": "Asiakaspalvelu" },
+      { "key": "gas.options", "value": "Kaasuliitännän valinta" },
+      { "key": "giftCard.addedToCart", "value": "Lahjakortti lisätty koriin" },
+      {
+        "key": "giftCard.removedToCart",
+        "value": "Lahjakortti poistettu ostoskorista"
+      },
+      { "key": "brand", "value": "Tuotemerkki" },
+      { "key": "sku", "value": "Tuotenumero" },
+      { "key": "showAll", "value": "Näytä kaikki" },
+      { "key": "showMore", "value": "Näytä lisää" },
+      { "key": "hours", "value": "Tuntia" },
+      { "key": "minutes", "value": "Minuuttia" },
+      { "key": "search.noResults", "value": "Ei hakutuloksia" },
+      { "key": "search.showAllResults", "value": "Näytä kaikki tulokset" },
+      { "key": "products", "value": "Tuotteet" },
+      { "key": "giftcard.leftBalance", "value": "Jäljellä oleva saldo" },
+      { "key": "searchResults", "value": "Hakutulos" },
+      {
+        "key": "error.unableAddUpdateGiftcard",
+        "value": "Virheellinen lahjakortti | Tarkista numero tai anna uusi."
+      },
+      {
+        "key": "error.missingDiscount",
+        "value": "Alennuskoodi puuttuu | Anna voimassa oleva alennuskoodi"
+      },
+      {
+        "key": "error.conditionDiscount",
+        "value": "Alennuskoodi ei täytä ehtoja | tarkista alennuskoodiin liittyvät ehdot."
+      },
+      {
+        "key": "error.conditionDiscountExternal",
+        "value": "Alennuskoodi ei toimi |Ei voimassa tässä tilauksessa."
+      },
+      {
+        "key": "error.expiredDiscount",
+        "value": "Alennuskoodi on vanhentunut | Käytä voimassa olevaa koodia."
+      },
+      {
+        "key": "error.alreadyAddedDiscount",
+        "value": "Alennuskoodi on jo lisätty | Et voi käyttää samaa koodia uudelleen."
+      },
+      {
+        "key": "user.UpdatedInformation",
+        "value": "Valmis | Tietosi on päivitetty."
+      },
+      { "key": "account.passwordResetted", "value": "Salasana on nollattu" },
+      { "key": "account.enterNewPassword", "value": "Anna uusi salasana" },
+      { "key": "account.newPassword", "value": "Uusi salasana" },
+      {
+        "key": "account.confirmNewPassword",
+        "value": "Vahvista uusi salasana"
+      },
+      { "key": "account.resetPasword", "value": "Salasanan nollaus" },
+      { "key": "account.resetPaswordHere", "value": "Tästä nollaat salasanan" },
+      {
+        "key": "account.passwordLinkExpired",
+        "value": "Salasanalinkki on vanhentunut"
+      },
+      {
+        "key": "account.passwordsDoesNotMatch",
+        "value": "Salasanat eivät täsmää"
+      },
+      {
+        "key": "account.passwordMinLength",
+        "value": "Salasanan on oltava vähintään 10 merkkiä pitkä"
+      },
+      {
+        "key": "account.passwordRequirements",
+        "value": "Salasanassa on oltava vähintään yksi numero."
+      },
+      {
+        "key": "account.verifyAccountEmail",
+        "value": "Vahvista käyttäjätilisi klikkaamalla. Vahvista sähköpostiosoitteeseesi lähetettyyn sähköpostiviestiin."
+      },
+      { "key": "account.confirmEmail", "value": "Vahvista sähköpostiviesti" },
+      { "key": "account.createAccount", "value": "Liity jäseneksi" },
+      { "key": "account.firstName", "value": "Etunimi" },
+      { "key": "account.lastName", "value": "Sukunimi" },
+      { "key": "account.address", "value": "Osoite" },
+      { "key": "account.postalCode", "value": "Postinumero" },
+      { "key": "account.city", "value": "Kaupunki" },
+      { "key": "account.phoneNumber", "value": "Puhelinnumero" },
+      { "key": "account.password", "value": "Salasana" },
+      { "key": "account.confirmPassword", "value": "Vahvista salasana" },
+      {
+        "key": "account.sendVerifyEmailAgain",
+        "value": "Lähetä vahvistusmeili uudelleen"
+      },
+      {
+        "key": "account.alreadyHaveAccount",
+        "value": "Onko sinulla jo käyttäjätili?"
+      },
+      {
+        "key": "account.userAlreadyExists",
+        "value": "Sinulla on jo käyttäjätili"
+      },
+      { "key": "account.forgotYourPassword", "value": "Unohditko salasanasi?" },
+      { "key": "account.resetPasswordHere", "value": "Nollaa tästä" },
+      {
+        "key": "account.haveNoAccount",
+        "value": "Eikö sinulla ole käyttäjätiliä?"
+      },
+      {
+        "key": "account.rememberYourAccount",
+        "value": "Muistatko salasanasi?"
+      },
+      { "key": "account.resetPassword", "value": "Nollaa salasana" },
+      { "key": "account.email", "value": "Sähköpostiosoite" },
+      { "key": "account.forgotPassword", "value": "Unohtunut salasana" },
+      {
+        "key": "account.controllPasswordEmail",
+        "value": "Tarkista sähköpostistasi palautuslinkki. Jos et ole saanut sitä"
+      },
+      {
+        "key": "account.resendEmailAgain",
+        "value": "Lähetä vahvistus uudelleen"
+      },
+      { "key": "account.userNotFound", "value": "Käyttäjä ei löytynyt" },
+      {
+        "key": "account.emailNotVerified",
+        "value": "Sähköpostiosoitetta ei ole vahvistettu"
+      },
+      { "key": "account.wrongPassword", "value": "Väärä salasana" },
+      { "key": "carousel.recommendedForYou", "value": "Suosituksia sinulle" },
+      { "key": "myFavorites", "value": "Suosikkini" },
+      { "key": "account.communicationPreferences", "value": "Ilmoitukset" },
+      {
+        "key": "account.acceptEmailNotifications",
+        "value": "Hyväksyn sähköpostiviestin"
+      },
+      {
+        "key": "account.acceptSmsNotifications",
+        "value": "Hyväksyn tekstiviestit"
+      },
+      {
+        "key": "account.acceptPostalNotifications",
+        "value": "Otan vastaan postia"
+      },
+      {
+        "key": "error.giftCardInsufficientBalance",
+        "value": "Liian vähän saldoa | lahjakortin saldo ei riitä."
+      },
+      { "key": "FULLY_DELIVERED", "value": "Toimitettu" },
+      { "key": "PARTIALLY_DELIVERED", "value": "Osittain toimitettu" },
+      { "key": "PARTIALLY_COMPENSATED", "value": "Osittain korvattu" },
+      { "key": "FULLY_COMPENSATED", "value": "Korvattu" },
+      { "key": "CANCELLED", "value": "Keskeytetty" },
+      { "key": "FULLY_REFUNDED", "value": "Maksu palautettu" },
+      { "key": "PLACED", "value": "Lisätty" },
+      { "key": "newsletter.SignupSuccess", "value": "Kiitos" },
+      { "key": "stock.estimatedInStock", "value": "Tulossa varastoon" },
+      { "key": "stock.deliveryDate", "value": "Toimitusaika" },
+      { "key": "stock.soonInStock", "value": "Pian varastossa" },
+      {
+        "key": "stock.notInStore",
+        "value": " Ei saatavilla Göteborgin varastossa"
+      },
+      { "key": "stock.inStore", "value": "Saatavana Göteborgin myymälässä" },
+      { "key": "cart.TotalSavings", "value": "Säästät" },
+      { "key": "cart.youSave", "value": "Tarvikkeet - Tallenna" },
+      { "key": "PARTIALLY_REFUNDED", "value": "Osittain palautettu maksu" },
+      { "key": "order.seeOrder", "value": "Katso tilaus" },
+      { "key": "order.orderNumber", "value": "Tilausnumero" },
+      { "key": "order.orderDate", "value": "Tilauspvm" },
+      { "key": "order", "value": "Tilaus" },
+      { "key": "order.sentOrders", "value": "Lähettty tilaus" },
+      {
+        "key": "order.sentOrdersDescription",
+        "value": "Tästä löydät tiedot loppuunkäsitellyistä tilauksistasi"
+      },
+      {
+        "key": "order.noRegisteredOrders",
+        "value": "Ei rekisteröityjä tilauksia"
+      },
+      { "key": "order.showMore", "value": "Näytä enemmän" },
+      { "key": "order.showLess", "value": "Näytä vähemmän" },
+      { "key": "order.myOrders", "value": "Tilaukseni" },
+      {
+        "key": "order.orderHistoryDescription",
+        "value": "Täältä näet yhteenvedon tilauksistasi"
+      },
+      { "key": "order.registeredOrders", "value": "Rekisteröidyt tilaukset" },
+      {
+        "key": "order.registeredOrdersDescription",
+        "value": "Täältä näet tilauksiisi liittyvt yksityiskohdat"
+      },
+      { "key": "order.Track", "value": "Jäljitä" },
+      { "key": "order.deliveryAddress", "value": "Toimitusosoite" },
+      { "key": "order.invoiceAddress", "value": "Laskutusosoite" },
+      { "key": "order.delivery", "value": "Toimitus" },
+      { "key": "product.expired", "value": "Poistunut valikoimista" },
+      { "key": "page.blog", "value": "Blogi" },
+      { "key": "product.campaign", "value": "Kampanja" },
+      { "key": "consent.acceptPrivacy", "value": "Hyväksyn" },
+      { "key": "consent.privacyPolicy", "value": "Tietosuojakäytäntö" },
+      { "key": "consentLink.privacyPolicy", "value": "tietosuojakäytäntö" },
+      { "key": "search.Placeholder", "value": "Etsi tuote" },
+      { "key": "attributes.tags", "value": "Tunnisteet" },
+      { "key": "tag.bast-i-test", "value": "Testin parhaat" },
+      { "key": "tag.nyhet", "value": "Uutuudet" },
+      { "key": "deleteAccount", "value": "Poista tili" },
+      {
+        "key": "account.areYouSure",
+        "value": "Haluatko varmasti poistaa tilisi?"
+      },
+      {
+        "key": "account.deleteAccountDescription",
+        "value": "Kun poistat tilisi, kaikki tietosi poistetaan pysyvästi, etkä pääse enää käsiksi aiempiin tilauksiisi tai tallennettuihin valintoihisi. Tätä ei voi perua."
+      },
+      { "key": "cancel", "value": "Keskeytä" },
+      { "key": "confirmText", "value": "POISTA" },
+      { "key": "account.myCredentials", "value": "Omat tietoni" },
+      {
+        "key": "account.myCredentialsDescription",
+        "value": "Tässä voit nähdä ja korjata tietojasi"
+      },
+      { "key": "account.saveChanges", "value": "Tallenna tiedot" },
+      { "key": "sidebar.overview", "value": "Ylesikatsaus" },
+      { "key": "sidebar.myOrders", "value": "Omat tilaukseni" },
+      { "key": "sidebar.myFavorites", "value": "Omat suosikkini" },
+      { "key": "sidebar.myInformation", "value": "Omat tietoni" },
+      { "key": "signout", "value": "Kirjaudu ulos" },
+      {
+        "key": "deleteaccount.confirmText",
+        "value": "Kirjoita 'POISTA' vahvistaaksesi"
+      },
+      { "key": "popular.categories", "value": "Suosittuja luokkia" },
+      { "key": "bundle.savings", "value": "Pakettitarjous - Säästä" },
+      { "key": "bundle.offer", "value": "Pakettitarjous" },
+      { "key": "order.referenceNumber", "value": "Viitenumero" },
+      { "key": "inventory", "value": "Varastossa" },
+      { "key": "gbg-store", "value": "Göteborgsbutiken" },
+      { "key": "concept-store", "value": "Concept Store" },
+      { "key": "online-store", "value": "Online" },
+      { "key": "cart.free", "value": "Maksuton" },
+      { "key": "cart.shippingCalculatedCart", "value": "Laskettu kassalla" },
+      { "key": "products.completeWith", "value": "Täydellinen" },
+      { "key": "menu.AllCategory", "value": "Kaikki" },
+      { "key": "social.followUs", "value": "Seuraa meitä" },
+      { "key": "sort.standard", "value": "Myydyimmät" },
+      { "key": "sort.priceLowToHigh", "value": "Hinta: Matala–Korkea" },
+      { "key": "sort.priceHighToLow", "value": "Hinta: Korkea–Matala" },
+      { "key": "sort.ratingLowToHigh", "value": "Arvosana: Matala–Korkea" },
+      { "key": "sort.ratingHighToLow", "value": "Arvosana: Korkea–Matala" },
+      { "key": "sort.discountLowToHigh", "value": "Alennus: Matala–Korkea" },
+      { "key": "sort.discountHighToLow", "value": "Alennus: Korkea–Matala" },
+      { "key": "sort", "value": "Lajittele" },
+      { "key": "see.products", "value": "Katso tuotteet" },
+      {
+        "key": "attribute.hot-maintenance-function",
+        "value": "Lämpimänäpitotoiminto"
+      },
+      { "key": "attribute.stopping-function", "value": "Pysäytystoiminto" },
+      { "key": "attribute.thawing-function", "value": "Sulatustoiminto" },
+      { "key": "attribute.crumbs", "value": "Murualusta" },
+      {
+        "key": "attribute.warm-maintenance-function",
+        "value": "Lämpimänäpitotoiminto"
+      },
+      {
+        "key": "attribute.can-withstand-machine-wash",
+        "value": "Kestää konepesua"
+      },
+      { "key": "attribute.leaf-length", "value": "Terän pituus" },
+      { "key": "search.PlaceholderBrand", "value": "Haku" },
+      {
+        "key": "account.inactiveVerifyLinkDescription",
+        "value": "Hups! Näyttää siltä, että tämä linkki ei ole enää voimassa. Onko sinulla jo tili?"
+      },
+      {
+        "key": "account.inactiveVerifyLink",
+        "value": "Linkki ei ole enää ajankohtainen."
+      },
+      {
+        "key": "error.discountBadRequest",
+        "value": "Virheellinen muoto | Vain kirjaimet, numerot, alaviivat ja yhdysmerkit ovat sallittuja."
+      },
+      { "key": "form.enterFirstname", "value": "Syötä etunimesi" },
+      { "key": "form.enterEmail", "value": "Syötä sähköpostiosoitteesi" },
+      { "key": "filter.clear", "value": "Tyhjennä suodattimet" },
+      { "key": "myPages", "value": "Sivuni" },
+      { "key": "myAccount", "value": "Oma tili" },
+      { "key": "account.logout", "value": "Kirjaudu ulos" },
+      { "key": "is.not.available", "value": "ei ole enää saatavilla" },
+      { "key": "newsletter.SignupButton", "value": "Ilmoita ilmaiseksi" },
+      {
+        "key": "checkoutPage.dialogNotAllowed",
+        "value": "Ei voida toimittaa valittuun postinumeroon"
+      },
+      {
+        "key": "checkoutPage.dialogNotAllowedCTA",
+        "value": "Muuta postinumeroa"
+      },
+      {
+        "key": "checkoutPage.dialogNotAllowedCustomerService",
+        "value": "Ota yhteyttä"
+      },
+      { "key": "attribute.temperature-holding", "value": "Temperaturhållning" },
+      {
+        "key": "attribute.secondary-oven-volume",
+        "value": "Tilavuus toissijainen uuni"
+      },
+      { "key": "attribute.gas-option", "value": "Kaasuliitäntä" },
+      { "key": "attribute.grill-area", "value": "Grillialue" },
+      { "key": "attribute.cup-heater", "value": "Kupinlämmitin" },
+      {
+        "key": "attribute.2-cups-per-brewing",
+        "value": "2 kuppia per keittokerta"
+      },
+      { "key": "attribute.milk-containers", "value": "Maitosäiliöt" },
+      {
+        "key": "attribute.programming-of-water-hardness",
+        "value": "Veden kovuuden ohjelmointi"
+      },
+      { "key": "attribute.seal-beans", "value": "Sinetöidyt pavut" },
+      { "key": "attribute.capacity-liter", "value": "Tilavuus (litraa)" },
+      {
+        "key": "attribute.coffee-sump-containers-capacity",
+        "value": "Behållare för kaffesump"
+      },
+      { "key": "attributes.all_categories", "value": "Kategori" },
+      { "key": "didYouMean", "value": "Tarkoititko?" },
+      { "key": "qty.unit", "value": "kpl" },
+      { "key": "youResultsFor", "value": "Tuloksesi haulle" },
+      { "key": "attribute.number-of-shelves", "value": "Hyllyjen määrä" },
+      { "key": "attribute.material-of-shelves", "value": "Hyllymateriaalit" },
+      {
+        "key": "attribute.number-of-temperature-zones",
+        "value": "Lämpötila-alueiden määrä"
+      },
+      { "key": "attribute.uv-protection", "value": "UV-suojattu lasiovi" },
+      { "key": "attribute.placement-type", "value": "Placeringstyp" },
+      { "key": "attribute.lockable", "value": "Låsbar" },
+      { "key": "attribute.door-hinge", "value": "Hängning" },
+      { "key": "attribute.app-controled", "value": "Appstyrd" },
+      {
+        "key": "checkoutPage.dialogNotApprovedTerms",
+        "value": "Du måste godkänna villkoren för att kunna slutföra köpet"
+      },
+      {
+        "key": "checkoutPage.ApproveTerms",
+        "value": "Jag godkänner de allmänna villkoren"
+      },
+      { "key": "reversible-door", "value": "Käännettävä ovi" },
+      {
+        "key": "placement-type",
+        "value": "Sijoitustyyppi (Vapaasti seisova / integroitava)"
+      },
+      { "key": "lockable", "value": "Lukittava" },
+      { "key": "door-hinge", "value": "Saranointi (Oikea / Vasen)" },
+      {
+        "key": "app-controled",
+        "value": "Sovelluksella ohjattava (Kyllä / Ei)"
+      },
+      { "key": "campaign.PriceIsValidTo", "value": "Hinta on voimassa" }
+    ]
+  }
+}
